@@ -1,0 +1,22 @@
+{
+  "features": [
+    "amihud",
+    "lambda",
+    "mfc",
+    "vol_zscore",
+    "volatility",
+    "Volume",
+    "ret",
+    "hlc_ratio",
+    "tod"
+  ],
+  "regime_labels": {
+    "0": "LOW",
+    "1": "NORMAL",
+    "2": "HIGH",
+    "3": "SEVERE"
+  },
+  "test_accuracy": 0.8564282141070535,
+  "n_train": 183908,
+  "n_test": 45977
+}

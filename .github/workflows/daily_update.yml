@@ -1,0 +1,47 @@
+name: Daily Dashboard Update
+
+on:
+  schedule:
+    # Run once daily after market close: 3:45 PM IST (10:15 AM UTC) on weekdays
+    - cron: "15 10 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
+    
+    - name: Install dependencies
+      run: |
+        pip install pandas numpy yfinance scikit-learn joblib scipy tqdm
+    
+    - name: Fetch & Process Data
+      run: |
+        # Run pipeline for NIFTY and BANKNIFTY first (priority)
+        python scripts/tradyxa_pipeline.py --mode run_all --ticker NIFTY --use-yf
+        python scripts/tradyxa_pipeline.py --mode run_all --ticker BANKNIFTY --use-yf
+        
+        # Run batch for others (limit workers to avoid rate limits)
+        python scripts/tradyxa_pipeline.py --mode batch_run --tickers-file scripts/nifty500.txt --max-workers 2 --use-yf
+      timeout-minutes: 60
+    
+    - name: Apply ML Predictions
+      run: python scripts/apply_models.py
+      
+    - name: Commit Data (triggers Cloudflare Pages deployment)
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        # Commit updated JSONs and CSVs
+        git add public/data/ticker/*.json public/data/raw/*.csv
+        git commit -m "chore: market data update $(date -u '+%Y-%m-%d %H:%M UTC') [deploy]" || echo "No changes"
+        git push

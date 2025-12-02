@@ -1,0 +1,38 @@
+name: Live Spot Prices Update
+
+on:
+  schedule:
+    # Run every 30 minutes during market hours: 9:15 AM - 3:30 PM IST (3:45 AM - 10:00 AM UTC)
+    - cron: "*/30 3-10 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  update-live-prices:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
+    
+    - name: Install dependencies
+      run: |
+        pip install yfinance pandas
+    
+    - name: Fetch Live Spot Prices & India VIX
+      run: |
+        python scripts/fetch_spot_prices.py
+      timeout-minutes: 10
+      
+    - name: Commit Live Data (triggers Cloudflare deployment)
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add public/data/live/spot_prices.json
+        git diff --quiet && git diff --staged --quiet || git commit -m "chore: live spot prices update [deploy]"
+        git push

@@ -1,0 +1,368 @@
+Generate a production-structured, runnable Replit repository named Tradyxa Aztryx. Must include a Next.js TypeScript frontend and Python backend scripts that produce/serve sample JSON consumed by frontend. Must be ticker-agnostic, include batch mode for Nifty-500, include a synthetic-data fallback so the UI always renders. MUST include the Verdict tile (see spec) and the full UI behavior below: refresh button, dark/light mode (light = lighter variant of dark theme), collapsible “How to Use This Dashboard” tile, per-tile explanatory popups (modal), entry disclaimer modal that requires explicit acceptance (appears for new users and once every 2 days thereafter), Cookies & Advertising consent modal (with Adsterra opt-in), and exact footer copy.
+
+Hard constraints — stacks & versions (MUST be used)
+
+Frontend:
+
+Next.js ^14.0.0 (React 18.2)
+
+React 18.2.0
+
+TypeScript ^5.3.0
+
+Tailwind CSS ^3.4.0
+
+Recharts ^2.5.x
+
+D3 ^7.10.x
+
+Framer Motion ^10.6.x
+
+SWR ^2.3.x
+
+clsx ^1.2.x
+
+Fonts: Inter (variable) + JetBrains Mono
+
+Backend (Python):
+
+Python 3.11
+
+pandas 2.1.*, numpy 1.27.*, scipy 1.11.*
+
+yfinance (latest)
+
+scikit-learn 1.3.* (optional)
+
+joblib
+
+statsmodels 0.14.*
+
+pyarrow and/or fastparquet
+
+requests, tqdm, urllib3
+
+concurrent.futures
+
+Overall repo structure (exact)
+
+/app or /src (Next.js TypeScript)
+  /components
+    NumericCard.tsx
+    Gauge.tsx
+    HistogramTile.tsx
+    StackedAreaAbsorption.tsx
+    HeatmapTile.tsx
+    CandlesWithBands.tsx
+    BarWithRolling.tsx
+    ScatterSlippage.tsx
+    TimelineEvents.tsx
+    InspectorPanel.tsx
+    ThemeProvider.tsx
+    VerdictTile.tsx
+    RefreshButton.tsx
+    HowToTile.tsx
+    CookieConsentModal.tsx
+    DisclaimerModal.tsx
+    ExplainModal.tsx
+  /pages or /app (routes)
+    api/
+      ticker/[ticker].ts
+      ticker/[ticker]/full.ts
+      run_simulation.ts (POST)
+  /utils (types, data mappers, modal helpers)
+  /styles
+/public
+  /data
+    /ticker
+      NIFTY.json
+      BANKNIFTY.json
+  /fonts
+/scripts
+  fetch_yf.py
+  compute_features.py
+  compute_slippage.py
+  simulate_slippage.py
+  compute_verdict.py
+  run_all.py
+  batch_run.py
+  sample_data_generator.py
+  nifty500.txt
+package.json
+requirements.txt
+tailwind.config.js
+README.md
+.storybook/ (optional)
+jest.config.js (optional)
+ci.yml (GitHub Actions example)
+
+
+Primary functional requirements (frontend + UX)
+
+Dashboard layout
+
+Left rail: Ticker selector (top entries: NIFTY, BANKNIFTY), timeframe selector, baseline notional input.
+
+Autocomplete search showing top-500 tickers (from nifty500.txt); also accepts arbitrary typed tickers.
+
+Center grid: 3 columns desktop / 2 tablet / 1 mobile. Contains the 12 tiles plus the Verdict tile (prominent).
+
+Right inspector: opens when a tile is clicked (drill-down JSON, example actions, "Explain" content).
+
+Bottom-left or bottom-right: How to Use This Dashboard collapsible tile; collapses/expands; when expanded shows a vertical list of quick-start steps.
+
+Refresh Button
+
+RefreshButton.tsx visible in top-right: on click, performs a HARD refresh:
+
+clears SWR cache for current ticker, forces re-fetch of /api/ticker/[ticker] and /api/ticker/[ticker]/full.
+
+triggers a full page reload (location.reload(true) or router.replace(router.asPath) with cache-busting param).
+
+visually indicates progress (spinner) until new data is loaded.
+
+Theme
+
+Dark & Light mode toggle (in left rail). Light theme is color-matched to the dark theme but lighter tonal values (same accents).
+
+CSS variables (Tailwind + :root + .dark) for tokens:
+
+Dark: --bg: #0b1220, --card: #0f1724, --accent: #06b6d4, --danger: #ef4444, --good: #10b981, --muted: #94a3b8.
+
+Light: --bg: #ffffff, --card: #f8fafc, --accent: #0369a1, --danger: #b91c1c, --good: #059669, --muted: #6b7280.
+
+ThemeProvider persists selection to localStorage.
+
+All modals/popups (Explain, Disclaimer, CookieConsent) must be theme-aware and match current theme styling (colors, typography).
+
+Tiles & behavior
+
+Implement the 12 specified tiles exactly (Spot Price, India VIX, Slippage Expectation etc.) plus VerdictTile (see below).
+
+Tiles must show loading, error, and data-quality badges (GOOD, LOW, INSUFFICIENT).
+
+Heavy tiles lazy-load /api/ticker/[ticker]/full when visible or clicked.
+
+Each tile has a small "?" help icon. Clicking opens ExplainModal that:
+
+matches theme,
+
+contains a short description of metric, thresholds (green/amber/red), how to interpret, example action (2–3 bullets),
+
+a Close button.
+
+If data insufficient for a tile (e.g., empty slippage samples), tile displays a fallback message and a Run Simulation button that calls /api/run_simulation?ticker= (POST) to run compute_slippage.py and returns job status; UI polls job status and updates when done.
+
+Verdict tile
+
+Implement VerdictTile.tsx using /api/ticker/[ticker] metrics.verdict.
+
+Renders: TICKER → DIRECTION ±points (±error) · Confidence XX% big and centered.
+
+Shows one-line plain-English explanation and a contributors waterfall (top components & their weights).
+
+"Explain" opens inspector with computation details and parameters (weights).
+
+If confidence < 0.4, round points coarser (e.g., nearest 5 pts).
+
+If data quality insufficient, verdict must be NEUTRAL with text instructing user to simulate or wait.
+
+How to Use This Dashboard tile
+
+Collapsible panel at page bottom with 4–6 concise steps.
+
+When collapsed, show a small pill How to Use This Dashboard with caret.
+
+Expand to show step-by-step and quick animation GIF placeholders.
+
+Each step includes a "Learn More" link that opens the relevant tile's Explain modal.
+
+Disclaimer modal (entry)
+
+On first visit (or after 2 days from last acceptance) show a modal overlay before user can interact.
+
+Modal text: must include the exact disclaimer (see Footer/legal below) and the cookie/ad consent text (or link).
+
+Modal must not have a close "X". Only actionable buttons:
+
+I Understand (accept), which stores timestamp in localStorage / cookie to suppress for 2 days.
+
+Learn More (opens detailed legal in another modal or link).
+
+Modal styling must match theme and disable background scrolling while visible.
+
+Cookies & Advertising Consent modal
+
+On first visit (or until user saves choices) show consent UI (can be combined with disclaimer or separate but must be shown).
+
+Text:
+
+Cookies & Advertising Consent
+We use cookies for theme preferences and performance. Our advertising partner (Adsterra) may also use cookies to show you relevant ads. You can control this below.
+
+
+Options / controls:
+
+Toggle Allow Analytics & Advertising (Adsterra) (checkbox).
+
+Buttons: Accept all, Reject all, Save choices.
+
+Links: Privacy · Cookies · Terms (open external docs).
+
+Store choices in localStorage (or cookie) and show badge Cookie preferences saved when saved.
+
+If user allows advertising, UI includes a non-intrusive ad placeholder in dashboard (demo-only).
+
+Per-tile Explain modal
+
+Triggered when user clicks "?" on any tile or clicks a tile as requested.
+
+Modal must:
+
+display tile name, one-sentence plain-English description,
+
+list thresholds and example trade actions,
+
+show a small illustrative mini-chart (sparkline or heatmap thumbnail),
+
+have a Close button only (no forced acceptance).
+
+Match theme color tokens.
+
+Disclaimer frequency & new users
+
+Implementation detail: persist acceptance timestamp under key aztryx_disclaimer_accepted_at.
+
+On page load:
+
+if aztryx_disclaimer_accepted_at missing or older than 48 hours, show Disclaimer modal.
+
+treat first-time visitors as new users and show modal.
+
+The modal must be blocking until I Understand is clicked.
+
+Footer copy (exact text — include in README & render in UI)
+
+Data Sources: NSE India, Yahoo Finance
+
+Analytics powered by Tradyxa Analytics Engine v1.0.0
+
+Market data © respective owners. Tradyxa Quant Dashboard is unaffiliated with NSE or Yahoo.
+
+Market data may be delayed up to 30 minutes. For educational use only.
+
+Operated by Zeta Aztra Technologies (Individual Proprietorship, India)
+
+© 2025 Zeta Aztra Technologies. All Rights Reserved.
+
+
+Data & API requirements (backend behavior reiterated)
+
+APIs:
+
+/api/ticker/[ticker] → reads public/data/ticker/<TICKER>.json and returns { meta, metrics }.
+
+/api/ticker/[ticker]/full → returns full JSON (heavy).
+
+/api/run_simulation POST → accepts {"ticker":"NIFTY"}; runs backend compute_slippage.py (spawn background job or run inline); returns job id and status endpoint. Job completion updates JSON files.
+
+The JSON schema expected by frontend must include metrics.verdict as described in the earlier verdict spec (timestamp, direction, points, error, confidence, components, explanation, data_quality, n_samples, params).
+
+On missing/failed yfinance fetch, scripts must use sample_data_generator.py automatically. run_all.py must detect yfinance failures and call the synthetic generator.
+
+Backend scripts (must exist and behave)
+
+fetch_yf.py, compute_features.py, compute_slippage.py, simulate_slippage.py, compute_verdict.py, run_all.py, batch_run.py, sample_data_generator.py — as previously specified. batch_run.py processes nifty500.txt with concurrency (max 4), retries, and progress logging.
+
+UX safety & non-empty tiles
+
+sample_data_generator.py must create plausible slippage & monte arrays (non-empty) to avoid blank tiles.
+
+If data sparse, backend must set "low_data": true and fill arrays with penalized synthetic samples so UI shows numbers and Quality: LOW.
+
+Accessibility
+
+All interactive controls have ARIA attributes, keyboard focus, and high-contrast variants.
+
+Respect prefers-reduced-motion — disable non-essential animations including canvas particles when set.
+
+Analytics & telemetry (opt-in)
+
+Include an opt-in toggle for anonymous usage telemetry in CookieConsent (default off).
+
+If user opts-in, store choice locally; no external telemetry by default.
+
+Testing, CI & run instructions
+
+package.json scripts:
+
+"dev": "next dev -p 3000"
+
+"build": "next build"
+
+"start": "next start -p 3000"
+
+README must contain the Replit run snippet (first-run venv install, sample data gen, start dev).
+
+Minimal Jest tests for data mapper and a GitHub Actions ci.yml sample.
+
+Replit run commands (README — exact snippet)
+
+# first run: create venv & install python deps
+python3 -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt || true
+
+# generate sample data (fallback auto if yfinance fails)
+python3 scripts/sample_data_generator.py --ticker NIFTY
+python3 scripts/sample_data_generator.py --ticker BANKNIFTY
+
+# start Next.js dev server (Replit)
+pnpm dev || npm run dev
+
+
+Cookie & disclaimer localStorage keys (implementation guidance)
+
+aztryx_cookie_choices → JSON {analytics:true,ads:true,accepted_at:...}
+
+aztryx_disclaimer_accepted_at → ISO timestamp
+
+aztryx_theme → "dark" | "light"
+
+aztryx_perf_mode → boolean
+
+Deliverables (must be produced)
+
+Full repo scaffold (zip).
+
+Working public/data/ticker/NIFTY.json and BANKNIFTY.json (synthetic if needed).
+
+README with exact Replit commands, explanation of Disclaimer behavior, Cookie consent behavior, and footer/legal text.
+
+A short "how to test" checklist at the end of README:
+
+Run sample generator
+
+Start dev server
+
+Confirm Disclaimer modal appears on fresh load
+
+Confirm Cookie consent appears
+
+Confirm NIFTY & BANKNIFTY tiles render and Verdict tile shows non-empty values
+
+Click "?" on any tile to open Explain modal
+
+Click Refresh to hard-refresh data
+
+Toggle Performance Mode and observe animations disabled
+
+Final constraints
+
+The generator must ensure all tiles render non-empty values on first run (use synthetic fallback).
+
+All modals must be theme-aware and match token colors.
+
+The Verdict calculation must be included in compute_verdict.py and called by run_all.py to write metrics.verdict into ticker JSON.
+
+The disclaimer must be blocking (no close) and reappear every 2 days until I Understand clicked.
+
+Cookie consent must allow explicit opt-in/out for Adsterra (ads); if ads enabled show an ad placeholder.
