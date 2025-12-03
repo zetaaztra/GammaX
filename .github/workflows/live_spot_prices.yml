@@ -2,8 +2,9 @@ name: Live Spot Prices Update
 
 on:
   schedule:
-    # Run every 30 minutes during market hours: 9:15 AM - 3:30 PM IST (3:45 AM - 10:00 AM UTC)
-    - cron: "*/30 3-10 * * 1-5"
+    # Run every 2 hours during market hours: 9:15 AM - 3:30 PM IST (3:45 AM - 10:00 AM UTC)
+    # Optimized for zero-cost: 4 runs/day instead of 13 runs/day
+    - cron: "0 4,6,8,10 * * 1-5"
   workflow_dispatch:
 
 jobs:

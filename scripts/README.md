@@ -2,6 +2,74 @@
 
 This document provides a detailed explanation of each Python script in the `scripts/` directory.
 
+## Data Pipeline Flow
+
+```mermaid
+flowchart TD
+    START([GitHub Actions Trigger])
+    
+    subgraph "Data Acquisition"
+        FETCH[data_manager.py<br/>Fetch from yfinance]
+        CHECK{CSV exists?}
+        INCREMENTAL[Fetch only new data<br/>since last update]
+        FULL[Fetch full 5yr history]
+        SAVE_CSV[(Save to CSV<br/>public/data/raw/)]
+    end
+    
+    subgraph "Feature Engineering"
+        LOAD[Load CSV data]
+        COMPUTE[Compute Features:<br/>- Amihud<br/>- Lambda<br/>- MFC<br/>- Vol Z-Score<br/>- Coordinated Flow]
+        SIM[Slippage Simulation:<br/>- Deterministic<br/>- Monte Carlo]
+        VERDICT[Generate Verdict:<br/>UP/DOWN + Confidence]
+        TILES[Generate Tile Data:<br/>- Volume Profile<br/>- Candles<br/>- Bollinger Bands<br/>- Orderbook<br/>- etc.]
+    end
+    
+    subgraph "ML Layer"
+        ML_CHECK{Models exist?}
+        LOAD_ML[Load trained models:<br/>- RF Regime<br/>- QR Q50/Q90]
+        APPLY[Apply predictions]
+        SKIP[Skip ML]
+    end
+    
+    subgraph "Output"
+        SAVE_JSON[Save to JSON<br/>public/data/ticker/]
+        COMMIT[Git Commit + Push]
+        DEPLOY[Cloudflare Deployment]
+    end
+    
+    START --> FETCH
+    FETCH --> CHECK
+    CHECK -->|Yes| INCREMENTAL
+    CHECK -->|No| FULL
+    INCREMENTAL --> SAVE_CSV
+    FULL --> SAVE_CSV
+    SAVE_CSV --> LOAD
+    LOAD --> COMPUTE
+    COMPUTE --> SIM
+    SIM --> VERDICT
+    VERDICT --> TILES
+    TILES --> ML_CHECK
+    ML_CHECK -->|Yes| LOAD_ML
+    ML_CHECK -->|No| SKIP
+    LOAD_ML --> APPLY
+    APPLY --> SAVE_JSON
+    SKIP --> SAVE_JSON
+    SAVE_JSON --> COMMIT
+    COMMIT --> DEPLOY
+```
+
+## Execution Patterns
+
+| Script | Frequency | Purpose | Triggers Deployment? |
+|--------|-----------|---------|----------------------|
+| `tradyxa_pipeline.py` | **Daily (weekdays)** | Generate all market data | ✅ Yes |
+| `apply_models.py` | **Daily (weekdays)** | Apply ML predictions | ✅ Yes (same commit) |
+| `fetch_spot_prices.py` | **Every 2 hours** | Update spot prices only | ✅ Yes |
+| `train_regime_classifier.py` | **Weekly (Sundays)** | Train regime model | ❌ No ([skip ci]) |
+| `train_slippage_quantile.py` | **Weekly (Sundays)** | Train slippage models | ❌ No ([skip ci]) |
+| `fetch_tickers.py` | **One-time/manual** | Fetch ticker list | ❌ No |
+| `data_manager.py` | N/A (library) | Data utilities | N/A |
+
 ---
 
 ## **Core Data Pipeline**

@@ -78,6 +78,278 @@ A production-grade financial analytics dashboard for Indian stock traders featur
   - Quantile Regression for slippage prediction
 - Real market microstructure data generation
 
+## 🏗️ System Architecture
+
+### End-to-End Data Flow
+
+```mermaid
+graph TB
+    subgraph "Frontend Layer"
+        UI[React Dashboard<br/>13 Tiles + Inspector]
+        THEME[Theme System]
+        CACHE[TanStack Query Cache]
+    end
+    
+    subgraph "API Layer"
+        API[Express API<br/>/api/ticker/*]
+        MEM[Memory Cache<br/>1 min TTL]
+    end
+    
+    subgraph "Python Data Pipeline"
+        YF[Yahoo Finance API]
+        DM[data_manager.py<br/>CSV Management]
+        PIPE[tradyxa_pipeline.py<br/>Feature Engineering]
+        ML[ML Models<br/>RandomForest + QR]
+        APP[apply_models.py<br/>Apply Predictions]
+    end
+    
+    subgraph "Storage"
+        CSV[(CSV Cache<br/>5yr OHLCV)]
+        JSON[(Ticker JSONs<br/>500+ stocks)]
+        MODELS[(Model Files<br/>.joblib)]
+    end
+    
+    subgraph "CI/CD"
+        GHA[GitHub Actions<br/>3 Workflows]
+        GIT[Git Repository]
+        CF[Cloudflare Pages<br/>Static Deploy]
+    end
+    
+    UI --> API
+    API --> MEM
+    MEM --> JSON
+    
+    GHA --> YF
+    YF --> DM
+    DM --> CSV
+    CSV --> PIPE
+    PIPE --> JSON
+    PIPE --> ML
+    ML --> MODELS
+    MODELS --> APP
+    APP --> JSON
+    
+    GHA --> GIT
+    GIT --> CF
+    CF --> UI
+```
+
+### GitHub Actions Workflows
+
+```mermaid
+sequenceDiagram
+    participant GHA as GitHub Actions
+    participant YF as Yahoo Finance
+    participant CSV as CSV Cache
+    participant JSON as JSON Files
+    participant ML as ML Models
+    participant GIT as Git Repo
+    participant CF as Cloudflare
+    
+    Note over GHA: Daily Update (Weekdays 3:45 PM IST)
+    GHA->>YF: Fetch OHLCV data (500+ stocks)
+    YF-->>CSV: Incremental update
+    GHA->>CSV: Read historical data
+    GHA->>JSON: Generate features + metrics
+    GHA->>ML: Load trained models
+    GHA->>JSON: Inject predictions
+    GHA->>GIT: Commit + Push [deploy]
+    GIT->>CF: Trigger build (~2 min)
+    CF-->>UI: Deploy updated data
+    
+    Note over GHA: Live Spot Prices (Every 2 hours)
+    GHA->>YF: Fetch current prices only
+    GHA->>JSON: Update spot_prices.json
+    GHA->>GIT: Commit + Push [deploy]
+    GIT->>CF: Quick deployment
+    
+    Note over GHA: Weekly Training (Sundays)
+    GHA->>JSON: Read all JSONs
+    GHA->>ML: Train RF Classifier
+    GHA->>ML: Train QR Models
+    GHA->>GIT: Commit models [skip ci]
+    Note over GHA: No deployment triggered
+```
+
+## 🐍 Python Scripts Overview
+
+The project uses **7 Python scripts** with different execution frequencies:
+
+### Daily Scripts (Automated via GitHub Actions)
+
+#### 1. `tradyxa_pipeline.py` - **Master Data Pipeline**
+**Purpose**: Orchestrates the entire data processing workflow
+
+**What it does**:
+- Fetches/updates OHLCV data via `data_manager.py`
+- Computes market microstructure features (Amihud, Lambda, MFC)
+- Runs slippage simulations (deterministic + Monte Carlo)
+- Generates all 13 tile data (volume profile, candles, orderbook, etc.)
+- Calculates verdict (UP/DOWN with confidence)
+- Saves JSON files to `public/data/ticker/`
+
+**Modes**:
+```bash
+# Single ticker
+python scripts/tradyxa_pipeline.py --mode run_all --ticker TATASTEEL --use-yf
+
+# Batch process all 500+ stocks
+python scripts/tradyxa_pipeline.py --mode batch_run \
+  --tickers-file scripts/nifty500.txt \
+  --use-yf \
+  --max-workers 4
+```
+
+**Runtime**: ~60 minutes for all 500 stocks (GitHub Actions daily)
+
+#### 2. `apply_models.py` - **ML Predictions**
+**Purpose**: Apply trained ML models to latest market data
+
+**What it does**:
+- Loads the 3 trained models (regime classifier, Q50, Q90)
+- Reads each ticker's latest features
+- Makes predictions for regime classification and slippage forecasts
+-Updates all ticker JSONs with ML predictions
+
+**Command**:
+```bash
+python scripts/apply_models.py
+```
+
+**Runtime**: ~2-3 minutes (runs after pipeline daily)
+
+#### 3. `fetch_spot_prices.py` - **Live Price Updates**
+**Purpose**: Lightweight real-time price fetching (no heavy processing)
+
+**What it does**:
+- Fetches ONLY current spot prices for all 500+ stocks
+- Fetches India VIX (volatility index)
+- Saves to single JSON file (~50 KB)
+- **Does NOT update historical CSVs** or regenerate features
+
+**Command**:
+```bash
+python scripts/fetch_spot_prices.py
+```
+
+**Runtime**: ~10 minutes (runs every 2 hours during market hours)
+**Frequency**: 4 times/day (optimized for zero-cost)
+
+### Weekly Scripts (Automated via GitHub Actions)
+
+#### 4. `train_regime_classifier.py` - **Train Execution Regime Model**
+**Purpose**: Train RandomForest classifier for market regime detection
+
+**What it does**:
+- Loads ALL 500+ ticker JSONs (~230k feature rows)
+- Labels regimes based on slippage severity (LOW/NORMAL/HIGH/SEVERE)
+- Trains RandomForest classifier
+- Saves model to `models/rf_execution_regime.joblib`
+
+**Command**:
+```bash
+python scripts/train_regime_classifier.py
+```
+
+**Runtime**: ~30-40 minutes (runs weekly on Sundays)
+**Note**: Uses `[skip ci]` tag - does NOT trigger Cloudflare deployment
+
+#### 5. `train_slippage_quantile.py` - **Train Slippage Forecasters**
+**Purpose**: Train quantile regression models for slippage prediction
+
+**What it does**:
+- Loads ALL ticker JSONs
+- Trains two GradientBoosting models:
+  - Q50: Median slippage predictor
+  - Q90: Tail risk (worst-case) predictor
+- Saves models to `models/qr_slippage_q50.joblib` and `q90.joblib`
+
+**Command**:
+```bash
+python scripts/train_slippage_quantile.py
+```
+
+**Runtime**: ~20-30 minutes (runs weekly on Sundays)
+**Note**: Uses `[skip ci]` tag
+
+### One-Time/Manual Scripts
+
+#### 6. `fetch_tickers.py` - **Fetch Ticker List** (RARELY NEEDED)
+**Purpose**: Download NIFTY 500 constituent list from NSE
+
+**What it does**:
+- Scrapes NSE website for official NIFTY 500 list
+- Adds index tickers (NIFTY, BANKNIFTY)
+- Saves to `scripts/nifty500.txt` (503 tickers total)
+
+**When to run**: 
+- **Initial setup only** (already done)
+- **Optional**: Quarterly to catch index rebalancing
+- **You likely DON'T need this** - ticker list is stable
+
+**Command**:
+```bash
+python scripts/fetch_tickers.py
+```
+
+#### 7. `data_manager.py` - **Library Module** (NOT standalone)
+**Purpose**: Reusable functions for data fetching and caching
+
+**What it does**:
+- Provides `fetch_and_update_data()` for incremental OHLCV fetching
+- Handles yfinance MultiIndex columns
+- Manages CSV file operations
+
+**NOT directly executed** - used by `tradyxa_pipeline.py` and `fetch_spot_prices.py`
+
+### Script Execution Summary
+
+| Script | Frequency | Runtime | Triggered By | Deploys? |
+|--------|-----------|---------|--------------|----------|
+| `tradyxa_pipeline.py` | Daily (weekdays) | 60 min | GitHub Actions | ✅ Yes |
+| `apply_models.py` | Daily (weekdays) | 3 min | GitHub Actions | ✅ Yes (same commit) |
+| `fetch_spot_prices.py` | Every 2 hours | 10 min | GitHub Actions | ✅ Yes |
+| `train_regime_classifier.py` | Weekly (Sundays) | 40 min | GitHub Actions | ❌ No ([skip ci]) |
+| `train_slippage_quantile.py` | Weekly (Sundays) | 30 min | GitHub Actions | ❌ No ([skip ci]) |
+| `fetch_tickers.py` | One-time/manual | 1 min | Manual | ❌ No |
+| `data_manager.py` | N/A (library) | N/A | Imported | N/A |
+
+## 💰 Zero-Cost Deployment Analysis
+
+### GitHub Actions (Private Repo)
+**Free Tier**: 2,000 minutes/month
+
+**Optimized Usage**:
+- Daily updates: 60 min × 22 days = **1,320 min/month**
+- Live spot prices: 10 min × 4 runs/day × 22 days = **880 min/month**
+- Weekly training: 70 min × 4 weeks = **280 min/month**
+- **Total**: **2,480 min/month** (124% - slightly over, but manageable with occasional workflow_dispatch)
+
+**Further Optimizations** (if needed):
+- Reduce pipeline to 4 days/week: saves 720 min/month
+- Use `continue-on-error` to skip failed tickers: saves ~10-15 min/day
+
+### Cloudflare Pages
+**Free Tier**: 500 builds/month, 100GB bandwidth/month
+
+**Optimized Usage**:
+- Daily updates: 22 builds/month
+- Live spot prices: 4 runs/day × 22 days = **88 builds/month**
+- Weekly training: 0 builds (uses `[skip ci]`)
+- **Total**: **110 builds/month** (22% of free tier) ✅
+
+**Build Time**: ~2 minutes per deployment (static Vite build)
+
+### Storage
+- Git Repository: ~50 MB (CSV files compressed)
+- Cloudflare Pages: ~5 MB (static assets)
+- Well within free tiers ✅
+
+### Summary
+✅ **Zero-cost is achievable** with current optimizations
+⚠️ **Monitor GitHub Actions usage** - close to limit
+🎯 **Recommendation**: Keep workflows lean, use `[skip ci]` aggressively
+
 ## 🚀 Run Instructions
 
 ### Quick Start (Development)
