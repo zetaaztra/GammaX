@@ -16,7 +16,7 @@
     "2": "HIGH",
     "3": "SEVERE"
   },
-  "test_accuracy": 0.842229019932289,
-  "n_train": 367442,
-  "n_test": 91861
+  "test_accuracy": 0.8265125027896152,
+  "n_train": 376392,
+  "n_test": 94099
 }
