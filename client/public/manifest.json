@@ -1,0 +1,25 @@
+{
+    "name": "Tradyxa Aztryx",
+    "short_name": "Tradyxa",
+    "description": "Free stock analysis for NIFTY, BankNifty & 500+ Indian stocks. See Buy/Sell signals, risk levels, and AI predictions.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0b0e14",
+    "theme_color": "#00b3d6",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/favicon.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": [
+        "finance",
+        "business",
+        "utilities"
+    ],
+    "lang": "en",
+    "dir": "ltr"
+}

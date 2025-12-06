@@ -10,6 +10,7 @@ import { HowToTile } from "@/components/HowToTile";
 import { OtherProductsTile } from "@/components/OtherProductsTile";
 import { Footer } from "@/components/Footer";
 import { InspectorPanel } from "@/components/InspectorPanel";
+import { ShareButtons } from "@/components/ShareButtons";
 import { DisclaimerModal, shouldShowDisclaimer } from "@/components/DisclaimerModal";
 import { CookieConsentModal, shouldShowCookieConsent } from "@/components/CookieConsentModal";
 import { ExplainModal, TILE_EXPLAINS } from "@/components/ExplainModal";
@@ -176,6 +177,11 @@ export default function Dashboard() {
               </div>
             </div>
             <div className="flex items-center gap-2">
+              <ShareButtons
+                ticker={selectedTicker}
+                verdict={metrics?.verdict?.direction}
+                className="hidden sm:flex"
+              />
               <ThemeToggle />
               <RefreshButton
                 isLoading={isLoading}

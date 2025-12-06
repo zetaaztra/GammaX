@@ -1,0 +1,6 @@
+# Robots.txt for Tradyxa Aztryx
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://tradyxa-betax.pages.dev/sitemap.xml
