@@ -1,0 +1,46 @@
+name: Live Spot Prices (Intraday)
+
+on:
+  schedule:
+    # Run every 2 hours during market hours: 9:15 AM - 3:30 PM IST
+    # 4:00, 6:00, 8:00, 10:00 UTC = 9:30 AM, 11:30 AM, 1:30 PM, 3:30 PM IST
+    - cron: "0 4,6,8,10 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  update-live-prices:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
+    
+    - name: Install dependencies
+      run: pip install yfinance pandas
+    
+    - name: Fetch Live Spot Prices & India VIX
+      run: python scripts/fetch_spot_prices.py
+      timeout-minutes: 5
+      
+    - name: Commit and push live prices
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add public/data/live/spot_prices.json
+        
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "chore: live spot prices update [deploy]"
+          git pull origin main --no-rebase --allow-unrelated-histories || true
+          git push origin main
+        fi
