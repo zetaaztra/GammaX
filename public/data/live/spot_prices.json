@@ -1,3027 +1,3033 @@
 {
-  "last_updated": "2025-12-05T14:22:24.420604",
+  "last_updated": "2025-12-06T13:17:21.307415",
   "india_vix": {
-    "vix": 10.46,
-    "timestamp": "2025-12-05T14:17:42.163661"
+    "vix": 10.31,
+    "timestamp": "2025-12-06T13:16:12.643741"
   },
   "spot_prices": {
     "^NSEI": {
       "ticker": "^NSEI",
-      "spot_price": 26163.75,
-      "change_percent": 0.5,
-      "timestamp": "2025-12-05T14:17:42.630279"
+      "spot_price": 26186.45,
+      "change_percent": 0.59,
+      "timestamp": "2025-12-06T13:16:12.764238"
     },
     "^NSEBANK": {
       "ticker": "^NSEBANK",
-      "spot_price": 59724.05,
-      "change_percent": 0.73,
-      "timestamp": "2025-12-05T14:17:43.121550"
+      "spot_price": 59777.2,
+      "change_percent": 0.82,
+      "timestamp": "2025-12-06T13:16:12.884130"
     },
     "360ONE.NS": {
       "ticker": "360ONE.NS",
-      "spot_price": 1151.0,
-      "change_percent": 2.05,
-      "timestamp": "2025-12-05T14:17:43.660025"
+      "spot_price": 1146.7,
+      "change_percent": 1.67,
+      "timestamp": "2025-12-06T13:16:13.008815"
     },
     "3MINDIA.NS": {
       "ticker": "3MINDIA.NS",
-      "spot_price": 34320.0,
-      "change_percent": -1.24,
-      "timestamp": "2025-12-05T14:17:44.132971"
+      "spot_price": 34125.0,
+      "change_percent": -1.8,
+      "timestamp": "2025-12-06T13:16:13.145295"
     },
     "ABB.NS": {
       "ticker": "ABB.NS",
-      "spot_price": 5165.0,
-      "change_percent": -0.14,
-      "timestamp": "2025-12-05T14:17:44.654074"
+      "spot_price": 5173.5,
+      "change_percent": 0.02,
+      "timestamp": "2025-12-06T13:16:13.275579"
     },
     "ACC.NS": {
       "ticker": "ACC.NS",
-      "spot_price": 1803.4,
-      "change_percent": -0.65,
-      "timestamp": "2025-12-05T14:17:45.140269"
+      "spot_price": 1798.2,
+      "change_percent": -0.94,
+      "timestamp": "2025-12-06T13:16:13.402113"
     },
     "ACMESOLAR.NS": {
       "ticker": "ACMESOLAR.NS",
-      "spot_price": 212.62,
-      "change_percent": -3.02,
-      "timestamp": "2025-12-05T14:17:45.762944"
+      "spot_price": 212.64,
+      "change_percent": -3.01,
+      "timestamp": "2025-12-06T13:16:13.527904"
     },
     "AIAENG.NS": {
       "ticker": "AIAENG.NS",
-      "spot_price": 3748.1,
-      "change_percent": -2.49,
-      "timestamp": "2025-12-05T14:17:46.323940"
+      "spot_price": 3765.8,
+      "change_percent": -2.03,
+      "timestamp": "2025-12-06T13:16:13.654379"
     },
     "APLAPOLLO.NS": {
       "ticker": "APLAPOLLO.NS",
-      "spot_price": 1773.0,
-      "change_percent": 0.01,
-      "timestamp": "2025-12-05T14:17:46.838794"
+      "spot_price": 1771.0,
+      "change_percent": -0.11,
+      "timestamp": "2025-12-06T13:16:13.778799"
     },
     "AUBANK.NS": {
       "ticker": "AUBANK.NS",
-      "spot_price": 957.75,
-      "change_percent": 0.95,
-      "timestamp": "2025-12-05T14:17:47.352678"
+      "spot_price": 960.7,
+      "change_percent": 1.26,
+      "timestamp": "2025-12-06T13:16:13.907716"
     },
     "AWL.NS": {
       "ticker": "AWL.NS",
-      "spot_price": 251.55,
-      "change_percent": 0.92,
-      "timestamp": "2025-12-05T14:17:47.874026"
+      "spot_price": 252.8,
+      "change_percent": 1.42,
+      "timestamp": "2025-12-06T13:16:14.033666"
     },
     "AADHARHFC.NS": {
       "ticker": "AADHARHFC.NS",
-      "spot_price": 481.85,
-      "change_percent": 0.1,
-      "timestamp": "2025-12-05T14:17:48.335351"
+      "spot_price": 481.4,
+      "change_percent": 0.01,
+      "timestamp": "2025-12-06T13:16:14.161274"
     },
     "AARTIIND.NS": {
       "ticker": "AARTIIND.NS",
-      "spot_price": 365.85,
-      "change_percent": -1.03,
-      "timestamp": "2025-12-05T14:17:48.959158"
+      "spot_price": 363.05,
+      "change_percent": -1.79,
+      "timestamp": "2025-12-06T13:16:14.291610"
     },
     "AAVAS.NS": {
       "ticker": "AAVAS.NS",
-      "spot_price": 1497.0,
+      "spot_price": 1497.1,
       "change_percent": 1.01,
-      "timestamp": "2025-12-05T14:17:49.445654"
+      "timestamp": "2025-12-06T13:16:14.417281"
     },
     "ABBOTINDIA.NS": {
       "ticker": "ABBOTINDIA.NS",
-      "spot_price": 28920.0,
-      "change_percent": 0.24,
-      "timestamp": "2025-12-05T14:17:49.915883"
+      "spot_price": 28945.0,
+      "change_percent": 0.33,
+      "timestamp": "2025-12-06T13:16:14.545455"
     },
     "ACE.NS": {
       "ticker": "ACE.NS",
-      "spot_price": 963.1,
-      "change_percent": -1.39,
-      "timestamp": "2025-12-05T14:17:50.373989"
+      "spot_price": 962.25,
+      "change_percent": -1.47,
+      "timestamp": "2025-12-06T13:16:14.670538"
     },
     "ADANIENSOL.NS": {
       "ticker": "ADANIENSOL.NS",
-      "spot_price": 973.85,
-      "change_percent": 0.22,
-      "timestamp": "2025-12-05T14:17:50.834800"
+      "spot_price": 978.85,
+      "change_percent": 0.74,
+      "timestamp": "2025-12-06T13:16:14.795081"
     },
     "ADANIENT.NS": {
       "ticker": "ADANIENT.NS",
-      "spot_price": 2256.9,
-      "change_percent": 1.76,
-      "timestamp": "2025-12-05T14:17:51.312785"
+      "spot_price": 2265.4,
+      "change_percent": 2.14,
+      "timestamp": "2025-12-06T13:16:14.925053"
     },
     "ADANIGREEN.NS": {
       "ticker": "ADANIGREEN.NS",
-      "spot_price": 1019.7,
-      "change_percent": 0.62,
-      "timestamp": "2025-12-05T14:17:51.803896"
+      "spot_price": 1017.7,
+      "change_percent": 0.42,
+      "timestamp": "2025-12-06T13:16:15.049528"
     },
     "ADANIPORTS.NS": {
       "ticker": "ADANIPORTS.NS",
-      "spot_price": 1512.2,
-      "change_percent": 0.44,
-      "timestamp": "2025-12-05T14:17:52.301558"
+      "spot_price": 1509.4,
+      "change_percent": 0.25,
+      "timestamp": "2025-12-06T13:16:15.182868"
     },
     "ADANIPOWER.NS": {
       "ticker": "ADANIPOWER.NS",
-      "spot_price": 143.41,
-      "change_percent": 0.48,
-      "timestamp": "2025-12-05T14:17:52.759698"
+      "spot_price": 143.78,
+      "change_percent": 0.74,
+      "timestamp": "2025-12-06T13:16:15.310615"
     },
     "ATGL.NS": {
       "ticker": "ATGL.NS",
-      "spot_price": 594.15,
-      "change_percent": 0.19,
-      "timestamp": "2025-12-05T14:17:53.226314"
+      "spot_price": 593.15,
+      "change_percent": 0.03,
+      "timestamp": "2025-12-06T13:16:15.446248"
     },
     "ABCAPITAL.NS": {
       "ticker": "ABCAPITAL.NS",
-      "spot_price": 359.75,
-      "change_percent": 2.96,
-      "timestamp": "2025-12-05T14:17:53.721790"
+      "spot_price": 358.75,
+      "change_percent": 2.68,
+      "timestamp": "2025-12-06T13:16:15.570299"
     },
     "ABFRL.NS": {
       "ticker": "ABFRL.NS",
-      "spot_price": 77.12,
-      "change_percent": 0.97,
-      "timestamp": "2025-12-05T14:17:54.247650"
+      "spot_price": 77.41,
+      "change_percent": 1.35,
+      "timestamp": "2025-12-06T13:16:15.699190"
     },
     "ABLBL.NS": {
       "ticker": "ABLBL.NS",
-      "spot_price": 128.34,
-      "change_percent": -2.95,
-      "timestamp": "2025-12-05T14:17:54.785663"
+      "spot_price": 128.55,
+      "change_percent": -2.79,
+      "timestamp": "2025-12-06T13:16:15.825749"
     },
     "ABREL.NS": {
       "ticker": "ABREL.NS",
-      "spot_price": 1756.9,
-      "change_percent": -1.13,
-      "timestamp": "2025-12-05T14:17:55.373954"
+      "spot_price": 1750.3,
+      "change_percent": -1.5,
+      "timestamp": "2025-12-06T13:16:15.952484"
     },
     "ABSLAMC.NS": {
       "ticker": "ABSLAMC.NS",
-      "spot_price": 724.4,
-      "change_percent": -0.43,
-      "timestamp": "2025-12-05T14:17:55.851308"
+      "spot_price": 726.5,
+      "change_percent": -0.14,
+      "timestamp": "2025-12-06T13:16:16.174847"
     },
     "AEGISLOG.NS": {
       "ticker": "AEGISLOG.NS",
-      "spot_price": 742.2,
-      "change_percent": -2.51,
-      "timestamp": "2025-12-05T14:17:56.581593"
+      "spot_price": 740.95,
+      "change_percent": -2.68,
+      "timestamp": "2025-12-06T13:16:16.298016"
     },
     "AEGISVOPAK.NS": {
       "ticker": "AEGISVOPAK.NS",
-      "spot_price": 260.0,
-      "change_percent": -1.46,
-      "timestamp": "2025-12-05T14:17:57.108126"
+      "spot_price": 259.6,
+      "change_percent": -1.61,
+      "timestamp": "2025-12-06T13:16:16.428610"
     },
     "AFCONS.NS": {
       "ticker": "AFCONS.NS",
-      "spot_price": 398.4,
-      "change_percent": -0.47,
-      "timestamp": "2025-12-05T14:17:57.659457"
+      "spot_price": 398.9,
+      "change_percent": -0.35,
+      "timestamp": "2025-12-06T13:16:16.554951"
     },
     "AFFLE.NS": {
       "ticker": "AFFLE.NS",
-      "spot_price": 1626.2,
-      "change_percent": -1.19,
-      "timestamp": "2025-12-05T14:17:58.254508"
+      "spot_price": 1632.8,
+      "change_percent": -0.78,
+      "timestamp": "2025-12-06T13:16:16.686447"
     },
     "AJANTPHARM.NS": {
       "ticker": "AJANTPHARM.NS",
-      "spot_price": 2640.0,
-      "change_percent": 0.44,
-      "timestamp": "2025-12-05T14:17:58.741985"
+      "spot_price": 2640.6,
+      "change_percent": 0.46,
+      "timestamp": "2025-12-06T13:16:16.812818"
     },
     "AKUMS.NS": {
       "ticker": "AKUMS.NS",
-      "spot_price": 420.7,
-      "change_percent": 0.1,
-      "timestamp": "2025-12-05T14:17:59.340368"
+      "spot_price": 420.0,
+      "change_percent": -0.07,
+      "timestamp": "2025-12-06T13:16:16.944661"
     },
     "AKZOINDIA.NS": {
       "ticker": "AKZOINDIA.NS",
-      "spot_price": 3515.2,
-      "change_percent": -0.75,
-      "timestamp": "2025-12-05T14:17:59.971887"
+      "spot_price": 3513.4,
+      "change_percent": -0.8,
+      "timestamp": "2025-12-06T13:16:17.077201"
     },
     "APLLTD.NS": {
       "ticker": "APLLTD.NS",
-      "spot_price": 898.6,
-      "change_percent": -0.35,
-      "timestamp": "2025-12-05T14:18:00.430411"
+      "spot_price": 899.8,
+      "change_percent": -0.22,
+      "timestamp": "2025-12-06T13:16:17.208586"
     },
     "ALKEM.NS": {
       "ticker": "ALKEM.NS",
-      "spot_price": 5681.5,
-      "change_percent": 0.4,
-      "timestamp": "2025-12-05T14:18:00.958583"
+      "spot_price": 5675.5,
+      "change_percent": 0.29,
+      "timestamp": "2025-12-06T13:16:17.382933"
     },
     "ALKYLAMINE.NS": {
       "ticker": "ALKYLAMINE.NS",
-      "spot_price": 1638.9,
-      "change_percent": -1.18,
-      "timestamp": "2025-12-05T14:18:01.474046"
+      "spot_price": 1637.4,
+      "change_percent": -1.27,
+      "timestamp": "2025-12-06T13:16:17.559121"
     },
     "ALOKINDS.NS": {
       "ticker": "ALOKINDS.NS",
-      "spot_price": 16.2,
-      "change_percent": -0.98,
-      "timestamp": "2025-12-05T14:18:01.975683"
+      "spot_price": 16.19,
+      "change_percent": -1.04,
+      "timestamp": "2025-12-06T13:16:17.686385"
     },
     "ARE&M.NS": {
       "ticker": "ARE&M.NS",
-      "spot_price": 939.8,
-      "change_percent": -0.01,
-      "timestamp": "2025-12-05T14:18:02.480310"
+      "spot_price": 945.6,
+      "change_percent": 0.56,
+      "timestamp": "2025-12-06T13:16:17.820502"
     },
     "AMBER.NS": {
       "ticker": "AMBER.NS",
-      "spot_price": 6538.5,
-      "change_percent": -3.13,
-      "timestamp": "2025-12-05T14:18:02.982485"
+      "spot_price": 6562.5,
+      "change_percent": -2.78,
+      "timestamp": "2025-12-06T13:16:17.944037"
     },
     "AMBUJACEM.NS": {
       "ticker": "AMBUJACEM.NS",
-      "spot_price": 534.0,
-      "change_percent": -0.54,
-      "timestamp": "2025-12-05T14:18:03.436482"
+      "spot_price": 533.8,
+      "change_percent": -0.58,
+      "timestamp": "2025-12-06T13:16:18.104581"
     },
     "ANANDRATHI.NS": {
       "ticker": "ANANDRATHI.NS",
-      "spot_price": 2898.1,
-      "change_percent": -1.23,
-      "timestamp": "2025-12-05T14:18:04.092361"
+      "spot_price": 2897.9,
+      "change_percent": -1.24,
+      "timestamp": "2025-12-06T13:16:18.230359"
     },
     "ANANTRAJ.NS": {
       "ticker": "ANANTRAJ.NS",
-      "spot_price": 528.3,
-      "change_percent": -2.23,
-      "timestamp": "2025-12-05T14:18:04.591419"
+      "spot_price": 526.3,
+      "change_percent": -2.6,
+      "timestamp": "2025-12-06T13:16:18.355156"
     },
     "ANGELONE.NS": {
       "ticker": "ANGELONE.NS",
-      "spot_price": 2640.2,
-      "change_percent": 0.58,
-      "timestamp": "2025-12-05T14:18:05.114815"
+      "spot_price": 2641.7,
+      "change_percent": 0.64,
+      "timestamp": "2025-12-06T13:16:18.480023"
     },
     "APARINDS.NS": {
       "ticker": "APARINDS.NS",
-      "spot_price": 8790.0,
-      "change_percent": -0.65,
-      "timestamp": "2025-12-05T14:18:05.592398"
+      "spot_price": 8899.0,
+      "change_percent": 0.58,
+      "timestamp": "2025-12-06T13:16:18.606518"
     },
     "APOLLOHOSP.NS": {
       "ticker": "APOLLOHOSP.NS",
-      "spot_price": 7184.5,
-      "change_percent": -0.23,
-      "timestamp": "2025-12-05T14:18:06.061960"
+      "spot_price": 7189.5,
+      "change_percent": -0.16,
+      "timestamp": "2025-12-06T13:16:18.730678"
     },
     "APOLLOTYRE.NS": {
       "ticker": "APOLLOTYRE.NS",
-      "spot_price": 525.0,
-      "change_percent": -1.06,
-      "timestamp": "2025-12-05T14:18:06.582159"
+      "spot_price": 521.45,
+      "change_percent": -1.72,
+      "timestamp": "2025-12-06T13:16:18.856546"
     },
     "APTUS.NS": {
       "ticker": "APTUS.NS",
-      "spot_price": 282.05,
-      "change_percent": -0.67,
-      "timestamp": "2025-12-05T14:18:07.100861"
+      "spot_price": 281.7,
+      "change_percent": -0.79,
+      "timestamp": "2025-12-06T13:16:19.089373"
     },
     "ASAHIINDIA.NS": {
       "ticker": "ASAHIINDIA.NS",
-      "spot_price": 1024.4,
-      "change_percent": -2.61,
-      "timestamp": "2025-12-05T14:18:07.612477"
+      "spot_price": 1027.1,
+      "change_percent": -2.36,
+      "timestamp": "2025-12-06T13:16:19.213555"
     },
     "ASHOKLEY.NS": {
       "ticker": "ASHOKLEY.NS",
-      "spot_price": 160.59,
-      "change_percent": 0.24,
-      "timestamp": "2025-12-05T14:18:08.130129"
+      "spot_price": 160.86,
+      "change_percent": 0.41,
+      "timestamp": "2025-12-06T13:16:19.334494"
     },
     "ASIANPAINT.NS": {
       "ticker": "ASIANPAINT.NS",
-      "spot_price": 2965.0,
-      "change_percent": 0.26,
-      "timestamp": "2025-12-05T14:18:08.649299"
+      "spot_price": 2968.5,
+      "change_percent": 0.38,
+      "timestamp": "2025-12-06T13:16:19.456164"
     },
     "ASTERDM.NS": {
       "ticker": "ASTERDM.NS",
-      "spot_price": 634.5,
-      "change_percent": -2.87,
-      "timestamp": "2025-12-05T14:18:09.210217"
+      "spot_price": 635.1,
+      "change_percent": -2.78,
+      "timestamp": "2025-12-06T13:16:19.576225"
     },
     "ASTRAZEN.NS": {
       "ticker": "ASTRAZEN.NS",
-      "spot_price": 9203.0,
-      "change_percent": 0.0,
-      "timestamp": "2025-12-05T14:18:09.727034"
+      "spot_price": 9226.5,
+      "change_percent": 0.26,
+      "timestamp": "2025-12-06T13:16:19.698707"
     },
     "ASTRAL.NS": {
       "ticker": "ASTRAL.NS",
-      "spot_price": 1461.0,
-      "change_percent": 1.41,
-      "timestamp": "2025-12-05T14:18:10.220269"
+      "spot_price": 1459.5,
+      "change_percent": 1.3,
+      "timestamp": "2025-12-06T13:16:19.821271"
     },
     "ATHERENERG.NS": {
       "ticker": "ATHERENERG.NS",
-      "spot_price": 675.05,
-      "change_percent": 0.42,
-      "timestamp": "2025-12-05T14:18:10.745847"
+      "spot_price": 675.2,
+      "change_percent": 0.45,
+      "timestamp": "2025-12-06T13:16:19.946803"
     },
     "ATUL.NS": {
       "ticker": "ATUL.NS",
-      "spot_price": 5731.0,
-      "change_percent": -0.43,
-      "timestamp": "2025-12-05T14:18:11.237477"
+      "spot_price": 5865.5,
+      "change_percent": 1.9,
+      "timestamp": "2025-12-06T13:16:20.072514"
     },
     "AUROPHARMA.NS": {
       "ticker": "AUROPHARMA.NS",
-      "spot_price": 1215.9,
-      "change_percent": -0.59,
-      "timestamp": "2025-12-05T14:18:11.771186"
+      "spot_price": 1217.6,
+      "change_percent": -0.45,
+      "timestamp": "2025-12-06T13:16:20.209542"
     },
     "AIIL.NS": {
       "ticker": "AIIL.NS",
-      "spot_price": 2658.8,
-      "change_percent": 2.26,
-      "timestamp": "2025-12-05T14:18:12.233797"
+      "spot_price": 2641.3,
+      "change_percent": 1.58,
+      "timestamp": "2025-12-06T13:16:20.334852"
     },
     "DMART.NS": {
       "ticker": "DMART.NS",
-      "spot_price": 3945.4,
-      "change_percent": 0.82,
-      "timestamp": "2025-12-05T14:18:12.736226"
+      "spot_price": 3952.1,
+      "change_percent": 0.99,
+      "timestamp": "2025-12-06T13:16:20.460195"
     },
     "AXISBANK.NS": {
       "ticker": "AXISBANK.NS",
-      "spot_price": 1281.6,
-      "change_percent": 0.12,
-      "timestamp": "2025-12-05T14:18:13.304140"
+      "spot_price": 1282.5,
+      "change_percent": 0.2,
+      "timestamp": "2025-12-06T13:16:20.589606"
     },
     "BASF.NS": {
       "ticker": "BASF.NS",
-      "spot_price": 4044.7,
-      "change_percent": -0.46,
-      "timestamp": "2025-12-05T14:18:13.830813"
+      "spot_price": 4045.7,
+      "change_percent": -0.44,
+      "timestamp": "2025-12-06T13:16:20.717998"
     },
     "BEML.NS": {
       "ticker": "BEML.NS",
-      "spot_price": 1715.0,
-      "change_percent": -2.85,
-      "timestamp": "2025-12-05T14:18:14.377340"
+      "spot_price": 1710.3,
+      "change_percent": -3.12,
+      "timestamp": "2025-12-06T13:16:20.898701"
     },
     "BLS.NS": {
       "ticker": "BLS.NS",
-      "spot_price": 332.2,
-      "change_percent": 0.2,
-      "timestamp": "2025-12-05T14:18:14.863732"
+      "spot_price": 332.75,
+      "change_percent": 0.36,
+      "timestamp": "2025-12-06T13:16:21.020446"
     },
     "BSE.NS": {
       "ticker": "BSE.NS",
-      "spot_price": 2818.8,
-      "change_percent": 1.95,
-      "timestamp": "2025-12-05T14:18:15.453072"
+      "spot_price": 2815.9,
+      "change_percent": 1.84,
+      "timestamp": "2025-12-06T13:16:21.241075"
     },
     "BAJAJ-AUTO.NS": {
       "ticker": "BAJAJ-AUTO.NS",
-      "spot_price": 9100.5,
-      "change_percent": 0.17,
-      "timestamp": "2025-12-05T14:18:15.995655"
+      "spot_price": 9109.0,
+      "change_percent": 0.26,
+      "timestamp": "2025-12-06T13:16:21.366391"
     },
     "BAJFINANCE.NS": {
       "ticker": "BAJFINANCE.NS",
-      "spot_price": 1054.0,
-      "change_percent": 2.42,
-      "timestamp": "2025-12-05T14:18:16.503762"
+      "spot_price": 1048.0,
+      "change_percent": 1.84,
+      "timestamp": "2025-12-06T13:16:21.540925"
     },
     "BAJAJFINSV.NS": {
       "ticker": "BAJAJFINSV.NS",
-      "spot_price": 2102.7,
-      "change_percent": 2.61,
-      "timestamp": "2025-12-05T14:18:17.011075"
+      "spot_price": 2096.5,
+      "change_percent": 2.31,
+      "timestamp": "2025-12-06T13:16:21.667642"
     },
     "BAJAJHLDNG.NS": {
       "ticker": "BAJAJHLDNG.NS",
-      "spot_price": 11188.0,
-      "change_percent": 0.63,
-      "timestamp": "2025-12-05T14:18:17.514147"
+      "spot_price": 11181.0,
+      "change_percent": 0.57,
+      "timestamp": "2025-12-06T13:16:21.792787"
     },
     "BAJAJHFL.NS": {
       "ticker": "BAJAJHFL.NS",
-      "spot_price": 96.05,
-      "change_percent": -0.27,
-      "timestamp": "2025-12-05T14:18:18.092732"
+      "spot_price": 95.55,
+      "change_percent": -0.79,
+      "timestamp": "2025-12-06T13:16:21.971532"
     },
     "BALKRISIND.NS": {
       "ticker": "BALKRISIND.NS",
-      "spot_price": 2371.6,
-      "change_percent": -1.34,
-      "timestamp": "2025-12-05T14:18:18.614835"
+      "spot_price": 2383.0,
+      "change_percent": -0.87,
+      "timestamp": "2025-12-06T13:16:22.096546"
     },
     "BALRAMCHIN.NS": {
       "ticker": "BALRAMCHIN.NS",
-      "spot_price": 444.8,
-      "change_percent": 0.66,
-      "timestamp": "2025-12-05T14:18:19.117666"
+      "spot_price": 444.15,
+      "change_percent": 0.51,
+      "timestamp": "2025-12-06T13:16:22.223909"
     },
     "BANDHANBNK.NS": {
       "ticker": "BANDHANBNK.NS",
-      "spot_price": 141.0,
-      "change_percent": -3.5,
-      "timestamp": "2025-12-05T14:18:19.595277"
+      "spot_price": 140.08,
+      "change_percent": -4.13,
+      "timestamp": "2025-12-06T13:16:22.352330"
     },
     "BANKBARODA.NS": {
       "ticker": "BANKBARODA.NS",
-      "spot_price": 293.5,
-      "change_percent": 1.84,
-      "timestamp": "2025-12-05T14:18:20.127321"
+      "spot_price": 292.6,
+      "change_percent": 1.53,
+      "timestamp": "2025-12-06T13:16:22.475950"
     },
     "BANKINDIA.NS": {
       "ticker": "BANKINDIA.NS",
-      "spot_price": 142.96,
-      "change_percent": 1.02,
-      "timestamp": "2025-12-05T14:18:20.603772"
+      "spot_price": 143.11,
+      "change_percent": 1.12,
+      "timestamp": "2025-12-06T13:16:22.602478"
     },
     "MAHABANK.NS": {
       "ticker": "MAHABANK.NS",
-      "spot_price": 57.05,
-      "change_percent": 0.18,
-      "timestamp": "2025-12-05T14:18:21.116684"
+      "spot_price": 56.98,
+      "change_percent": 0.05,
+      "timestamp": "2025-12-06T13:16:22.730852"
     },
     "BATAINDIA.NS": {
       "ticker": "BATAINDIA.NS",
       "spot_price": 966.95,
       "change_percent": 0.69,
-      "timestamp": "2025-12-05T14:18:21.604407"
+      "timestamp": "2025-12-06T13:16:22.855533"
     },
     "BAYERCROP.NS": {
       "ticker": "BAYERCROP.NS",
-      "spot_price": 4498.1,
-      "change_percent": -0.18,
-      "timestamp": "2025-12-05T14:18:22.137361"
+      "spot_price": 4495.1,
+      "change_percent": -0.24,
+      "timestamp": "2025-12-06T13:16:22.984843"
     },
     "BERGEPAINT.NS": {
       "ticker": "BERGEPAINT.NS",
-      "spot_price": 554.45,
-      "change_percent": -0.31,
-      "timestamp": "2025-12-05T14:18:22.670997"
+      "spot_price": 554.5,
+      "change_percent": -0.3,
+      "timestamp": "2025-12-06T13:16:23.113225"
     },
     "BDL.NS": {
       "ticker": "BDL.NS",
-      "spot_price": 1516.5,
-      "change_percent": -0.75,
-      "timestamp": "2025-12-05T14:18:23.187693"
+      "spot_price": 1512.5,
+      "change_percent": -1.01,
+      "timestamp": "2025-12-06T13:16:23.240123"
     },
     "BEL.NS": {
       "ticker": "BEL.NS",
-      "spot_price": 407.55,
-      "change_percent": 0.1,
-      "timestamp": "2025-12-05T14:18:23.674184"
+      "spot_price": 406.9,
+      "change_percent": -0.06,
+      "timestamp": "2025-12-06T13:16:23.416983"
     },
     "BHARATFORG.NS": {
       "ticker": "BHARATFORG.NS",
-      "spot_price": 1403.4,
-      "change_percent": 0.65,
-      "timestamp": "2025-12-05T14:18:24.176306"
+      "spot_price": 1406.0,
+      "change_percent": 0.84,
+      "timestamp": "2025-12-06T13:16:23.540537"
     },
     "BHEL.NS": {
       "ticker": "BHEL.NS",
-      "spot_price": 277.85,
-      "change_percent": 0.76,
-      "timestamp": "2025-12-05T14:18:24.770986"
+      "spot_price": 277.75,
+      "change_percent": 0.73,
+      "timestamp": "2025-12-06T13:16:23.661311"
     },
     "BPCL.NS": {
       "ticker": "BPCL.NS",
-      "spot_price": 360.5,
-      "change_percent": 1.26,
-      "timestamp": "2025-12-05T14:18:25.253848"
+      "spot_price": 360.3,
+      "change_percent": 1.21,
+      "timestamp": "2025-12-06T13:16:23.790925"
     },
     "BHARTIARTL.NS": {
       "ticker": "BHARTIARTL.NS",
-      "spot_price": 2099.9,
-      "change_percent": -0.19,
-      "timestamp": "2025-12-05T14:18:25.741742"
+      "spot_price": 2108.8,
+      "change_percent": 0.24,
+      "timestamp": "2025-12-06T13:16:23.918168"
     },
     "BHARTIHEXA.NS": {
       "ticker": "BHARTIHEXA.NS",
-      "spot_price": 1756.2,
-      "change_percent": -0.49,
-      "timestamp": "2025-12-05T14:18:26.233968"
+      "spot_price": 1758.7,
+      "change_percent": -0.35,
+      "timestamp": "2025-12-06T13:16:24.045681"
     },
     "BIKAJI.NS": {
       "ticker": "BIKAJI.NS",
-      "spot_price": 719.0,
-      "change_percent": 0.93,
-      "timestamp": "2025-12-05T14:18:26.784387"
+      "spot_price": 716.8,
+      "change_percent": 0.62,
+      "timestamp": "2025-12-06T13:16:24.171022"
     },
     "BIOCON.NS": {
       "ticker": "BIOCON.NS",
-      "spot_price": 392.0,
-      "change_percent": 0.94,
-      "timestamp": "2025-12-05T14:18:27.283971"
+      "spot_price": 392.65,
+      "change_percent": 1.11,
+      "timestamp": "2025-12-06T13:16:24.297171"
     },
     "BSOFT.NS": {
       "ticker": "BSOFT.NS",
-      "spot_price": 433.9,
-      "change_percent": -0.46,
-      "timestamp": "2025-12-05T14:18:27.754620"
+      "spot_price": 432.75,
+      "change_percent": -0.72,
+      "timestamp": "2025-12-06T13:16:24.421353"
     },
     "BLUEDART.NS": {
       "ticker": "BLUEDART.NS",
-      "spot_price": 5566.0,
-      "change_percent": -0.46,
-      "timestamp": "2025-12-05T14:18:28.251890"
+      "spot_price": 5564.5,
+      "change_percent": -0.49,
+      "timestamp": "2025-12-06T13:16:24.554949"
     },
     "BLUEJET.NS": {
       "ticker": "BLUEJET.NS",
-      "spot_price": 543.5,
-      "change_percent": -2.04,
-      "timestamp": "2025-12-05T14:18:28.742802"
+      "spot_price": 544.6,
+      "change_percent": -1.84,
+      "timestamp": "2025-12-06T13:16:24.680367"
     },
     "BLUESTARCO.NS": {
       "ticker": "BLUESTARCO.NS",
-      "spot_price": 1729.0,
-      "change_percent": -1.34,
-      "timestamp": "2025-12-05T14:18:29.237236"
+      "spot_price": 1734.4,
+      "change_percent": -1.03,
+      "timestamp": "2025-12-06T13:16:24.809409"
     },
     "BBTC.NS": {
       "ticker": "BBTC.NS",
-      "spot_price": 1840.0,
-      "change_percent": -0.92,
-      "timestamp": "2025-12-05T14:18:29.726069"
+      "spot_price": 1850.5,
+      "change_percent": -0.35,
+      "timestamp": "2025-12-06T13:16:24.932585"
     },
     "BOSCHLTD.NS": {
       "ticker": "BOSCHLTD.NS",
-      "spot_price": 36860.0,
-      "change_percent": 0.04,
-      "timestamp": "2025-12-05T14:18:30.197601"
+      "spot_price": 36920.0,
+      "change_percent": 0.2,
+      "timestamp": "2025-12-06T13:16:25.059161"
     },
     "FIRSTCRY.NS": {
       "ticker": "FIRSTCRY.NS",
-      "spot_price": 290.0,
-      "change_percent": -2.62,
-      "timestamp": "2025-12-05T14:18:30.714385"
+      "spot_price": 288.95,
+      "change_percent": -2.97,
+      "timestamp": "2025-12-06T13:16:25.187519"
     },
     "BRIGADE.NS": {
       "ticker": "BRIGADE.NS",
-      "spot_price": 882.6,
-      "change_percent": -1.0,
-      "timestamp": "2025-12-05T14:18:31.254542"
+      "spot_price": 883.15,
+      "change_percent": -0.94,
+      "timestamp": "2025-12-06T13:16:25.314492"
     },
     "BRITANNIA.NS": {
       "ticker": "BRITANNIA.NS",
-      "spot_price": 5949.0,
-      "change_percent": 1.23,
-      "timestamp": "2025-12-05T14:18:31.821642"
+      "spot_price": 5961.0,
+      "change_percent": 1.44,
+      "timestamp": "2025-12-06T13:16:25.451334"
     },
     "MAPMYINDIA.NS": {
       "ticker": "MAPMYINDIA.NS",
-      "spot_price": 1670.0,
-      "change_percent": -0.54,
-      "timestamp": "2025-12-05T14:18:32.301638"
+      "spot_price": 1672.4,
+      "change_percent": -0.4,
+      "timestamp": "2025-12-06T13:16:25.625057"
     },
     "CCL.NS": {
       "ticker": "CCL.NS",
-      "spot_price": 941.9,
-      "change_percent": -3.57,
-      "timestamp": "2025-12-05T14:18:32.752829"
+      "spot_price": 949.8,
+      "change_percent": -2.76,
+      "timestamp": "2025-12-06T13:16:25.750860"
     },
     "CESC.NS": {
       "ticker": "CESC.NS",
-      "spot_price": 174.26,
-      "change_percent": -0.92,
-      "timestamp": "2025-12-05T14:18:33.241266"
+      "spot_price": 174.0,
+      "change_percent": -1.06,
+      "timestamp": "2025-12-06T13:16:25.877474"
     },
     "CGPOWER.NS": {
       "ticker": "CGPOWER.NS",
-      "spot_price": 661.2,
-      "change_percent": -0.17,
-      "timestamp": "2025-12-05T14:18:33.710333"
+      "spot_price": 661.35,
+      "change_percent": -0.15,
+      "timestamp": "2025-12-06T13:16:26.001289"
     },
     "CRISIL.NS": {
       "ticker": "CRISIL.NS",
-      "spot_price": 4443.3,
-      "change_percent": 0.39,
-      "timestamp": "2025-12-05T14:18:34.194724"
+      "spot_price": 4449.3,
+      "change_percent": 0.53,
+      "timestamp": "2025-12-06T13:16:26.123182"
     },
     "CAMPUS.NS": {
       "ticker": "CAMPUS.NS",
-      "spot_price": 271.85,
-      "change_percent": -0.49,
-      "timestamp": "2025-12-05T14:18:34.649854"
+      "spot_price": 273.95,
+      "change_percent": 0.27,
+      "timestamp": "2025-12-06T13:16:26.247001"
     },
     "CANFINHOME.NS": {
       "ticker": "CANFINHOME.NS",
-      "spot_price": 902.95,
-      "change_percent": 1.14,
-      "timestamp": "2025-12-05T14:18:35.132381"
+      "spot_price": 900.8,
+      "change_percent": 0.9,
+      "timestamp": "2025-12-06T13:16:26.371328"
     },
     "CANBK.NS": {
       "ticker": "CANBK.NS",
-      "spot_price": 149.03,
-      "change_percent": 1.11,
-      "timestamp": "2025-12-05T14:18:35.633083"
+      "spot_price": 148.64,
+      "change_percent": 0.85,
+      "timestamp": "2025-12-06T13:16:26.498592"
     },
     "CAPLIPOINT.NS": {
       "ticker": "CAPLIPOINT.NS",
-      "spot_price": 1935.6,
-      "change_percent": -2.05,
-      "timestamp": "2025-12-05T14:18:36.133255"
+      "spot_price": 1963.4,
+      "change_percent": -0.64,
+      "timestamp": "2025-12-06T13:16:26.670365"
     },
     "CGCL.NS": {
       "ticker": "CGCL.NS",
-      "spot_price": 188.0,
-      "change_percent": 0.18,
-      "timestamp": "2025-12-05T14:18:36.672413"
+      "spot_price": 188.99,
+      "change_percent": 0.7,
+      "timestamp": "2025-12-06T13:16:26.795446"
     },
     "CARBORUNIV.NS": {
       "ticker": "CARBORUNIV.NS",
-      "spot_price": 871.8,
-      "change_percent": -0.9,
-      "timestamp": "2025-12-05T14:18:37.117778"
+      "spot_price": 869.85,
+      "change_percent": -1.12,
+      "timestamp": "2025-12-06T13:16:26.923693"
     },
     "CASTROLIND.NS": {
       "ticker": "CASTROLIND.NS",
-      "spot_price": 190.99,
-      "change_percent": -0.15,
-      "timestamp": "2025-12-05T14:18:37.654923"
+      "spot_price": 191.23,
+      "change_percent": -0.03,
+      "timestamp": "2025-12-06T13:16:27.048005"
     },
     "CEATLTD.NS": {
       "ticker": "CEATLTD.NS",
-      "spot_price": 3920.9,
-      "change_percent": 0.83,
-      "timestamp": "2025-12-05T14:18:38.115215"
+      "spot_price": 3906.9,
+      "change_percent": 0.47,
+      "timestamp": "2025-12-06T13:16:27.180655"
     },
     "CENTRALBK.NS": {
       "ticker": "CENTRALBK.NS",
-      "spot_price": 36.99,
-      "change_percent": -0.19,
-      "timestamp": "2025-12-05T14:18:38.590993"
+      "spot_price": 36.89,
+      "change_percent": -0.46,
+      "timestamp": "2025-12-06T13:16:27.306877"
     },
     "CDSL.NS": {
       "ticker": "CDSL.NS",
-      "spot_price": 1549.1,
-      "change_percent": 0.83,
-      "timestamp": "2025-12-05T14:18:39.175610"
+      "spot_price": 1550.6,
+      "change_percent": 0.93,
+      "timestamp": "2025-12-06T13:16:27.480642"
     },
     "CENTURYPLY.NS": {
       "ticker": "CENTURYPLY.NS",
-      "spot_price": 796.35,
-      "change_percent": -0.33,
-      "timestamp": "2025-12-05T14:18:39.658853"
+      "spot_price": 801.5,
+      "change_percent": 0.32,
+      "timestamp": "2025-12-06T13:16:27.635015"
     },
     "CERA.NS": {
       "ticker": "CERA.NS",
-      "spot_price": 5367.5,
-      "change_percent": -0.69,
-      "timestamp": "2025-12-05T14:18:40.124746"
+      "spot_price": 5344.0,
+      "change_percent": -1.13,
+      "timestamp": "2025-12-06T13:16:27.765235"
     },
     "CHALET.NS": {
       "ticker": "CHALET.NS",
-      "spot_price": 894.5,
-      "change_percent": -0.28,
-      "timestamp": "2025-12-05T14:18:40.717436"
+      "spot_price": 898.45,
+      "change_percent": 0.16,
+      "timestamp": "2025-12-06T13:16:27.892678"
     },
     "CHAMBLFERT.NS": {
       "ticker": "CHAMBLFERT.NS",
-      "spot_price": 430.45,
-      "change_percent": -0.68,
-      "timestamp": "2025-12-05T14:18:41.233944"
+      "spot_price": 431.85,
+      "change_percent": -0.36,
+      "timestamp": "2025-12-06T13:16:28.015891"
     },
     "CHENNPETRO.NS": {
       "ticker": "CHENNPETRO.NS",
-      "spot_price": 933.0,
-      "change_percent": 0.28,
-      "timestamp": "2025-12-05T14:18:41.729413"
+      "spot_price": 928.15,
+      "change_percent": -0.24,
+      "timestamp": "2025-12-06T13:16:28.139696"
     },
     "CHOICEIN.NS": {
       "ticker": "CHOICEIN.NS",
-      "spot_price": 770.4,
-      "change_percent": -1.32,
-      "timestamp": "2025-12-05T14:18:42.191234"
+      "spot_price": 766.0,
+      "change_percent": -1.88,
+      "timestamp": "2025-12-06T13:16:28.259939"
     },
     "CHOLAHLDNG.NS": {
       "ticker": "CHOLAHLDNG.NS",
-      "spot_price": 1914.3,
-      "change_percent": 1.68,
-      "timestamp": "2025-12-05T14:18:42.667533"
+      "spot_price": 1917.6,
+      "change_percent": 1.86,
+      "timestamp": "2025-12-06T13:16:28.386549"
     },
     "CHOLAFIN.NS": {
       "ticker": "CHOLAFIN.NS",
-      "spot_price": 1725.5,
-      "change_percent": 2.97,
-      "timestamp": "2025-12-05T14:18:43.158850"
+      "spot_price": 1730.4,
+      "change_percent": 3.26,
+      "timestamp": "2025-12-06T13:16:28.514227"
     },
     "CIPLA.NS": {
       "ticker": "CIPLA.NS",
-      "spot_price": 1524.5,
-      "change_percent": 0.23,
-      "timestamp": "2025-12-05T14:18:43.638229"
+      "spot_price": 1520.8,
+      "change_percent": -0.01,
+      "timestamp": "2025-12-06T13:16:28.636749"
     },
     "CUB.NS": {
       "ticker": "CUB.NS",
-      "spot_price": 272.7,
-      "change_percent": 1.15,
-      "timestamp": "2025-12-05T14:18:44.092078"
+      "spot_price": 271.85,
+      "change_percent": 0.83,
+      "timestamp": "2025-12-06T13:16:28.760892"
     },
     "CLEAN.NS": {
       "ticker": "CLEAN.NS",
-      "spot_price": 890.0,
-      "change_percent": -0.07,
-      "timestamp": "2025-12-05T14:18:44.633402"
+      "spot_price": 888.05,
+      "change_percent": -0.29,
+      "timestamp": "2025-12-06T13:16:28.883888"
     },
     "COALINDIA.NS": {
       "ticker": "COALINDIA.NS",
-      "spot_price": 379.7,
-      "change_percent": 0.17,
-      "timestamp": "2025-12-05T14:18:45.176412"
+      "spot_price": 379.95,
+      "change_percent": 0.24,
+      "timestamp": "2025-12-06T13:16:29.015750"
     },
     "COCHINSHIP.NS": {
       "ticker": "COCHINSHIP.NS",
-      "spot_price": 1628.0,
-      "change_percent": -0.76,
-      "timestamp": "2025-12-05T14:18:45.692945"
+      "spot_price": 1644.0,
+      "change_percent": 0.22,
+      "timestamp": "2025-12-06T13:16:29.153729"
     },
     "COFORGE.NS": {
       "ticker": "COFORGE.NS",
-      "spot_price": 1979.0,
-      "change_percent": 0.65,
-      "timestamp": "2025-12-05T14:18:46.183896"
+      "spot_price": 1977.9,
+      "change_percent": 0.6,
+      "timestamp": "2025-12-06T13:16:29.274750"
     },
     "COHANCE.NS": {
       "ticker": "COHANCE.NS",
-      "spot_price": 543.85,
-      "change_percent": -0.96,
-      "timestamp": "2025-12-05T14:18:46.673461"
+      "spot_price": 542.55,
+      "change_percent": -1.19,
+      "timestamp": "2025-12-06T13:16:29.399815"
     },
     "COLPAL.NS": {
       "ticker": "COLPAL.NS",
-      "spot_price": 2161.0,
-      "change_percent": 1.07,
-      "timestamp": "2025-12-05T14:18:47.154905"
+      "spot_price": 2164.4,
+      "change_percent": 1.23,
+      "timestamp": "2025-12-06T13:16:29.525731"
     },
     "CAMS.NS": {
       "ticker": "CAMS.NS",
-      "spot_price": 776.3,
-      "change_percent": -1.9,
-      "timestamp": "2025-12-05T14:18:47.631786"
+      "spot_price": 775.7,
+      "change_percent": -1.97,
+      "timestamp": "2025-12-06T13:16:29.655504"
     },
     "CONCORDBIO.NS": {
       "ticker": "CONCORDBIO.NS",
-      "spot_price": 1415.1,
-      "change_percent": 0.96,
-      "timestamp": "2025-12-05T14:18:48.115623"
+      "spot_price": 1408.4,
+      "change_percent": 0.49,
+      "timestamp": "2025-12-06T13:16:29.781367"
     },
     "CONCOR.NS": {
       "ticker": "CONCOR.NS",
-      "spot_price": 512.05,
-      "change_percent": -0.13,
-      "timestamp": "2025-12-05T14:18:48.650508"
+      "spot_price": 511.05,
+      "change_percent": -0.32,
+      "timestamp": "2025-12-06T13:16:29.904781"
     },
     "COROMANDEL.NS": {
       "ticker": "COROMANDEL.NS",
-      "spot_price": 2270.7,
-      "change_percent": -1.42,
-      "timestamp": "2025-12-05T14:18:49.118507"
+      "spot_price": 2300.3,
+      "change_percent": -0.14,
+      "timestamp": "2025-12-06T13:16:30.036364"
     },
     "CRAFTSMAN.NS": {
       "ticker": "CRAFTSMAN.NS",
-      "spot_price": 7097.5,
-      "change_percent": 0.84,
-      "timestamp": "2025-12-05T14:18:49.602198"
+      "spot_price": 7102.5,
+      "change_percent": 0.91,
+      "timestamp": "2025-12-06T13:16:30.213367"
     },
     "CREDITACC.NS": {
       "ticker": "CREDITACC.NS",
-      "spot_price": 1299.9,
-      "change_percent": -3.5,
-      "timestamp": "2025-12-05T14:18:50.128091"
+      "spot_price": 1290.7,
+      "change_percent": -4.18,
+      "timestamp": "2025-12-06T13:16:30.343053"
     },
     "CROMPTON.NS": {
       "ticker": "CROMPTON.NS",
-      "spot_price": 260.8,
-      "change_percent": 0.73,
-      "timestamp": "2025-12-05T14:18:50.610480"
+      "spot_price": 260.1,
+      "change_percent": 0.46,
+      "timestamp": "2025-12-06T13:16:30.470284"
     },
     "CUMMINSIND.NS": {
       "ticker": "CUMMINSIND.NS",
-      "spot_price": 4461.1,
-      "change_percent": 0.04,
-      "timestamp": "2025-12-05T14:18:51.113512"
+      "spot_price": 4468.9,
+      "change_percent": 0.22,
+      "timestamp": "2025-12-06T13:16:30.643328"
     },
     "CYIENT.NS": {
       "ticker": "CYIENT.NS",
-      "spot_price": 1172.2,
-      "change_percent": -0.42,
-      "timestamp": "2025-12-05T14:18:51.640330"
+      "spot_price": 1169.2,
+      "change_percent": -0.68,
+      "timestamp": "2025-12-06T13:16:30.785717"
     },
     "DCMSHRIRAM.NS": {
       "ticker": "DCMSHRIRAM.NS",
-      "spot_price": 1222.0,
-      "change_percent": -0.41,
-      "timestamp": "2025-12-05T14:18:52.113957"
+      "spot_price": 1220.9,
+      "change_percent": -0.5,
+      "timestamp": "2025-12-06T13:16:30.914060"
     },
     "DLF.NS": {
       "ticker": "DLF.NS",
-      "spot_price": 718.9,
-      "change_percent": 1.35,
-      "timestamp": "2025-12-05T14:18:52.631256"
+      "spot_price": 719.75,
+      "change_percent": 1.47,
+      "timestamp": "2025-12-06T13:16:31.036498"
     },
     "DOMS.NS": {
       "ticker": "DOMS.NS",
-      "spot_price": 2603.8,
-      "change_percent": -1.05,
-      "timestamp": "2025-12-05T14:18:53.120907"
+      "spot_price": 2600.5,
+      "change_percent": -1.18,
+      "timestamp": "2025-12-06T13:16:31.166506"
     },
     "DABUR.NS": {
       "ticker": "DABUR.NS",
-      "spot_price": 509.8,
-      "change_percent": 0.33,
-      "timestamp": "2025-12-05T14:18:53.681370"
+      "spot_price": 510.1,
+      "change_percent": 0.39,
+      "timestamp": "2025-12-06T13:16:31.307739"
     },
     "DALBHARAT.NS": {
       "ticker": "DALBHARAT.NS",
-      "spot_price": 1992.7,
-      "change_percent": 0.12,
-      "timestamp": "2025-12-05T14:18:54.156904"
+      "spot_price": 1989.0,
+      "change_percent": -0.07,
+      "timestamp": "2025-12-06T13:16:31.434225"
     },
     "DATAPATTNS.NS": {
       "ticker": "DATAPATTNS.NS",
-      "spot_price": 2799.9,
-      "change_percent": -3.35,
-      "timestamp": "2025-12-05T14:18:54.692585"
+      "spot_price": 2766.3,
+      "change_percent": -4.51,
+      "timestamp": "2025-12-06T13:16:31.556795"
     },
     "DEEPAKFERT.NS": {
       "ticker": "DEEPAKFERT.NS",
-      "spot_price": 1298.9,
-      "change_percent": -1.65,
-      "timestamp": "2025-12-05T14:18:55.269883"
+      "spot_price": 1292.6,
+      "change_percent": -2.13,
+      "timestamp": "2025-12-06T13:16:31.679296"
     },
     "DEEPAKNTR.NS": {
       "ticker": "DEEPAKNTR.NS",
-      "spot_price": 1560.1,
-      "change_percent": 1.71,
-      "timestamp": "2025-12-05T14:18:55.736575"
+      "spot_price": 1569.0,
+      "change_percent": 2.29,
+      "timestamp": "2025-12-06T13:16:31.802116"
     },
     "DELHIVERY.NS": {
       "ticker": "DELHIVERY.NS",
-      "spot_price": 406.5,
-      "change_percent": 1.22,
-      "timestamp": "2025-12-05T14:18:56.273924"
+      "spot_price": 404.6,
+      "change_percent": 0.75,
+      "timestamp": "2025-12-06T13:16:31.936079"
     },
     "DEVYANI.NS": {
       "ticker": "DEVYANI.NS",
-      "spot_price": 136.89,
-      "change_percent": -1.46,
-      "timestamp": "2025-12-05T14:18:56.732721"
+      "spot_price": 136.75,
+      "change_percent": -1.56,
+      "timestamp": "2025-12-06T13:16:32.066449"
     },
     "DIVISLAB.NS": {
       "ticker": "DIVISLAB.NS",
-      "spot_price": 6463.0,
-      "change_percent": -0.09,
-      "timestamp": "2025-12-05T14:18:57.218829"
+      "spot_price": 6473.5,
+      "change_percent": 0.07,
+      "timestamp": "2025-12-06T13:16:32.193467"
     },
     "DIXON.NS": {
       "ticker": "DIXON.NS",
-      "spot_price": 13880.0,
-      "change_percent": 1.26,
-      "timestamp": "2025-12-05T14:18:57.772261"
+      "spot_price": 13749.0,
+      "change_percent": 0.31,
+      "timestamp": "2025-12-06T13:16:32.347642"
     },
     "AGARWALEYE.NS": {
       "ticker": "AGARWALEYE.NS",
-      "spot_price": 499.4,
-      "change_percent": -0.78,
-      "timestamp": "2025-12-05T14:18:58.253946"
+      "spot_price": 506.0,
+      "change_percent": 0.53,
+      "timestamp": "2025-12-06T13:16:32.471113"
     },
     "LALPATHLAB.NS": {
       "ticker": "LALPATHLAB.NS",
-      "spot_price": 3010.9,
-      "change_percent": -1.41,
-      "timestamp": "2025-12-05T14:18:58.836846"
+      "spot_price": 3029.6,
+      "change_percent": -0.8,
+      "timestamp": "2025-12-06T13:16:32.596661"
     },
     "DRREDDY.NS": {
       "ticker": "DRREDDY.NS",
-      "spot_price": 1275.5,
-      "change_percent": -0.16,
-      "timestamp": "2025-12-05T14:18:59.332759"
+      "spot_price": 1275.2,
+      "change_percent": -0.19,
+      "timestamp": "2025-12-06T13:16:32.769431"
     },
-    "DUMMYSKFIN.NS": {
-      "ticker": "DUMMYSKFIN.NS",
+    "DUMMYHDLVR.NS": {
+      "ticker": "DUMMYHDLVR.NS",
       "spot_price": 0.0,
       "change_percent": 0.0,
-      "timestamp": "2025-12-05T14:19:00.664698"
+      "timestamp": "2025-12-06T13:16:32.977017"
     },
     "EIDPARRY.NS": {
       "ticker": "EIDPARRY.NS",
-      "spot_price": 1030.9,
-      "change_percent": -0.34,
-      "timestamp": "2025-12-05T14:19:01.160759"
+      "spot_price": 1032.8,
+      "change_percent": -0.15,
+      "timestamp": "2025-12-06T13:16:33.104291"
     },
     "EIHOTEL.NS": {
       "ticker": "EIHOTEL.NS",
-      "spot_price": 375.5,
-      "change_percent": -0.66,
-      "timestamp": "2025-12-05T14:19:01.609952"
+      "spot_price": 374.7,
+      "change_percent": -0.87,
+      "timestamp": "2025-12-06T13:16:33.227607"
     },
     "EICHERMOT.NS": {
       "ticker": "EICHERMOT.NS",
-      "spot_price": 7170.0,
-      "change_percent": 0.99,
-      "timestamp": "2025-12-05T14:19:02.336381"
+      "spot_price": 7208.0,
+      "change_percent": 1.52,
+      "timestamp": "2025-12-06T13:16:33.349402"
     },
     "ELECON.NS": {
       "ticker": "ELECON.NS",
-      "spot_price": 473.5,
-      "change_percent": -1.25,
-      "timestamp": "2025-12-05T14:19:02.820167"
+      "spot_price": 474.45,
+      "change_percent": -1.05,
+      "timestamp": "2025-12-06T13:16:33.479502"
     },
     "ELGIEQUIP.NS": {
       "ticker": "ELGIEQUIP.NS",
-      "spot_price": 500.7,
-      "change_percent": 1.88,
-      "timestamp": "2025-12-05T14:19:03.294467"
+      "spot_price": 500.8,
+      "change_percent": 1.9,
+      "timestamp": "2025-12-06T13:16:33.662817"
     },
     "EMAMILTD.NS": {
       "ticker": "EMAMILTD.NS",
-      "spot_price": 526.9,
-      "change_percent": 2.0,
-      "timestamp": "2025-12-05T14:19:03.752043"
+      "spot_price": 525.3,
+      "change_percent": 1.69,
+      "timestamp": "2025-12-06T13:16:33.787914"
     },
     "EMCURE.NS": {
       "ticker": "EMCURE.NS",
-      "spot_price": 1395.9,
-      "change_percent": -0.54,
-      "timestamp": "2025-12-05T14:19:04.291238"
+      "spot_price": 1396.2,
+      "change_percent": -0.52,
+      "timestamp": "2025-12-06T13:16:33.919506"
     },
     "ENDURANCE.NS": {
       "ticker": "ENDURANCE.NS",
-      "spot_price": 2667.6,
-      "change_percent": 0.6,
-      "timestamp": "2025-12-05T14:19:04.812826"
+      "spot_price": 2659.0,
+      "change_percent": 0.28,
+      "timestamp": "2025-12-06T13:16:34.044703"
     },
     "ENGINERSIN.NS": {
       "ticker": "ENGINERSIN.NS",
-      "spot_price": 201.87,
-      "change_percent": 0.12,
-      "timestamp": "2025-12-05T14:19:05.294920"
+      "spot_price": 202.7,
+      "change_percent": 0.54,
+      "timestamp": "2025-12-06T13:16:34.171992"
     },
     "ERIS.NS": {
       "ticker": "ERIS.NS",
-      "spot_price": 1552.5,
-      "change_percent": -0.54,
-      "timestamp": "2025-12-05T14:19:05.943462"
+      "spot_price": 1551.7,
+      "change_percent": -0.53,
+      "timestamp": "2025-12-06T13:16:34.298609"
     },
     "ESCORTS.NS": {
       "ticker": "ESCORTS.NS",
-      "spot_price": 3725.5,
-      "change_percent": -0.22,
-      "timestamp": "2025-12-05T14:19:06.551454"
+      "spot_price": 3710.9,
+      "change_percent": -0.61,
+      "timestamp": "2025-12-06T13:16:34.425246"
     },
     "ETERNAL.NS": {
       "ticker": "ETERNAL.NS",
-      "spot_price": 293.35,
-      "change_percent": -0.81,
-      "timestamp": "2025-12-05T14:19:07.001902"
+      "spot_price": 292.4,
+      "change_percent": -1.13,
+      "timestamp": "2025-12-06T13:16:34.551838"
     },
     "EXIDEIND.NS": {
       "ticker": "EXIDEIND.NS",
-      "spot_price": 379.3,
-      "change_percent": -0.28,
-      "timestamp": "2025-12-05T14:19:07.485552"
+      "spot_price": 380.15,
+      "change_percent": -0.05,
+      "timestamp": "2025-12-06T13:16:34.679159"
     },
     "NYKAA.NS": {
       "ticker": "NYKAA.NS",
-      "spot_price": 254.3,
-      "change_percent": -0.47,
-      "timestamp": "2025-12-05T14:19:07.997879"
+      "spot_price": 254.8,
+      "change_percent": -0.27,
+      "timestamp": "2025-12-06T13:16:34.804308"
     },
     "FEDERALBNK.NS": {
       "ticker": "FEDERALBNK.NS",
-      "spot_price": 259.5,
-      "change_percent": 0.33,
-      "timestamp": "2025-12-05T14:19:08.486225"
+      "spot_price": 259.2,
+      "change_percent": 0.21,
+      "timestamp": "2025-12-06T13:16:34.931335"
     },
     "FACT.NS": {
       "ticker": "FACT.NS",
-      "spot_price": 831.55,
-      "change_percent": -0.81,
-      "timestamp": "2025-12-05T14:19:08.988095"
+      "spot_price": 847.0,
+      "change_percent": 1.04,
+      "timestamp": "2025-12-06T13:16:35.061624"
     },
     "FINCABLES.NS": {
       "ticker": "FINCABLES.NS",
-      "spot_price": 736.4,
-      "change_percent": -0.57,
-      "timestamp": "2025-12-05T14:19:09.487238"
+      "spot_price": 736.55,
+      "change_percent": -0.55,
+      "timestamp": "2025-12-06T13:16:35.194304"
     },
     "FINPIPE.NS": {
       "ticker": "FINPIPE.NS",
-      "spot_price": 169.0,
-      "change_percent": -0.87,
-      "timestamp": "2025-12-05T14:19:09.970635"
+      "spot_price": 169.13,
+      "change_percent": -0.79,
+      "timestamp": "2025-12-06T13:16:35.320473"
     },
     "FSL.NS": {
       "ticker": "FSL.NS",
       "spot_price": 347.0,
       "change_percent": -1.0,
-      "timestamp": "2025-12-05T14:19:10.431759"
+      "timestamp": "2025-12-06T13:16:35.446200"
     },
     "FIVESTAR.NS": {
       "ticker": "FIVESTAR.NS",
-      "spot_price": 579.7,
-      "change_percent": -1.74,
-      "timestamp": "2025-12-05T14:19:10.900653"
+      "spot_price": 580.65,
+      "change_percent": -1.58,
+      "timestamp": "2025-12-06T13:16:35.575101"
     },
     "FORCEMOT.NS": {
       "ticker": "FORCEMOT.NS",
-      "spot_price": 17180.0,
-      "change_percent": -2.21,
-      "timestamp": "2025-12-05T14:19:11.405132"
+      "spot_price": 17167.0,
+      "change_percent": -2.28,
+      "timestamp": "2025-12-06T13:16:35.707093"
     },
     "FORTIS.NS": {
       "ticker": "FORTIS.NS",
-      "spot_price": 891.3,
-      "change_percent": 0.31,
-      "timestamp": "2025-12-05T14:19:11.896677"
+      "spot_price": 888.55,
+      "change_percent": 0.0,
+      "timestamp": "2025-12-06T13:16:35.830047"
     },
     "GAIL.NS": {
       "ticker": "GAIL.NS",
-      "spot_price": 170.22,
-      "change_percent": -0.24,
-      "timestamp": "2025-12-05T14:19:12.401545"
+      "spot_price": 169.98,
+      "change_percent": -0.38,
+      "timestamp": "2025-12-06T13:16:35.954048"
     },
     "GVT&D.NS": {
       "ticker": "GVT&D.NS",
-      "spot_price": 2751.6,
-      "change_percent": -1.91,
-      "timestamp": "2025-12-05T14:19:12.908486"
+      "spot_price": 2768.8,
+      "change_percent": -1.29,
+      "timestamp": "2025-12-06T13:16:36.137872"
     },
     "GMRAIRPORT.NS": {
       "ticker": "GMRAIRPORT.NS",
-      "spot_price": 103.31,
-      "change_percent": 0.24,
-      "timestamp": "2025-12-05T14:19:13.404102"
+      "spot_price": 103.51,
+      "change_percent": 0.44,
+      "timestamp": "2025-12-06T13:16:36.268261"
     },
     "GRSE.NS": {
       "ticker": "GRSE.NS",
-      "spot_price": 2477.0,
-      "change_percent": -2.9,
-      "timestamp": "2025-12-05T14:19:13.926485"
+      "spot_price": 2470.9,
+      "change_percent": -3.14,
+      "timestamp": "2025-12-06T13:16:36.391722"
     },
     "GICRE.NS": {
       "ticker": "GICRE.NS",
-      "spot_price": 382.05,
-      "change_percent": -0.61,
-      "timestamp": "2025-12-05T14:19:14.426741"
+      "spot_price": 381.85,
+      "change_percent": -0.66,
+      "timestamp": "2025-12-06T13:16:36.521123"
     },
     "GILLETTE.NS": {
       "ticker": "GILLETTE.NS",
-      "spot_price": 8359.0,
-      "change_percent": -2.06,
-      "timestamp": "2025-12-05T14:19:14.926213"
+      "spot_price": 8345.0,
+      "change_percent": -2.23,
+      "timestamp": "2025-12-06T13:16:36.642295"
     },
     "GLAND.NS": {
       "ticker": "GLAND.NS",
-      "spot_price": 1748.5,
-      "change_percent": 0.78,
-      "timestamp": "2025-12-05T14:19:15.431080"
+      "spot_price": 1751.6,
+      "change_percent": 0.96,
+      "timestamp": "2025-12-06T13:16:36.773533"
     },
     "GLAXO.NS": {
       "ticker": "GLAXO.NS",
-      "spot_price": 2563.2,
-      "change_percent": 2.09,
-      "timestamp": "2025-12-05T14:19:15.927913"
+      "spot_price": 2545.6,
+      "change_percent": 1.39,
+      "timestamp": "2025-12-06T13:16:36.897319"
     },
     "GLENMARK.NS": {
       "ticker": "GLENMARK.NS",
-      "spot_price": 1976.8,
-      "change_percent": 0.15,
-      "timestamp": "2025-12-05T14:19:16.412229"
+      "spot_price": 1968.2,
+      "change_percent": -0.28,
+      "timestamp": "2025-12-06T13:16:37.018251"
     },
     "MEDANTA.NS": {
       "ticker": "MEDANTA.NS",
-      "spot_price": 1160.9,
-      "change_percent": -3.32,
-      "timestamp": "2025-12-05T14:19:16.963105"
+      "spot_price": 1163.5,
+      "change_percent": -3.11,
+      "timestamp": "2025-12-06T13:16:37.200585"
     },
     "GODIGIT.NS": {
       "ticker": "GODIGIT.NS",
-      "spot_price": 347.6,
-      "change_percent": 0.39,
-      "timestamp": "2025-12-05T14:19:17.541036"
+      "spot_price": 347.65,
+      "change_percent": 0.4,
+      "timestamp": "2025-12-06T13:16:37.325298"
     },
     "GPIL.NS": {
       "ticker": "GPIL.NS",
-      "spot_price": 234.01,
-      "change_percent": -0.8,
-      "timestamp": "2025-12-05T14:19:18.048710"
+      "spot_price": 232.94,
+      "change_percent": -1.25,
+      "timestamp": "2025-12-06T13:16:37.461477"
     },
     "GODFRYPHLP.NS": {
       "ticker": "GODFRYPHLP.NS",
-      "spot_price": 2744.2,
-      "change_percent": -1.31,
-      "timestamp": "2025-12-05T14:19:18.560414"
+      "spot_price": 2732.3,
+      "change_percent": -1.74,
+      "timestamp": "2025-12-06T13:16:37.580393"
     },
     "GODREJAGRO.NS": {
       "ticker": "GODREJAGRO.NS",
-      "spot_price": 580.85,
-      "change_percent": -1.09,
-      "timestamp": "2025-12-05T14:19:19.330643"
+      "spot_price": 582.9,
+      "change_percent": -0.74,
+      "timestamp": "2025-12-06T13:16:37.707584"
     },
     "GODREJCP.NS": {
       "ticker": "GODREJCP.NS",
-      "spot_price": 1133.9,
-      "change_percent": 0.11,
-      "timestamp": "2025-12-05T14:19:19.819088"
+      "spot_price": 1136.0,
+      "change_percent": 0.3,
+      "timestamp": "2025-12-06T13:16:37.834637"
     },
     "GODREJIND.NS": {
       "ticker": "GODREJIND.NS",
-      "spot_price": 1011.0,
-      "change_percent": 1.02,
-      "timestamp": "2025-12-05T14:19:20.512580"
+      "spot_price": 1014.0,
+      "change_percent": 1.32,
+      "timestamp": "2025-12-06T13:16:37.959819"
     },
     "GODREJPROP.NS": {
       "ticker": "GODREJPROP.NS",
-      "spot_price": 2086.6,
-      "change_percent": 0.34,
-      "timestamp": "2025-12-05T14:19:21.030564"
+      "spot_price": 2082.4,
+      "change_percent": 0.13,
+      "timestamp": "2025-12-06T13:16:38.085740"
     },
     "GRANULES.NS": {
       "ticker": "GRANULES.NS",
-      "spot_price": 559.5,
-      "change_percent": -1.22,
-      "timestamp": "2025-12-05T14:19:21.495586"
+      "spot_price": 560.85,
+      "change_percent": -0.98,
+      "timestamp": "2025-12-06T13:16:38.204938"
     },
     "GRAPHITE.NS": {
       "ticker": "GRAPHITE.NS",
-      "spot_price": 542.15,
-      "change_percent": -0.35,
-      "timestamp": "2025-12-05T14:19:22.087179"
+      "spot_price": 537.5,
+      "change_percent": -1.2,
+      "timestamp": "2025-12-06T13:16:38.329245"
     },
     "GRASIM.NS": {
       "ticker": "GRASIM.NS",
-      "spot_price": 2746.4,
-      "change_percent": 0.59,
-      "timestamp": "2025-12-05T14:19:22.568941"
+      "spot_price": 2747.0,
+      "change_percent": 0.61,
+      "timestamp": "2025-12-06T13:16:38.504638"
     },
     "GRAVITA.NS": {
       "ticker": "GRAVITA.NS",
-      "spot_price": 1798.9,
-      "change_percent": -0.08,
-      "timestamp": "2025-12-05T14:19:23.112140"
+      "spot_price": 1793.5,
+      "change_percent": -0.38,
+      "timestamp": "2025-12-06T13:16:38.625899"
     },
     "GESHIP.NS": {
       "ticker": "GESHIP.NS",
-      "spot_price": 1094.2,
-      "change_percent": -0.89,
-      "timestamp": "2025-12-05T14:19:23.619163"
+      "spot_price": 1091.0,
+      "change_percent": -1.18,
+      "timestamp": "2025-12-06T13:16:38.750770"
     },
     "FLUOROCHEM.NS": {
       "ticker": "FLUOROCHEM.NS",
-      "spot_price": 3394.5,
-      "change_percent": 1.37,
-      "timestamp": "2025-12-05T14:19:24.120564"
+      "spot_price": 3384.7,
+      "change_percent": 1.08,
+      "timestamp": "2025-12-06T13:16:38.874544"
     },
     "GUJGASLTD.NS": {
       "ticker": "GUJGASLTD.NS",
-      "spot_price": 406.5,
-      "change_percent": -0.68,
-      "timestamp": "2025-12-05T14:19:24.631027"
+      "spot_price": 406.55,
+      "change_percent": -0.67,
+      "timestamp": "2025-12-06T13:16:39.045018"
     },
     "GMDCLTD.NS": {
       "ticker": "GMDCLTD.NS",
-      "spot_price": 515.5,
-      "change_percent": -2.66,
-      "timestamp": "2025-12-05T14:19:25.137815"
+      "spot_price": 514.4,
+      "change_percent": -2.87,
+      "timestamp": "2025-12-06T13:16:39.171043"
     },
     "GSPL.NS": {
       "ticker": "GSPL.NS",
-      "spot_price": 295.0,
-      "change_percent": -0.15,
-      "timestamp": "2025-12-05T14:19:25.813396"
+      "spot_price": 293.3,
+      "change_percent": -0.73,
+      "timestamp": "2025-12-06T13:16:39.294396"
     },
     "HEG.NS": {
       "ticker": "HEG.NS",
-      "spot_price": 521.5,
-      "change_percent": -0.31,
-      "timestamp": "2025-12-05T14:19:26.298570"
+      "spot_price": 520.5,
+      "change_percent": -0.5,
+      "timestamp": "2025-12-06T13:16:39.422229"
     },
     "HBLENGINE.NS": {
       "ticker": "HBLENGINE.NS",
-      "spot_price": 809.9,
-      "change_percent": -0.04,
-      "timestamp": "2025-12-05T14:19:26.802113"
+      "spot_price": 807.6,
+      "change_percent": -0.32,
+      "timestamp": "2025-12-06T13:16:39.549184"
     },
     "HCLTECH.NS": {
       "ticker": "HCLTECH.NS",
-      "spot_price": 1683.7,
-      "change_percent": 1.76,
-      "timestamp": "2025-12-05T14:19:27.337745"
+      "spot_price": 1683.0,
+      "change_percent": 1.72,
+      "timestamp": "2025-12-06T13:16:39.673755"
     },
     "HDFCAMC.NS": {
       "ticker": "HDFCAMC.NS",
-      "spot_price": 2578.0,
-      "change_percent": -0.69,
-      "timestamp": "2025-12-05T14:19:27.883944"
+      "spot_price": 2577.5,
+      "change_percent": -0.71,
+      "timestamp": "2025-12-06T13:16:39.845452"
     },
     "HDFCBANK.NS": {
       "ticker": "HDFCBANK.NS",
-      "spot_price": 1001.1,
-      "change_percent": 0.39,
-      "timestamp": "2025-12-05T14:19:28.415907"
+      "spot_price": 1003.3,
+      "change_percent": 0.61,
+      "timestamp": "2025-12-06T13:16:40.077427"
     },
     "HDFCLIFE.NS": {
       "ticker": "HDFCLIFE.NS",
-      "spot_price": 769.9,
-      "change_percent": 1.2,
-      "timestamp": "2025-12-05T14:19:28.918225"
+      "spot_price": 768.3,
+      "change_percent": 0.99,
+      "timestamp": "2025-12-06T13:16:40.202985"
     },
     "HFCL.NS": {
       "ticker": "HFCL.NS",
-      "spot_price": 68.86,
-      "change_percent": -2.28,
-      "timestamp": "2025-12-05T14:19:29.437287"
+      "spot_price": 69.03,
+      "change_percent": -2.04,
+      "timestamp": "2025-12-06T13:16:40.327216"
     },
     "HAPPSTMNDS.NS": {
       "ticker": "HAPPSTMNDS.NS",
-      "spot_price": 506.7,
-      "change_percent": -0.85,
-      "timestamp": "2025-12-05T14:19:29.909177"
+      "spot_price": 504.7,
+      "change_percent": -1.24,
+      "timestamp": "2025-12-06T13:16:40.450722"
     },
     "HAVELLS.NS": {
       "ticker": "HAVELLS.NS",
-      "spot_price": 1431.5,
-      "change_percent": -0.14,
-      "timestamp": "2025-12-05T14:19:30.445565"
+      "spot_price": 1436.5,
+      "change_percent": 0.21,
+      "timestamp": "2025-12-06T13:16:40.573875"
     },
     "HEROMOTOCO.NS": {
       "ticker": "HEROMOTOCO.NS",
-      "spot_price": 6341.0,
-      "change_percent": 0.02,
-      "timestamp": "2025-12-05T14:19:30.942092"
+      "spot_price": 6350.5,
+      "change_percent": 0.17,
+      "timestamp": "2025-12-06T13:16:40.720374"
     },
     "HEXT.NS": {
       "ticker": "HEXT.NS",
-      "spot_price": 763.7,
-      "change_percent": -3.15,
-      "timestamp": "2025-12-05T14:19:31.440107"
+      "spot_price": 754.75,
+      "change_percent": -4.29,
+      "timestamp": "2025-12-06T13:16:40.848260"
     },
     "HSCL.NS": {
       "ticker": "HSCL.NS",
-      "spot_price": 480.1,
-      "change_percent": 3.84,
-      "timestamp": "2025-12-05T14:19:31.974826"
+      "spot_price": 476.75,
+      "change_percent": 3.11,
+      "timestamp": "2025-12-06T13:16:40.977336"
     },
     "HINDALCO.NS": {
       "ticker": "HINDALCO.NS",
-      "spot_price": 824.7,
-      "change_percent": 1.72,
-      "timestamp": "2025-12-05T14:19:32.540329"
+      "spot_price": 823.25,
+      "change_percent": 1.54,
+      "timestamp": "2025-12-06T13:16:41.101083"
     },
     "HAL.NS": {
       "ticker": "HAL.NS",
-      "spot_price": 4463.4,
-      "change_percent": -0.74,
-      "timestamp": "2025-12-05T14:19:33.062128"
+      "spot_price": 4443.0,
+      "change_percent": -1.2,
+      "timestamp": "2025-12-06T13:16:41.234272"
     },
     "HINDCOPPER.NS": {
       "ticker": "HINDCOPPER.NS",
-      "spot_price": 372.25,
-      "change_percent": 1.78,
-      "timestamp": "2025-12-05T14:19:33.577668"
+      "spot_price": 371.85,
+      "change_percent": 1.67,
+      "timestamp": "2025-12-06T13:16:41.358443"
     },
     "HINDPETRO.NS": {
       "ticker": "HINDPETRO.NS",
-      "spot_price": 451.75,
-      "change_percent": 0.85,
-      "timestamp": "2025-12-05T14:19:34.061345"
+      "spot_price": 450.35,
+      "change_percent": 0.54,
+      "timestamp": "2025-12-06T13:16:41.483882"
     },
     "HINDUNILVR.NS": {
       "ticker": "HINDUNILVR.NS",
-      "spot_price": 2341.2,
-      "change_percent": -4.92,
-      "timestamp": "2025-12-05T14:19:34.637014"
+      "spot_price": 2338.6,
+      "change_percent": -5.02,
+      "timestamp": "2025-12-06T13:16:41.607579"
     },
     "HINDZINC.NS": {
       "ticker": "HINDZINC.NS",
-      "spot_price": 497.5,
-      "change_percent": 0.15,
-      "timestamp": "2025-12-05T14:19:35.173642"
+      "spot_price": 498.1,
+      "change_percent": 0.27,
+      "timestamp": "2025-12-06T13:16:41.784042"
     },
     "POWERINDIA.NS": {
       "ticker": "POWERINDIA.NS",
-      "spot_price": 19250.0,
-      "change_percent": -4.16,
-      "timestamp": "2025-12-05T14:19:35.637113"
+      "spot_price": 19305.0,
+      "change_percent": -3.88,
+      "timestamp": "2025-12-06T13:16:41.961743"
     },
     "HOMEFIRST.NS": {
       "ticker": "HOMEFIRST.NS",
-      "spot_price": 1090.0,
-      "change_percent": 0.47,
-      "timestamp": "2025-12-05T14:19:36.144642"
+      "spot_price": 1094.1,
+      "change_percent": 0.85,
+      "timestamp": "2025-12-06T13:16:42.087708"
     },
     "HONASA.NS": {
       "ticker": "HONASA.NS",
-      "spot_price": 276.2,
-      "change_percent": -0.7,
-      "timestamp": "2025-12-05T14:19:36.642536"
+      "spot_price": 274.95,
+      "change_percent": -1.15,
+      "timestamp": "2025-12-06T13:16:42.261319"
     },
     "HONAUT.NS": {
       "ticker": "HONAUT.NS",
-      "spot_price": 34700.0,
-      "change_percent": -0.43,
-      "timestamp": "2025-12-05T14:19:37.187415"
+      "spot_price": 34895.0,
+      "change_percent": 0.13,
+      "timestamp": "2025-12-06T13:16:42.384855"
     },
     "HUDCO.NS": {
       "ticker": "HUDCO.NS",
-      "spot_price": 223.37,
-      "change_percent": 0.47,
-      "timestamp": "2025-12-05T14:19:37.765498"
+      "spot_price": 225.22,
+      "change_percent": 1.3,
+      "timestamp": "2025-12-06T13:16:42.519158"
     },
     "HYUNDAI.NS": {
       "ticker": "HYUNDAI.NS",
-      "spot_price": 2318.6,
-      "change_percent": -2.29,
-      "timestamp": "2025-12-05T14:19:38.283957"
+      "spot_price": 2309.5,
+      "change_percent": -2.67,
+      "timestamp": "2025-12-06T13:16:42.695413"
     },
     "ICICIBANK.NS": {
       "ticker": "ICICIBANK.NS",
-      "spot_price": 1390.8,
-      "change_percent": 0.3,
-      "timestamp": "2025-12-05T14:19:38.801579"
+      "spot_price": 1392.5,
+      "change_percent": 0.42,
+      "timestamp": "2025-12-06T13:16:42.821436"
     },
     "ICICIGI.NS": {
       "ticker": "ICICIGI.NS",
-      "spot_price": 1978.0,
-      "change_percent": -0.25,
-      "timestamp": "2025-12-05T14:19:39.320341"
+      "spot_price": 1974.4,
+      "change_percent": -0.43,
+      "timestamp": "2025-12-06T13:16:42.946362"
     },
     "ICICIPRULI.NS": {
       "ticker": "ICICIPRULI.NS",
-      "spot_price": 624.65,
-      "change_percent": 1.51,
-      "timestamp": "2025-12-05T14:19:39.845194"
+      "spot_price": 626.05,
+      "change_percent": 1.74,
+      "timestamp": "2025-12-06T13:16:43.072095"
     },
     "IDBI.NS": {
       "ticker": "IDBI.NS",
-      "spot_price": 97.79,
-      "change_percent": 0.15,
-      "timestamp": "2025-12-05T14:19:40.330097"
+      "spot_price": 97.4,
+      "change_percent": -0.25,
+      "timestamp": "2025-12-06T13:16:43.200388"
     },
     "IDFCFIRSTB.NS": {
       "ticker": "IDFCFIRSTB.NS",
-      "spot_price": 81.17,
-      "change_percent": 1.61,
-      "timestamp": "2025-12-05T14:19:40.813545"
+      "spot_price": 80.87,
+      "change_percent": 1.24,
+      "timestamp": "2025-12-06T13:16:43.325815"
     },
     "IFCI.NS": {
       "ticker": "IFCI.NS",
-      "spot_price": 49.53,
-      "change_percent": -0.4,
-      "timestamp": "2025-12-05T14:19:41.298521"
+      "spot_price": 49.38,
+      "change_percent": -0.7,
+      "timestamp": "2025-12-06T13:16:43.451936"
     },
     "IIFL.NS": {
       "ticker": "IIFL.NS",
-      "spot_price": 567.85,
-      "change_percent": 0.26,
-      "timestamp": "2025-12-05T14:19:41.907792"
+      "spot_price": 569.35,
+      "change_percent": 0.53,
+      "timestamp": "2025-12-06T13:16:43.584113"
     },
     "INOXINDIA.NS": {
       "ticker": "INOXINDIA.NS",
-      "spot_price": 1136.3,
-      "change_percent": -1.56,
-      "timestamp": "2025-12-05T14:19:42.404545"
+      "spot_price": 1137.8,
+      "change_percent": -1.43,
+      "timestamp": "2025-12-06T13:16:43.882527"
     },
     "IRB.NS": {
       "ticker": "IRB.NS",
-      "spot_price": 42.94,
-      "change_percent": -0.16,
-      "timestamp": "2025-12-05T14:19:42.906965"
+      "spot_price": 42.8,
+      "change_percent": -0.49,
+      "timestamp": "2025-12-06T13:16:44.007134"
     },
     "IRCON.NS": {
       "ticker": "IRCON.NS",
-      "spot_price": 151.57,
+      "spot_price": 151.58,
       "change_percent": -1.67,
-      "timestamp": "2025-12-05T14:19:43.397607"
+      "timestamp": "2025-12-06T13:16:44.335807"
     },
     "ITCHOTELS.NS": {
       "ticker": "ITCHOTELS.NS",
-      "spot_price": 205.83,
-      "change_percent": -0.91,
-      "timestamp": "2025-12-05T14:19:43.885950"
+      "spot_price": 205.91,
+      "change_percent": -0.87,
+      "timestamp": "2025-12-06T13:16:44.459257"
     },
     "ITC.NS": {
       "ticker": "ITC.NS",
-      "spot_price": 405.1,
-      "change_percent": 0.51,
-      "timestamp": "2025-12-05T14:19:44.353825"
+      "spot_price": 404.95,
+      "change_percent": 0.47,
+      "timestamp": "2025-12-06T13:16:44.586669"
     },
     "ITI.NS": {
       "ticker": "ITI.NS",
-      "spot_price": 300.95,
-      "change_percent": -0.68,
-      "timestamp": "2025-12-05T14:19:44.857010"
+      "spot_price": 301.6,
+      "change_percent": -0.46,
+      "timestamp": "2025-12-06T13:16:44.712894"
     },
     "INDGN.NS": {
       "ticker": "INDGN.NS",
-      "spot_price": 534.15,
-      "change_percent": -0.17,
-      "timestamp": "2025-12-05T14:19:45.311711"
+      "spot_price": 533.6,
+      "change_percent": -0.27,
+      "timestamp": "2025-12-06T13:16:44.838629"
     },
     "INDIACEM.NS": {
       "ticker": "INDIACEM.NS",
-      "spot_price": 412.85,
-      "change_percent": 0.17,
-      "timestamp": "2025-12-05T14:19:45.858306"
+      "spot_price": 416.2,
+      "change_percent": 0.98,
+      "timestamp": "2025-12-06T13:16:44.962748"
     },
     "INDIAMART.NS": {
       "ticker": "INDIAMART.NS",
-      "spot_price": 2296.0,
-      "change_percent": 0.16,
-      "timestamp": "2025-12-05T14:19:46.423944"
+      "spot_price": 2312.4,
+      "change_percent": 0.88,
+      "timestamp": "2025-12-06T13:16:45.135885"
     },
     "INDIANB.NS": {
       "ticker": "INDIANB.NS",
-      "spot_price": 812.3,
-      "change_percent": 1.21,
-      "timestamp": "2025-12-05T14:19:46.897901"
+      "spot_price": 808.95,
+      "change_percent": 0.79,
+      "timestamp": "2025-12-06T13:16:45.258695"
     },
     "IEX.NS": {
       "ticker": "IEX.NS",
-      "spot_price": 145.75,
-      "change_percent": -1.47,
-      "timestamp": "2025-12-05T14:19:47.370834"
+      "spot_price": 145.31,
+      "change_percent": -1.77,
+      "timestamp": "2025-12-06T13:16:45.382836"
     },
     "INDHOTEL.NS": {
       "ticker": "INDHOTEL.NS",
-      "spot_price": 730.7,
-      "change_percent": 0.16,
-      "timestamp": "2025-12-05T14:19:47.857246"
+      "spot_price": 730.9,
+      "change_percent": 0.19,
+      "timestamp": "2025-12-06T13:16:45.515668"
     },
     "IOC.NS": {
       "ticker": "IOC.NS",
-      "spot_price": 163.3,
-      "change_percent": 0.33,
-      "timestamp": "2025-12-05T14:19:48.404738"
+      "spot_price": 163.66,
+      "change_percent": 0.55,
+      "timestamp": "2025-12-06T13:16:45.637665"
     },
     "IOB.NS": {
       "ticker": "IOB.NS",
-      "spot_price": 37.63,
-      "change_percent": -0.42,
-      "timestamp": "2025-12-05T14:19:48.934861"
+      "spot_price": 37.78,
+      "change_percent": -0.03,
+      "timestamp": "2025-12-06T13:16:45.767164"
     },
     "IRCTC.NS": {
       "ticker": "IRCTC.NS",
-      "spot_price": 674.75,
-      "change_percent": 0.13,
-      "timestamp": "2025-12-05T14:19:49.419799"
+      "spot_price": 675.2,
+      "change_percent": 0.2,
+      "timestamp": "2025-12-06T13:16:45.916078"
     },
     "IRFC.NS": {
       "ticker": "IRFC.NS",
-      "spot_price": 114.27,
-      "change_percent": -0.51,
-      "timestamp": "2025-12-05T14:19:49.920679"
+      "spot_price": 114.6,
+      "change_percent": -0.22,
+      "timestamp": "2025-12-06T13:16:46.038718"
     },
     "IREDA.NS": {
       "ticker": "IREDA.NS",
-      "spot_price": 133.44,
-      "change_percent": -2.42,
-      "timestamp": "2025-12-05T14:19:50.391152"
+      "spot_price": 133.4,
+      "change_percent": -2.45,
+      "timestamp": "2025-12-06T13:16:46.168834"
     },
     "IGL.NS": {
       "ticker": "IGL.NS",
-      "spot_price": 193.18,
-      "change_percent": -0.27,
-      "timestamp": "2025-12-05T14:19:50.895245"
+      "spot_price": 191.8,
+      "change_percent": -0.99,
+      "timestamp": "2025-12-06T13:16:46.294985"
     },
     "INDUSTOWER.NS": {
       "ticker": "INDUSTOWER.NS",
-      "spot_price": 415.0,
-      "change_percent": 3.23,
-      "timestamp": "2025-12-05T14:19:51.386407"
+      "spot_price": 415.7,
+      "change_percent": 3.41,
+      "timestamp": "2025-12-06T13:16:46.427282"
     },
     "INDUSINDBK.NS": {
       "ticker": "INDUSINDBK.NS",
-      "spot_price": 869.3,
-      "change_percent": 0.73,
-      "timestamp": "2025-12-05T14:19:51.935061"
+      "spot_price": 870.1,
+      "change_percent": 0.82,
+      "timestamp": "2025-12-06T13:16:46.551741"
     },
     "NAUKRI.NS": {
       "ticker": "NAUKRI.NS",
-      "spot_price": 1390.5,
-      "change_percent": -0.41,
-      "timestamp": "2025-12-05T14:19:52.415868"
+      "spot_price": 1388.7,
+      "change_percent": -0.54,
+      "timestamp": "2025-12-06T13:16:46.674353"
     },
     "INFY.NS": {
       "ticker": "INFY.NS",
-      "spot_price": 1614.8,
-      "change_percent": 1.08,
-      "timestamp": "2025-12-05T14:19:52.955777"
+      "spot_price": 1616.2,
+      "change_percent": 1.16,
+      "timestamp": "2025-12-06T13:16:46.962825"
     },
     "INOXWIND.NS": {
       "ticker": "INOXWIND.NS",
-      "spot_price": 129.68,
-      "change_percent": -0.12,
-      "timestamp": "2025-12-05T14:19:53.558114"
+      "spot_price": 130.24,
+      "change_percent": 0.31,
+      "timestamp": "2025-12-06T13:16:47.092439"
     },
     "INTELLECT.NS": {
       "ticker": "INTELLECT.NS",
-      "spot_price": 1059.1,
-      "change_percent": -2.81,
-      "timestamp": "2025-12-05T14:19:54.054326"
+      "spot_price": 1056.1,
+      "change_percent": -3.08,
+      "timestamp": "2025-12-06T13:16:47.215778"
     },
     "INDIGO.NS": {
       "ticker": "INDIGO.NS",
-      "spot_price": 5384.0,
-      "change_percent": -0.97,
-      "timestamp": "2025-12-05T14:19:54.551064"
+      "spot_price": 5370.5,
+      "change_percent": -1.21,
+      "timestamp": "2025-12-06T13:16:47.347634"
     },
     "IGIL.NS": {
       "ticker": "IGIL.NS",
-      "spot_price": 315.5,
-      "change_percent": -2.82,
-      "timestamp": "2025-12-05T14:19:55.023985"
+      "spot_price": 315.95,
+      "change_percent": -2.68,
+      "timestamp": "2025-12-06T13:16:47.471683"
     },
     "IKS.NS": {
       "ticker": "IKS.NS",
-      "spot_price": 1638.6,
-      "change_percent": -1.68,
-      "timestamp": "2025-12-05T14:19:55.509441"
+      "spot_price": 1645.0,
+      "change_percent": -1.3,
+      "timestamp": "2025-12-06T13:16:47.603048"
     },
     "IPCALAB.NS": {
       "ticker": "IPCALAB.NS",
-      "spot_price": 1423.1,
-      "change_percent": -2.17,
-      "timestamp": "2025-12-05T14:19:56.019774"
+      "spot_price": 1459.1,
+      "change_percent": 0.31,
+      "timestamp": "2025-12-06T13:16:47.728927"
     },
     "JBCHEPHARM.NS": {
       "ticker": "JBCHEPHARM.NS",
-      "spot_price": 1825.0,
-      "change_percent": 0.18,
-      "timestamp": "2025-12-05T14:19:56.491301"
+      "spot_price": 1825.4,
+      "change_percent": 0.2,
+      "timestamp": "2025-12-06T13:16:47.852818"
     },
     "JKCEMENT.NS": {
       "ticker": "JKCEMENT.NS",
-      "spot_price": 5646.5,
-      "change_percent": 0.5,
-      "timestamp": "2025-12-05T14:19:57.048361"
+      "spot_price": 5625.0,
+      "change_percent": 0.12,
+      "timestamp": "2025-12-06T13:16:47.980256"
     },
     "JBMA.NS": {
       "ticker": "JBMA.NS",
-      "spot_price": 593.0,
-      "change_percent": -1.55,
-      "timestamp": "2025-12-05T14:19:57.530512"
+      "spot_price": 590.05,
+      "change_percent": -2.04,
+      "timestamp": "2025-12-06T13:16:48.104941"
     },
     "JKTYRE.NS": {
       "ticker": "JKTYRE.NS",
-      "spot_price": 466.15,
-      "change_percent": -1.66,
-      "timestamp": "2025-12-05T14:19:58.051718"
+      "spot_price": 464.3,
+      "change_percent": -2.05,
+      "timestamp": "2025-12-06T13:16:48.233033"
     },
     "JMFINANCIL.NS": {
       "ticker": "JMFINANCIL.NS",
-      "spot_price": 141.69,
-      "change_percent": -1.39,
-      "timestamp": "2025-12-05T14:19:58.589552"
+      "spot_price": 141.66,
+      "change_percent": -1.41,
+      "timestamp": "2025-12-06T13:16:48.356658"
     },
     "JSWENERGY.NS": {
       "ticker": "JSWENERGY.NS",
-      "spot_price": 456.5,
-      "change_percent": -0.73,
-      "timestamp": "2025-12-05T14:19:59.096563"
+      "spot_price": 461.95,
+      "change_percent": 0.46,
+      "timestamp": "2025-12-06T13:16:48.480711"
     },
     "JSWINFRA.NS": {
       "ticker": "JSWINFRA.NS",
-      "spot_price": 267.65,
-      "change_percent": -0.3,
-      "timestamp": "2025-12-05T14:19:59.711737"
+      "spot_price": 269.25,
+      "change_percent": 0.3,
+      "timestamp": "2025-12-06T13:16:48.603208"
     },
     "JSWSTEEL.NS": {
       "ticker": "JSWSTEEL.NS",
-      "spot_price": 1158.0,
-      "change_percent": 0.64,
-      "timestamp": "2025-12-05T14:20:00.255076"
+      "spot_price": 1162.2,
+      "change_percent": 1.01,
+      "timestamp": "2025-12-06T13:16:48.724047"
     },
     "JPPOWER.NS": {
       "ticker": "JPPOWER.NS",
-      "spot_price": 18.9,
-      "change_percent": -0.63,
-      "timestamp": "2025-12-05T14:20:00.802144"
+      "spot_price": 18.92,
+      "change_percent": -0.53,
+      "timestamp": "2025-12-06T13:16:48.846831"
     },
     "J&KBANK.NS": {
       "ticker": "J&KBANK.NS",
-      "spot_price": 103.54,
-      "change_percent": -0.06,
-      "timestamp": "2025-12-05T14:20:01.294326"
+      "spot_price": 103.15,
+      "change_percent": -0.43,
+      "timestamp": "2025-12-06T13:16:48.970676"
     },
     "JINDALSAW.NS": {
       "ticker": "JINDALSAW.NS",
-      "spot_price": 162.31,
-      "change_percent": -1.03,
-      "timestamp": "2025-12-05T14:20:01.829209"
+      "spot_price": 161.6,
+      "change_percent": -1.46,
+      "timestamp": "2025-12-06T13:16:49.095188"
     },
     "JSL.NS": {
       "ticker": "JSL.NS",
-      "spot_price": 754.55,
-      "change_percent": 0.9,
-      "timestamp": "2025-12-05T14:20:02.335418"
+      "spot_price": 755.4,
+      "change_percent": 1.01,
+      "timestamp": "2025-12-06T13:16:49.219849"
     },
     "JINDALSTEL.NS": {
       "ticker": "JINDALSTEL.NS",
-      "spot_price": 1007.9,
-      "change_percent": 0.21,
-      "timestamp": "2025-12-05T14:20:02.845431"
+      "spot_price": 1006.8,
+      "change_percent": 0.1,
+      "timestamp": "2025-12-06T13:16:49.343104"
     },
     "JIOFIN.NS": {
       "ticker": "JIOFIN.NS",
       "spot_price": 303.75,
       "change_percent": 0.5,
-      "timestamp": "2025-12-05T14:20:03.343144"
+      "timestamp": "2025-12-06T13:16:49.469829"
     },
     "JUBLFOOD.NS": {
       "ticker": "JUBLFOOD.NS",
-      "spot_price": 594.45,
-      "change_percent": 0.6,
-      "timestamp": "2025-12-05T14:20:03.920424"
+      "spot_price": 593.2,
+      "change_percent": 0.39,
+      "timestamp": "2025-12-06T13:16:49.945511"
     },
     "JUBLINGREA.NS": {
       "ticker": "JUBLINGREA.NS",
-      "spot_price": 684.2,
-      "change_percent": -0.61,
-      "timestamp": "2025-12-05T14:20:04.457561"
+      "spot_price": 687.3,
+      "change_percent": -0.16,
+      "timestamp": "2025-12-06T13:16:50.191571"
     },
     "JUBLPHARMA.NS": {
       "ticker": "JUBLPHARMA.NS",
-      "spot_price": 1080.9,
-      "change_percent": 1.26,
-      "timestamp": "2025-12-05T14:20:05.060367"
+      "spot_price": 1077.0,
+      "change_percent": 0.89,
+      "timestamp": "2025-12-06T13:16:50.320390"
     },
     "JWL.NS": {
       "ticker": "JWL.NS",
-      "spot_price": 268.45,
-      "change_percent": -2.47,
-      "timestamp": "2025-12-05T14:20:05.581349"
+      "spot_price": 267.05,
+      "change_percent": -2.98,
+      "timestamp": "2025-12-06T13:16:50.493311"
     },
     "JYOTHYLAB.NS": {
       "ticker": "JYOTHYLAB.NS",
-      "spot_price": 289.65,
-      "change_percent": -1.29,
-      "timestamp": "2025-12-05T14:20:06.075572"
+      "spot_price": 290.15,
+      "change_percent": -1.12,
+      "timestamp": "2025-12-06T13:16:50.676754"
     },
     "JYOTICNC.NS": {
       "ticker": "JYOTICNC.NS",
-      "spot_price": 958.4,
-      "change_percent": -0.34,
-      "timestamp": "2025-12-05T14:20:06.668742"
+      "spot_price": 950.5,
+      "change_percent": -1.16,
+      "timestamp": "2025-12-06T13:16:50.797641"
     },
     "KPRMILL.NS": {
       "ticker": "KPRMILL.NS",
-      "spot_price": 982.1,
-      "change_percent": -0.04,
-      "timestamp": "2025-12-05T14:20:07.138632"
+      "spot_price": 981.6,
+      "change_percent": -0.09,
+      "timestamp": "2025-12-06T13:16:50.921312"
     },
     "KEI.NS": {
       "ticker": "KEI.NS",
-      "spot_price": 4171.1,
-      "change_percent": -0.33,
-      "timestamp": "2025-12-05T14:20:07.719374"
+      "spot_price": 4163.5,
+      "change_percent": -0.52,
+      "timestamp": "2025-12-06T13:16:51.043714"
     },
     "KPITTECH.NS": {
       "ticker": "KPITTECH.NS",
-      "spot_price": 1268.6,
-      "change_percent": -0.09,
-      "timestamp": "2025-12-05T14:20:08.240201"
+      "spot_price": 1267.0,
+      "change_percent": -0.22,
+      "timestamp": "2025-12-06T13:16:51.164438"
     },
     "KSB.NS": {
       "ticker": "KSB.NS",
-      "spot_price": 747.6,
-      "change_percent": -1.11,
-      "timestamp": "2025-12-05T14:20:08.736006"
+      "spot_price": 748.75,
+      "change_percent": -0.96,
+      "timestamp": "2025-12-06T13:16:51.289413"
     },
     "KAJARIACER.NS": {
       "ticker": "KAJARIACER.NS",
-      "spot_price": 1055.4,
-      "change_percent": -0.48,
-      "timestamp": "2025-12-05T14:20:09.321498"
+      "spot_price": 1054.7,
+      "change_percent": -0.55,
+      "timestamp": "2025-12-06T13:16:51.414820"
     },
     "KPIL.NS": {
       "ticker": "KPIL.NS",
-      "spot_price": 1159.0,
-      "change_percent": -0.87,
-      "timestamp": "2025-12-05T14:20:09.912918"
+      "spot_price": 1165.4,
+      "change_percent": -0.33,
+      "timestamp": "2025-12-06T13:16:51.559346"
     },
     "KALYANKJIL.NS": {
       "ticker": "KALYANKJIL.NS",
-      "spot_price": 493.2,
-      "change_percent": 0.63,
-      "timestamp": "2025-12-05T14:20:10.420401"
+      "spot_price": 492.5,
+      "change_percent": 0.49,
+      "timestamp": "2025-12-06T13:16:51.733871"
     },
     "KARURVYSYA.NS": {
       "ticker": "KARURVYSYA.NS",
-      "spot_price": 247.79,
-      "change_percent": 0.31,
-      "timestamp": "2025-12-05T14:20:10.945620"
+      "spot_price": 248.15,
+      "change_percent": 0.45,
+      "timestamp": "2025-12-06T13:16:51.866346"
     },
     "KAYNES.NS": {
       "ticker": "KAYNES.NS",
-      "spot_price": 4542.5,
-      "change_percent": -8.74,
-      "timestamp": "2025-12-05T14:20:11.496363"
+      "spot_price": 4353.5,
+      "change_percent": -12.55,
+      "timestamp": "2025-12-06T13:16:52.037799"
     },
     "KEC.NS": {
       "ticker": "KEC.NS",
-      "spot_price": 706.05,
-      "change_percent": -1.06,
-      "timestamp": "2025-12-05T14:20:12.029513"
+      "spot_price": 703.9,
+      "change_percent": -1.36,
+      "timestamp": "2025-12-06T13:16:52.162162"
     },
     "KFINTECH.NS": {
       "ticker": "KFINTECH.NS",
-      "spot_price": 1070.6,
-      "change_percent": -0.46,
-      "timestamp": "2025-12-05T14:20:12.551521"
+      "spot_price": 1066.4,
+      "change_percent": -0.85,
+      "timestamp": "2025-12-06T13:16:52.341886"
     },
     "KIRLOSBROS.NS": {
       "ticker": "KIRLOSBROS.NS",
-      "spot_price": 1597.5,
-      "change_percent": -2.19,
-      "timestamp": "2025-12-05T14:20:13.077440"
+      "spot_price": 1595.5,
+      "change_percent": -2.31,
+      "timestamp": "2025-12-06T13:16:52.466480"
     },
     "KIRLOSENG.NS": {
       "ticker": "KIRLOSENG.NS",
-      "spot_price": 1134.0,
-      "change_percent": -2.67,
-      "timestamp": "2025-12-05T14:20:13.705997"
+      "spot_price": 1130.8,
+      "change_percent": -2.94,
+      "timestamp": "2025-12-06T13:16:52.593828"
     },
     "KOTAKBANK.NS": {
       "ticker": "KOTAKBANK.NS",
-      "spot_price": 2158.6,
-      "change_percent": 1.09,
-      "timestamp": "2025-12-05T14:20:14.308794"
+      "spot_price": 2154.9,
+      "change_percent": 0.91,
+      "timestamp": "2025-12-06T13:16:52.731374"
     },
     "KIMS.NS": {
       "ticker": "KIMS.NS",
-      "spot_price": 698.05,
-      "change_percent": -1.2,
-      "timestamp": "2025-12-05T14:20:14.798146"
+      "spot_price": 704.0,
+      "change_percent": -0.36,
+      "timestamp": "2025-12-06T13:16:52.864309"
     },
     "LTF.NS": {
       "ticker": "LTF.NS",
-      "spot_price": 310.2,
-      "change_percent": 3.25,
-      "timestamp": "2025-12-05T14:20:15.294669"
+      "spot_price": 309.6,
+      "change_percent": 3.05,
+      "timestamp": "2025-12-06T13:16:52.992094"
     },
     "LTTS.NS": {
       "ticker": "LTTS.NS",
-      "spot_price": 4561.6,
-      "change_percent": -2.64,
-      "timestamp": "2025-12-05T14:20:15.789062"
+      "spot_price": 4546.4,
+      "change_percent": -2.96,
+      "timestamp": "2025-12-06T13:16:53.186192"
     },
     "LICHSGFIN.NS": {
       "ticker": "LICHSGFIN.NS",
-      "spot_price": 542.0,
-      "change_percent": -0.9,
-      "timestamp": "2025-12-05T14:20:16.297569"
+      "spot_price": 541.8,
+      "change_percent": -0.94,
+      "timestamp": "2025-12-06T13:16:53.323112"
     },
     "LTFOODS.NS": {
       "ticker": "LTFOODS.NS",
-      "spot_price": 398.65,
-      "change_percent": -2.44,
-      "timestamp": "2025-12-05T14:20:16.768743"
+      "spot_price": 396.4,
+      "change_percent": -2.99,
+      "timestamp": "2025-12-06T13:16:53.446645"
     },
     "LTIM.NS": {
       "ticker": "LTIM.NS",
-      "spot_price": 6288.0,
-      "change_percent": 0.35,
-      "timestamp": "2025-12-05T14:20:17.284873"
+      "spot_price": 6292.0,
+      "change_percent": 0.41,
+      "timestamp": "2025-12-06T13:16:53.567707"
     },
     "LT.NS": {
       "ticker": "LT.NS",
-      "spot_price": 4035.7,
-      "change_percent": 1.31,
-      "timestamp": "2025-12-05T14:20:17.824924"
+      "spot_price": 4038.2,
+      "change_percent": 1.37,
+      "timestamp": "2025-12-06T13:16:53.699762"
     },
     "LATENTVIEW.NS": {
       "ticker": "LATENTVIEW.NS",
-      "spot_price": 454.25,
-      "change_percent": -0.74,
-      "timestamp": "2025-12-05T14:20:18.454375"
+      "spot_price": 450.9,
+      "change_percent": -1.47,
+      "timestamp": "2025-12-06T13:16:53.829058"
     },
     "LAURUSLABS.NS": {
       "ticker": "LAURUSLABS.NS",
-      "spot_price": 1026.4,
-      "change_percent": 1.27,
-      "timestamp": "2025-12-05T14:20:18.947409"
+      "spot_price": 1026.1,
+      "change_percent": 1.24,
+      "timestamp": "2025-12-06T13:16:53.968637"
     },
     "THELEELA.NS": {
       "ticker": "THELEELA.NS",
-      "spot_price": 398.25,
-      "change_percent": -1.48,
-      "timestamp": "2025-12-05T14:20:19.451791"
+      "spot_price": 397.75,
+      "change_percent": -1.61,
+      "timestamp": "2025-12-06T13:16:54.095806"
     },
     "LEMONTREE.NS": {
       "ticker": "LEMONTREE.NS",
-      "spot_price": 164.01,
-      "change_percent": 1.18,
-      "timestamp": "2025-12-05T14:20:19.988897"
+      "spot_price": 164.53,
+      "change_percent": 1.5,
+      "timestamp": "2025-12-06T13:16:54.229260"
     },
     "LICI.NS": {
       "ticker": "LICI.NS",
-      "spot_price": 868.9,
-      "change_percent": -0.88,
-      "timestamp": "2025-12-05T14:20:20.592883"
+      "spot_price": 869.9,
+      "change_percent": -0.77,
+      "timestamp": "2025-12-06T13:16:54.350516"
     },
     "LINDEINDIA.NS": {
       "ticker": "LINDEINDIA.NS",
-      "spot_price": 5917.0,
-      "change_percent": 2.02,
-      "timestamp": "2025-12-05T14:20:21.115241"
+      "spot_price": 5910.0,
+      "change_percent": 1.9,
+      "timestamp": "2025-12-06T13:16:54.474924"
     },
     "LLOYDSME.NS": {
       "ticker": "LLOYDSME.NS",
-      "spot_price": 1214.3,
-      "change_percent": 1.55,
-      "timestamp": "2025-12-05T14:20:21.876536"
+      "spot_price": 1220.3,
+      "change_percent": 2.05,
+      "timestamp": "2025-12-06T13:16:54.607168"
     },
     "LODHA.NS": {
       "ticker": "LODHA.NS",
-      "spot_price": 1108.4,
-      "change_percent": -0.1,
-      "timestamp": "2025-12-05T14:20:22.428125"
+      "spot_price": 1111.6,
+      "change_percent": 0.19,
+      "timestamp": "2025-12-06T13:16:54.733441"
     },
     "LUPIN.NS": {
       "ticker": "LUPIN.NS",
-      "spot_price": 2101.5,
-      "change_percent": 0.45,
-      "timestamp": "2025-12-05T14:20:22.961409"
+      "spot_price": 2098.8,
+      "change_percent": 0.33,
+      "timestamp": "2025-12-06T13:16:54.857708"
     },
     "MMTC.NS": {
       "ticker": "MMTC.NS",
-      "spot_price": 56.87,
-      "change_percent": -1.44,
-      "timestamp": "2025-12-05T14:20:23.495703"
+      "spot_price": 56.53,
+      "change_percent": -2.03,
+      "timestamp": "2025-12-06T13:16:54.979422"
     },
     "MRF.NS": {
       "ticker": "MRF.NS",
-      "spot_price": 153040.0,
-      "change_percent": -0.38,
-      "timestamp": "2025-12-05T14:20:23.965771"
+      "spot_price": 153210.0,
+      "change_percent": -0.27,
+      "timestamp": "2025-12-06T13:16:55.106636"
     },
     "MGL.NS": {
       "ticker": "MGL.NS",
-      "spot_price": 1168.9,
-      "change_percent": -0.19,
-      "timestamp": "2025-12-05T14:20:24.454122"
+      "spot_price": 1170.0,
+      "change_percent": -0.09,
+      "timestamp": "2025-12-06T13:16:55.247809"
     },
     "MAHSCOOTER.NS": {
       "ticker": "MAHSCOOTER.NS",
-      "spot_price": 14550.0,
-      "change_percent": 0.62,
-      "timestamp": "2025-12-05T14:20:25.054754"
+      "spot_price": 14554.0,
+      "change_percent": 0.64,
+      "timestamp": "2025-12-06T13:16:55.369539"
     },
     "MAHSEAMLES.NS": {
       "ticker": "MAHSEAMLES.NS",
-      "spot_price": 573.5,
-      "change_percent": 0.18,
-      "timestamp": "2025-12-05T14:20:25.571126"
+      "spot_price": 571.8,
+      "change_percent": -0.11,
+      "timestamp": "2025-12-06T13:16:55.494572"
     },
     "M&MFIN.NS": {
       "ticker": "M&MFIN.NS",
-      "spot_price": 365.0,
-      "change_percent": 5.19,
-      "timestamp": "2025-12-05T14:20:26.070401"
+      "spot_price": 367.55,
+      "change_percent": 5.92,
+      "timestamp": "2025-12-06T13:16:55.616843"
     },
     "M&M.NS": {
       "ticker": "M&M.NS",
-      "spot_price": 3710.4,
-      "change_percent": 1.1,
-      "timestamp": "2025-12-05T14:20:26.625185"
+      "spot_price": 3717.1,
+      "change_percent": 1.24,
+      "timestamp": "2025-12-06T13:16:55.743059"
     },
     "MANAPPURAM.NS": {
       "ticker": "MANAPPURAM.NS",
-      "spot_price": 278.2,
-      "change_percent": 1.42,
-      "timestamp": "2025-12-05T14:20:27.092595"
+      "spot_price": 279.7,
+      "change_percent": 1.97,
+      "timestamp": "2025-12-06T13:16:55.866750"
     },
     "MRPL.NS": {
       "ticker": "MRPL.NS",
-      "spot_price": 154.67,
-      "change_percent": -1.31,
-      "timestamp": "2025-12-05T14:20:27.573917"
+      "spot_price": 153.74,
+      "change_percent": -1.91,
+      "timestamp": "2025-12-06T13:16:55.993317"
     },
     "MANKIND.NS": {
       "ticker": "MANKIND.NS",
-      "spot_price": 2206.6,
-      "change_percent": 0.01,
-      "timestamp": "2025-12-05T14:20:28.047979"
+      "spot_price": 2205.5,
+      "change_percent": -0.04,
+      "timestamp": "2025-12-06T13:16:56.112318"
     },
     "MARICO.NS": {
       "ticker": "MARICO.NS",
-      "spot_price": 734.25,
-      "change_percent": 2.74,
-      "timestamp": "2025-12-05T14:20:28.646515"
+      "spot_price": 736.65,
+      "change_percent": 3.08,
+      "timestamp": "2025-12-06T13:16:56.233657"
     },
     "MARUTI.NS": {
       "ticker": "MARUTI.NS",
-      "spot_price": 16192.0,
-      "change_percent": 1.24,
-      "timestamp": "2025-12-05T14:20:29.134079"
+      "spot_price": 16282.0,
+      "change_percent": 1.8,
+      "timestamp": "2025-12-06T13:16:56.353319"
     },
     "MFSL.NS": {
       "ticker": "MFSL.NS",
-      "spot_price": 1690.0,
-      "change_percent": 0.04,
-      "timestamp": "2025-12-05T14:20:29.765843"
+      "spot_price": 1690.2,
+      "change_percent": 0.05,
+      "timestamp": "2025-12-06T13:16:56.479160"
     },
     "MAXHEALTH.NS": {
       "ticker": "MAXHEALTH.NS",
-      "spot_price": 1096.7,
-      "change_percent": 1.18,
-      "timestamp": "2025-12-05T14:20:30.298112"
+      "spot_price": 1097.4,
+      "change_percent": 1.25,
+      "timestamp": "2025-12-06T13:16:56.603749"
     },
     "MAZDOCK.NS": {
       "ticker": "MAZDOCK.NS",
-      "spot_price": 2619.9,
-      "change_percent": -0.81,
-      "timestamp": "2025-12-05T14:20:30.917018"
+      "spot_price": 2616.3,
+      "change_percent": -0.94,
+      "timestamp": "2025-12-06T13:16:56.777078"
     },
     "METROPOLIS.NS": {
       "ticker": "METROPOLIS.NS",
-      "spot_price": 1924.8,
-      "change_percent": -0.33,
-      "timestamp": "2025-12-05T14:20:31.570628"
+      "spot_price": 1924.2,
+      "change_percent": -0.36,
+      "timestamp": "2025-12-06T13:16:56.899685"
     },
     "MINDACORP.NS": {
       "ticker": "MINDACORP.NS",
-      "spot_price": 582.95,
-      "change_percent": -1.32,
-      "timestamp": "2025-12-05T14:20:32.197910"
+      "spot_price": 586.15,
+      "change_percent": -0.78,
+      "timestamp": "2025-12-06T13:16:57.070327"
     },
     "MSUMI.NS": {
       "ticker": "MSUMI.NS",
-      "spot_price": 45.51,
-      "change_percent": -0.07,
-      "timestamp": "2025-12-05T14:20:32.694827"
+      "spot_price": 45.6,
+      "change_percent": 0.13,
+      "timestamp": "2025-12-06T13:16:57.198715"
     },
     "MOTILALOFS.NS": {
       "ticker": "MOTILALOFS.NS",
-      "spot_price": 888.2,
-      "change_percent": -3.06,
-      "timestamp": "2025-12-05T14:20:33.198194"
+      "spot_price": 885.1,
+      "change_percent": -3.39,
+      "timestamp": "2025-12-06T13:16:57.320356"
     },
     "MPHASIS.NS": {
       "ticker": "MPHASIS.NS",
-      "spot_price": 2945.2,
-      "change_percent": 1.27,
-      "timestamp": "2025-12-05T14:20:33.702121"
+      "spot_price": 2953.6,
+      "change_percent": 1.55,
+      "timestamp": "2025-12-06T13:16:57.443442"
     },
     "MCX.NS": {
       "ticker": "MCX.NS",
-      "spot_price": 10335.0,
-      "change_percent": 2.11,
-      "timestamp": "2025-12-05T14:20:34.204676"
+      "spot_price": 10343.0,
+      "change_percent": 2.19,
+      "timestamp": "2025-12-06T13:16:57.570102"
     },
     "MUTHOOTFIN.NS": {
       "ticker": "MUTHOOTFIN.NS",
-      "spot_price": 3790.3,
-      "change_percent": 2.38,
-      "timestamp": "2025-12-05T14:20:34.811614"
+      "spot_price": 3800.1,
+      "change_percent": 2.65,
+      "timestamp": "2025-12-06T13:16:57.693463"
     },
     "NATCOPHARM.NS": {
       "ticker": "NATCOPHARM.NS",
-      "spot_price": 935.2,
-      "change_percent": -1.48,
-      "timestamp": "2025-12-05T14:20:35.329177"
+      "spot_price": 933.6,
+      "change_percent": -1.65,
+      "timestamp": "2025-12-06T13:16:57.815602"
     },
     "NBCC.NS": {
       "ticker": "NBCC.NS",
-      "spot_price": 112.05,
-      "change_percent": -0.42,
-      "timestamp": "2025-12-05T14:20:35.806200"
+      "spot_price": 112.06,
+      "change_percent": -0.41,
+      "timestamp": "2025-12-06T13:16:57.938480"
     },
     "NCC.NS": {
       "ticker": "NCC.NS",
-      "spot_price": 168.58,
-      "change_percent": -0.53,
-      "timestamp": "2025-12-05T14:20:36.354120"
+      "spot_price": 168.16,
+      "change_percent": -0.78,
+      "timestamp": "2025-12-06T13:16:58.068747"
     },
     "NHPC.NS": {
       "ticker": "NHPC.NS",
-      "spot_price": 77.06,
-      "change_percent": 0.22,
-      "timestamp": "2025-12-05T14:20:36.820514"
+      "spot_price": 77.07,
+      "change_percent": 0.23,
+      "timestamp": "2025-12-06T13:16:58.192186"
     },
     "NLCINDIA.NS": {
       "ticker": "NLCINDIA.NS",
-      "spot_price": 231.75,
-      "change_percent": -2.5,
-      "timestamp": "2025-12-05T14:20:37.344756"
+      "spot_price": 239.4,
+      "change_percent": 0.72,
+      "timestamp": "2025-12-06T13:16:58.315467"
     },
     "NMDC.NS": {
       "ticker": "NMDC.NS",
-      "spot_price": 76.23,
-      "change_percent": 0.34,
-      "timestamp": "2025-12-05T14:20:37.958061"
+      "spot_price": 76.46,
+      "change_percent": 0.64,
+      "timestamp": "2025-12-06T13:16:58.486542"
     },
     "NSLNISP.NS": {
       "ticker": "NSLNISP.NS",
       "spot_price": 41.13,
       "change_percent": -0.75,
-      "timestamp": "2025-12-05T14:20:38.467521"
+      "timestamp": "2025-12-06T13:16:58.610497"
     },
     "NTPCGREEN.NS": {
       "ticker": "NTPCGREEN.NS",
-      "spot_price": 90.32,
-      "change_percent": -0.94,
-      "timestamp": "2025-12-05T14:20:38.954322"
+      "spot_price": 91.21,
+      "change_percent": 0.03,
+      "timestamp": "2025-12-06T13:16:58.733209"
     },
     "NTPC.NS": {
       "ticker": "NTPC.NS",
-      "spot_price": 323.55,
-      "change_percent": 0.19,
-      "timestamp": "2025-12-05T14:20:39.411930"
+      "spot_price": 323.3,
+      "change_percent": 0.11,
+      "timestamp": "2025-12-06T13:16:58.907396"
     },
     "NH.NS": {
       "ticker": "NH.NS",
-      "spot_price": 1918.8,
-      "change_percent": -0.97,
-      "timestamp": "2025-12-05T14:20:39.890881"
+      "spot_price": 1916.9,
+      "change_percent": -1.07,
+      "timestamp": "2025-12-06T13:16:59.033140"
     },
     "NATIONALUM.NS": {
       "ticker": "NATIONALUM.NS",
-      "spot_price": 273.7,
-      "change_percent": 1.65,
-      "timestamp": "2025-12-05T14:20:40.477373"
+      "spot_price": 273.15,
+      "change_percent": 1.45,
+      "timestamp": "2025-12-06T13:16:59.154939"
     },
     "NAVA.NS": {
       "ticker": "NAVA.NS",
-      "spot_price": 527.4,
-      "change_percent": -0.42,
-      "timestamp": "2025-12-05T14:20:41.018103"
+      "spot_price": 526.4,
+      "change_percent": -0.6,
+      "timestamp": "2025-12-06T13:16:59.281823"
     },
     "NAVINFLUOR.NS": {
       "ticker": "NAVINFLUOR.NS",
-      "spot_price": 5773.5,
-      "change_percent": 0.15,
-      "timestamp": "2025-12-05T14:20:41.494235"
+      "spot_price": 5772.0,
+      "change_percent": 0.12,
+      "timestamp": "2025-12-06T13:16:59.416132"
     },
     "NESTLEIND.NS": {
       "ticker": "NESTLEIND.NS",
-      "spot_price": 1244.0,
-      "change_percent": 0.13,
-      "timestamp": "2025-12-05T14:20:41.952245"
+      "spot_price": 1246.9,
+      "change_percent": 0.36,
+      "timestamp": "2025-12-06T13:16:59.539060"
     },
     "NETWEB.NS": {
       "ticker": "NETWEB.NS",
-      "spot_price": 3130.0,
-      "change_percent": -2.14,
-      "timestamp": "2025-12-05T14:20:42.452008"
+      "spot_price": 3081.6,
+      "change_percent": -3.65,
+      "timestamp": "2025-12-06T13:16:59.710986"
     },
     "NEULANDLAB.NS": {
       "ticker": "NEULANDLAB.NS",
-      "spot_price": 16853.0,
-      "change_percent": -0.84,
-      "timestamp": "2025-12-05T14:20:43.038709"
+      "spot_price": 16887.0,
+      "change_percent": -0.64,
+      "timestamp": "2025-12-06T13:16:59.845714"
     },
     "NEWGEN.NS": {
       "ticker": "NEWGEN.NS",
-      "spot_price": 884.3,
-      "change_percent": -1.85,
-      "timestamp": "2025-12-05T14:20:43.613596"
+      "spot_price": 879.0,
+      "change_percent": -2.44,
+      "timestamp": "2025-12-06T13:17:00.043238"
     },
     "NAM-INDIA.NS": {
       "ticker": "NAM-INDIA.NS",
-      "spot_price": 811.3,
-      "change_percent": -2.7,
-      "timestamp": "2025-12-05T14:20:44.131895"
+      "spot_price": 814.0,
+      "change_percent": -2.38,
+      "timestamp": "2025-12-06T13:17:00.173179"
     },
     "NIVABUPA.NS": {
       "ticker": "NIVABUPA.NS",
-      "spot_price": 73.69,
-      "change_percent": -0.97,
-      "timestamp": "2025-12-05T14:20:44.653317"
+      "spot_price": 73.48,
+      "change_percent": -1.25,
+      "timestamp": "2025-12-06T13:17:00.350737"
     },
     "NUVAMA.NS": {
       "ticker": "NUVAMA.NS",
-      "spot_price": 7211.0,
-      "change_percent": 1.87,
-      "timestamp": "2025-12-05T14:20:45.110055"
+      "spot_price": 7172.5,
+      "change_percent": 1.33,
+      "timestamp": "2025-12-06T13:17:00.476980"
     },
     "NUVOCO.NS": {
       "ticker": "NUVOCO.NS",
-      "spot_price": 349.25,
-      "change_percent": -0.99,
-      "timestamp": "2025-12-05T14:20:45.567166"
+      "spot_price": 351.15,
+      "change_percent": -0.45,
+      "timestamp": "2025-12-06T13:17:00.603705"
     },
     "OBEROIRLTY.NS": {
       "ticker": "OBEROIRLTY.NS",
-      "spot_price": 1656.5,
-      "change_percent": -0.43,
-      "timestamp": "2025-12-05T14:20:46.054655"
+      "spot_price": 1657.7,
+      "change_percent": -0.36,
+      "timestamp": "2025-12-06T13:17:00.729313"
     },
     "ONGC.NS": {
       "ticker": "ONGC.NS",
-      "spot_price": 241.99,
-      "change_percent": -0.1,
-      "timestamp": "2025-12-05T14:20:46.528925"
+      "spot_price": 241.23,
+      "change_percent": -0.41,
+      "timestamp": "2025-12-06T13:17:00.863259"
     },
     "OIL.NS": {
       "ticker": "OIL.NS",
-      "spot_price": 410.8,
-      "change_percent": 0.65,
-      "timestamp": "2025-12-05T14:20:47.033924"
+      "spot_price": 411.95,
+      "change_percent": 0.93,
+      "timestamp": "2025-12-06T13:17:00.988782"
     },
     "OLAELEC.NS": {
       "ticker": "OLAELEC.NS",
-      "spot_price": 35.53,
-      "change_percent": -1.63,
-      "timestamp": "2025-12-05T14:20:47.565628"
+      "spot_price": 35.5,
+      "change_percent": -1.72,
+      "timestamp": "2025-12-06T13:17:01.115149"
     },
     "OLECTRA.NS": {
       "ticker": "OLECTRA.NS",
-      "spot_price": 1221.6,
-      "change_percent": -1.44,
-      "timestamp": "2025-12-05T14:20:48.137422"
+      "spot_price": 1218.0,
+      "change_percent": -1.73,
+      "timestamp": "2025-12-06T13:17:01.242182"
     },
     "PAYTM.NS": {
       "ticker": "PAYTM.NS",
-      "spot_price": 1349.0,
-      "change_percent": 1.54,
-      "timestamp": "2025-12-05T14:20:48.611635"
+      "spot_price": 1344.6,
+      "change_percent": 1.2,
+      "timestamp": "2025-12-06T13:17:01.372873"
     },
     "ONESOURCE.NS": {
       "ticker": "ONESOURCE.NS",
-      "spot_price": 1657.3,
-      "change_percent": -0.63,
-      "timestamp": "2025-12-05T14:20:49.090555"
+      "spot_price": 1685.8,
+      "change_percent": 1.08,
+      "timestamp": "2025-12-06T13:17:01.498516"
     },
     "OFSS.NS": {
       "ticker": "OFSS.NS",
-      "spot_price": 8207.5,
-      "change_percent": 0.2,
-      "timestamp": "2025-12-05T14:20:49.576392"
+      "spot_price": 8219.0,
+      "change_percent": 0.34,
+      "timestamp": "2025-12-06T13:17:01.624284"
     },
     "POLICYBZR.NS": {
       "ticker": "POLICYBZR.NS",
-      "spot_price": 1879.9,
-      "change_percent": 1.38,
-      "timestamp": "2025-12-05T14:20:50.171394"
+      "spot_price": 1893.8,
+      "change_percent": 2.13,
+      "timestamp": "2025-12-06T13:17:01.746868"
     },
     "PCBL.NS": {
       "ticker": "PCBL.NS",
-      "spot_price": 313.8,
-      "change_percent": -0.59,
-      "timestamp": "2025-12-05T14:20:50.774767"
+      "spot_price": 313.9,
+      "change_percent": -0.55,
+      "timestamp": "2025-12-06T13:17:01.872106"
     },
     "PGEL.NS": {
       "ticker": "PGEL.NS",
-      "spot_price": 563.0,
-      "change_percent": -2.77,
-      "timestamp": "2025-12-05T14:20:51.334151"
+      "spot_price": 553.9,
+      "change_percent": -4.34,
+      "timestamp": "2025-12-06T13:17:02.049944"
     },
     "PIIND.NS": {
       "ticker": "PIIND.NS",
-      "spot_price": 3410.0,
-      "change_percent": 0.01,
-      "timestamp": "2025-12-05T14:20:51.938164"
+      "spot_price": 3396.1,
+      "change_percent": -0.4,
+      "timestamp": "2025-12-06T13:17:02.178952"
     },
     "PNBHOUSING.NS": {
       "ticker": "PNBHOUSING.NS",
-      "spot_price": 904.05,
-      "change_percent": 2.47,
-      "timestamp": "2025-12-05T14:20:52.464653"
+      "spot_price": 903.85,
+      "change_percent": 2.45,
+      "timestamp": "2025-12-06T13:17:02.353795"
     },
     "PTCIL.NS": {
       "ticker": "PTCIL.NS",
-      "spot_price": 18847.0,
-      "change_percent": 3.22,
-      "timestamp": "2025-12-05T14:20:53.093961"
+      "spot_price": 18875.0,
+      "change_percent": 3.37,
+      "timestamp": "2025-12-06T13:17:02.502258"
     },
     "PVRINOX.NS": {
       "ticker": "PVRINOX.NS",
-      "spot_price": 1093.9,
-      "change_percent": -0.32,
-      "timestamp": "2025-12-05T14:20:53.708995"
+      "spot_price": 1091.0,
+      "change_percent": -0.58,
+      "timestamp": "2025-12-06T13:17:02.633450"
     },
     "PAGEIND.NS": {
       "ticker": "PAGEIND.NS",
-      "spot_price": 37465.0,
-      "change_percent": -0.11,
-      "timestamp": "2025-12-05T14:20:54.294720"
+      "spot_price": 37455.0,
+      "change_percent": -0.13,
+      "timestamp": "2025-12-06T13:17:02.762495"
     },
     "PATANJALI.NS": {
       "ticker": "PATANJALI.NS",
-      "spot_price": 546.0,
-      "change_percent": 3.26,
-      "timestamp": "2025-12-05T14:20:54.774932"
+      "spot_price": 550.8,
+      "change_percent": 4.17,
+      "timestamp": "2025-12-06T13:17:02.884375"
     },
     "PERSISTENT.NS": {
       "ticker": "PERSISTENT.NS",
-      "spot_price": 6508.0,
-      "change_percent": 0.87,
-      "timestamp": "2025-12-05T14:20:55.226590"
+      "spot_price": 6520.5,
+      "change_percent": 1.06,
+      "timestamp": "2025-12-06T13:17:03.011150"
     },
     "PETRONET.NS": {
       "ticker": "PETRONET.NS",
       "spot_price": 274.8,
       "change_percent": -2.19,
-      "timestamp": "2025-12-05T14:20:55.729386"
+      "timestamp": "2025-12-06T13:17:03.156768"
     },
     "PFIZER.NS": {
       "ticker": "PFIZER.NS",
-      "spot_price": 5003.9,
-      "change_percent": 0.06,
-      "timestamp": "2025-12-05T14:20:56.227394"
+      "spot_price": 5000.0,
+      "change_percent": -0.02,
+      "timestamp": "2025-12-06T13:17:03.288544"
     },
     "PHOENIXLTD.NS": {
       "ticker": "PHOENIXLTD.NS",
-      "spot_price": 1733.3,
-      "change_percent": -0.05,
-      "timestamp": "2025-12-05T14:20:56.706826"
+      "spot_price": 1725.1,
+      "change_percent": -0.52,
+      "timestamp": "2025-12-06T13:17:03.411903"
     },
     "PIDILITIND.NS": {
       "ticker": "PIDILITIND.NS",
-      "spot_price": 1475.5,
-      "change_percent": -0.62,
-      "timestamp": "2025-12-05T14:20:57.260356"
+      "spot_price": 1475.1,
+      "change_percent": -0.65,
+      "timestamp": "2025-12-06T13:17:03.538944"
     },
     "PPLPHARMA.NS": {
       "ticker": "PPLPHARMA.NS",
-      "spot_price": 179.9,
-      "change_percent": -0.53,
-      "timestamp": "2025-12-05T14:20:57.877211"
+      "spot_price": 179.85,
+      "change_percent": -0.55,
+      "timestamp": "2025-12-06T13:17:03.668276"
     },
     "POLYMED.NS": {
       "ticker": "POLYMED.NS",
-      "spot_price": 1893.0,
-      "change_percent": -0.93,
-      "timestamp": "2025-12-05T14:20:58.367546"
+      "spot_price": 1899.1,
+      "change_percent": -0.61,
+      "timestamp": "2025-12-06T13:17:03.799608"
     },
     "POLYCAB.NS": {
       "ticker": "POLYCAB.NS",
-      "spot_price": 7264.0,
-      "change_percent": -1.15,
-      "timestamp": "2025-12-05T14:20:58.953820"
+      "spot_price": 7257.0,
+      "change_percent": -1.25,
+      "timestamp": "2025-12-06T13:17:03.925050"
     },
     "POONAWALLA.NS": {
       "ticker": "POONAWALLA.NS",
-      "spot_price": 470.8,
-      "change_percent": 1.48,
-      "timestamp": "2025-12-05T14:20:59.479488"
+      "spot_price": 470.65,
+      "change_percent": 1.44,
+      "timestamp": "2025-12-06T13:17:04.051683"
     },
     "PFC.NS": {
       "ticker": "PFC.NS",
-      "spot_price": 353.35,
-      "change_percent": 0.37,
-      "timestamp": "2025-12-05T14:20:59.952787"
+      "spot_price": 352.65,
+      "change_percent": 0.17,
+      "timestamp": "2025-12-06T13:17:04.176922"
     },
     "POWERGRID.NS": {
       "ticker": "POWERGRID.NS",
-      "spot_price": 270.0,
-      "change_percent": 0.33,
-      "timestamp": "2025-12-05T14:21:00.439674"
+      "spot_price": 269.8,
+      "change_percent": 0.26,
+      "timestamp": "2025-12-06T13:17:04.301453"
     },
     "PRAJIND.NS": {
       "ticker": "PRAJIND.NS",
-      "spot_price": 310.45,
-      "change_percent": -1.4,
-      "timestamp": "2025-12-05T14:21:00.924566"
+      "spot_price": 310.5,
+      "change_percent": -1.38,
+      "timestamp": "2025-12-06T13:17:04.424378"
     },
     "PREMIERENE.NS": {
       "ticker": "PREMIERENE.NS",
-      "spot_price": 897.25,
-      "change_percent": -4.74,
-      "timestamp": "2025-12-05T14:21:01.465858"
+      "spot_price": 900.2,
+      "change_percent": -4.43,
+      "timestamp": "2025-12-06T13:17:04.554857"
     },
     "PRESTIGE.NS": {
       "ticker": "PRESTIGE.NS",
-      "spot_price": 1688.8,
-      "change_percent": 1.78,
-      "timestamp": "2025-12-05T14:21:01.972148"
+      "spot_price": 1689.7,
+      "change_percent": 1.84,
+      "timestamp": "2025-12-06T13:17:04.728266"
     },
     "PGHH.NS": {
       "ticker": "PGHH.NS",
-      "spot_price": 12592.0,
-      "change_percent": -0.62,
-      "timestamp": "2025-12-05T14:21:02.436721"
+      "spot_price": 12587.0,
+      "change_percent": -0.66,
+      "timestamp": "2025-12-06T13:17:04.857058"
     },
     "PNB.NS": {
       "ticker": "PNB.NS",
-      "spot_price": 121.65,
-      "change_percent": 1.77,
-      "timestamp": "2025-12-05T14:21:02.915823"
+      "spot_price": 121.71,
+      "change_percent": 1.82,
+      "timestamp": "2025-12-06T13:17:04.983599"
     },
     "RRKABEL.NS": {
       "ticker": "RRKABEL.NS",
-      "spot_price": 1353.1,
-      "change_percent": -3.01,
-      "timestamp": "2025-12-05T14:21:03.481782"
+      "spot_price": 1368.2,
+      "change_percent": -1.93,
+      "timestamp": "2025-12-06T13:17:05.161686"
     },
     "RBLBANK.NS": {
       "ticker": "RBLBANK.NS",
-      "spot_price": 305.7,
-      "change_percent": 2.48,
-      "timestamp": "2025-12-05T14:21:08.185112"
+      "spot_price": 305.8,
+      "change_percent": 2.46,
+      "timestamp": "2025-12-06T13:17:05.291799"
     },
     "RECLTD.NS": {
       "ticker": "RECLTD.NS",
-      "spot_price": 353.65,
-      "change_percent": 0.26,
-      "timestamp": "2025-12-05T14:21:08.821744"
+      "spot_price": 353.3,
+      "change_percent": 0.16,
+      "timestamp": "2025-12-06T13:17:05.415285"
     },
     "RHIM.NS": {
       "ticker": "RHIM.NS",
-      "spot_price": 446.55,
-      "change_percent": -1.34,
-      "timestamp": "2025-12-05T14:21:09.342948"
+      "spot_price": 446.65,
+      "change_percent": -1.31,
+      "timestamp": "2025-12-06T13:17:05.540602"
     },
     "RITES.NS": {
       "ticker": "RITES.NS",
-      "spot_price": 228.8,
-      "change_percent": -0.2,
-      "timestamp": "2025-12-05T14:21:09.904329"
+      "spot_price": 229.46,
+      "change_percent": 0.09,
+      "timestamp": "2025-12-06T13:17:05.716854"
     },
     "RADICO.NS": {
       "ticker": "RADICO.NS",
-      "spot_price": 3198.4,
-      "change_percent": -0.55,
-      "timestamp": "2025-12-05T14:21:10.435293"
+      "spot_price": 3201.9,
+      "change_percent": -0.44,
+      "timestamp": "2025-12-06T13:17:05.843785"
     },
     "RVNL.NS": {
       "ticker": "RVNL.NS",
-      "spot_price": 311.1,
-      "change_percent": -0.42,
-      "timestamp": "2025-12-05T14:21:11.012016"
+      "spot_price": 310.85,
+      "change_percent": -0.5,
+      "timestamp": "2025-12-06T13:17:06.017719"
     },
     "RAILTEL.NS": {
       "ticker": "RAILTEL.NS",
-      "spot_price": 332.1,
-      "change_percent": 0.48,
-      "timestamp": "2025-12-05T14:21:11.504370"
+      "spot_price": 334.35,
+      "change_percent": 1.16,
+      "timestamp": "2025-12-06T13:17:06.143257"
     },
     "RAINBOW.NS": {
       "ticker": "RAINBOW.NS",
-      "spot_price": 1344.5,
-      "change_percent": -0.23,
-      "timestamp": "2025-12-05T14:21:12.033622"
+      "spot_price": 1350.9,
+      "change_percent": 0.24,
+      "timestamp": "2025-12-06T13:17:06.378668"
     },
     "RKFORGE.NS": {
       "ticker": "RKFORGE.NS",
-      "spot_price": 530.5,
-      "change_percent": -0.17,
-      "timestamp": "2025-12-05T14:21:12.563873"
+      "spot_price": 531.35,
+      "change_percent": -0.01,
+      "timestamp": "2025-12-06T13:17:06.749151"
     },
     "RCF.NS": {
       "ticker": "RCF.NS",
-      "spot_price": 137.13,
-      "change_percent": 1.22,
-      "timestamp": "2025-12-05T14:21:13.168698"
+      "spot_price": 141.99,
+      "change_percent": 4.8,
+      "timestamp": "2025-12-06T13:17:07.044064"
     },
     "REDINGTON.NS": {
       "ticker": "REDINGTON.NS",
-      "spot_price": 267.85,
-      "change_percent": -3.86,
-      "timestamp": "2025-12-05T14:21:13.688259"
+      "spot_price": 268.75,
+      "change_percent": -3.54,
+      "timestamp": "2025-12-06T13:17:07.176105"
     },
     "RELIANCE.NS": {
       "ticker": "RELIANCE.NS",
-      "spot_price": 1537.1,
-      "change_percent": 0.1,
-      "timestamp": "2025-12-05T14:21:14.234439"
+      "spot_price": 1540.6,
+      "change_percent": 0.33,
+      "timestamp": "2025-12-06T13:17:07.298508"
     },
     "RELINFRA.NS": {
       "ticker": "RELINFRA.NS",
-      "spot_price": 155.0,
-      "change_percent": -2.44,
-      "timestamp": "2025-12-05T14:21:14.744636"
+      "spot_price": 154.71,
+      "change_percent": -2.62,
+      "timestamp": "2025-12-06T13:17:07.423234"
     },
     "RPOWER.NS": {
       "ticker": "RPOWER.NS",
-      "spot_price": 37.65,
-      "change_percent": -1.39,
-      "timestamp": "2025-12-05T14:21:15.277591"
+      "spot_price": 37.68,
+      "change_percent": -1.31,
+      "timestamp": "2025-12-06T13:17:07.549168"
     },
     "SBFC.NS": {
       "ticker": "SBFC.NS",
-      "spot_price": 106.47,
-      "change_percent": 0.52,
-      "timestamp": "2025-12-05T14:21:15.837179"
+      "spot_price": 106.27,
+      "change_percent": 0.33,
+      "timestamp": "2025-12-06T13:17:07.671429"
     },
     "SBICARD.NS": {
       "ticker": "SBICARD.NS",
-      "spot_price": 884.05,
-      "change_percent": 3.29,
-      "timestamp": "2025-12-05T14:21:16.526990"
+      "spot_price": 885.15,
+      "change_percent": 3.42,
+      "timestamp": "2025-12-06T13:17:07.827286"
     },
     "SBILIFE.NS": {
       "ticker": "SBILIFE.NS",
-      "spot_price": 2024.0,
-      "change_percent": 1.05,
-      "timestamp": "2025-12-05T14:21:17.031203"
+      "spot_price": 2023.7,
+      "change_percent": 1.04,
+      "timestamp": "2025-12-06T13:17:07.961386"
     },
     "SJVN.NS": {
       "ticker": "SJVN.NS",
-      "spot_price": 74.14,
-      "change_percent": -1.64,
-      "timestamp": "2025-12-05T14:21:17.578327"
+      "spot_price": 74.07,
+      "change_percent": -1.74,
+      "timestamp": "2025-12-06T13:17:08.087560"
+    },
+    "SKFINDUS.NS": {
+      "ticker": "SKFINDUS.NS",
+      "spot_price": 2671.8,
+      "change_percent": 1.59,
+      "timestamp": "2025-12-06T13:17:08.214551"
     },
     "SKFINDIA.NS": {
       "ticker": "SKFINDIA.NS",
-      "spot_price": 1873.2,
-      "change_percent": -0.98,
-      "timestamp": "2025-12-05T14:21:18.176682"
+      "spot_price": 1878.3,
+      "change_percent": -0.71,
+      "timestamp": "2025-12-06T13:17:08.344911"
     },
     "SRF.NS": {
       "ticker": "SRF.NS",
-      "spot_price": 2882.1,
-      "change_percent": 1.48,
-      "timestamp": "2025-12-05T14:21:18.726931"
+      "spot_price": 2885.4,
+      "change_percent": 1.6,
+      "timestamp": "2025-12-06T13:17:08.469120"
     },
     "SAGILITY.NS": {
       "ticker": "SAGILITY.NS",
-      "spot_price": 49.51,
-      "change_percent": -1.04,
-      "timestamp": "2025-12-05T14:21:19.294958"
+      "spot_price": 49.3,
+      "change_percent": -1.46,
+      "timestamp": "2025-12-06T13:17:08.601147"
     },
     "SAILIFE.NS": {
       "ticker": "SAILIFE.NS",
-      "spot_price": 875.2,
-      "change_percent": 0.89,
-      "timestamp": "2025-12-05T14:21:19.997759"
+      "spot_price": 875.9,
+      "change_percent": 0.97,
+      "timestamp": "2025-12-06T13:17:08.726609"
     },
     "SAMMAANCAP.NS": {
       "ticker": "SAMMAANCAP.NS",
-      "spot_price": 148.49,
-      "change_percent": -0.8,
-      "timestamp": "2025-12-05T14:21:20.628377"
+      "spot_price": 148.32,
+      "change_percent": -0.92,
+      "timestamp": "2025-12-06T13:17:08.854425"
     },
     "MOTHERSON.NS": {
       "ticker": "MOTHERSON.NS",
-      "spot_price": 117.18,
-      "change_percent": -0.32,
-      "timestamp": "2025-12-05T14:21:21.227677"
+      "spot_price": 117.05,
+      "change_percent": -0.43,
+      "timestamp": "2025-12-06T13:17:08.978372"
     },
     "SAPPHIRE.NS": {
       "ticker": "SAPPHIRE.NS",
-      "spot_price": 245.2,
-      "change_percent": -3.58,
-      "timestamp": "2025-12-05T14:21:21.756065"
+      "spot_price": 244.92,
+      "change_percent": -3.69,
+      "timestamp": "2025-12-06T13:17:09.119353"
     },
     "SARDAEN.NS": {
       "ticker": "SARDAEN.NS",
-      "spot_price": 475.8,
-      "change_percent": -1.03,
-      "timestamp": "2025-12-05T14:21:22.284771"
+      "spot_price": 475.85,
+      "change_percent": -1.02,
+      "timestamp": "2025-12-06T13:17:09.243766"
     },
     "SAREGAMA.NS": {
       "ticker": "SAREGAMA.NS",
-      "spot_price": 369.6,
-      "change_percent": 0.39,
-      "timestamp": "2025-12-05T14:21:22.792668"
+      "spot_price": 370.3,
+      "change_percent": 0.58,
+      "timestamp": "2025-12-06T13:17:09.370647"
     },
     "SCHAEFFLER.NS": {
       "ticker": "SCHAEFFLER.NS",
-      "spot_price": 3925.9,
-      "change_percent": 0.93,
-      "timestamp": "2025-12-05T14:21:23.403659"
+      "spot_price": 3928.2,
+      "change_percent": 0.99,
+      "timestamp": "2025-12-06T13:17:09.496456"
     },
     "SCHNEIDER.NS": {
       "ticker": "SCHNEIDER.NS",
-      "spot_price": 750.2,
-      "change_percent": -1.61,
-      "timestamp": "2025-12-05T14:21:24.005828"
+      "spot_price": 753.45,
+      "change_percent": -1.18,
+      "timestamp": "2025-12-06T13:17:09.625108"
     },
     "SCI.NS": {
       "ticker": "SCI.NS",
-      "spot_price": 232.24,
-      "change_percent": 1.56,
-      "timestamp": "2025-12-05T14:21:24.642358"
+      "spot_price": 232.26,
+      "change_percent": 1.57,
+      "timestamp": "2025-12-06T13:17:09.751304"
     },
     "SHREECEM.NS": {
       "ticker": "SHREECEM.NS",
-      "spot_price": 26255.0,
-      "change_percent": -0.74,
-      "timestamp": "2025-12-05T14:21:25.759859"
+      "spot_price": 26075.0,
+      "change_percent": -1.42,
+      "timestamp": "2025-12-06T13:17:09.880139"
     },
     "SHRIRAMFIN.NS": {
       "ticker": "SHRIRAMFIN.NS",
-      "spot_price": 854.35,
-      "change_percent": 3.16,
-      "timestamp": "2025-12-05T14:21:27.642284"
+      "spot_price": 854.9,
+      "change_percent": 3.23,
+      "timestamp": "2025-12-06T13:17:10.004819"
     },
     "SHYAMMETL.NS": {
       "ticker": "SHYAMMETL.NS",
-      "spot_price": 801.45,
-      "change_percent": 0.03,
-      "timestamp": "2025-12-05T14:21:29.798035"
+      "spot_price": 802.9,
+      "change_percent": 0.21,
+      "timestamp": "2025-12-06T13:17:10.137044"
     },
     "ENRIN.NS": {
       "ticker": "ENRIN.NS",
-      "spot_price": 3081.8,
-      "change_percent": -0.61,
-      "timestamp": "2025-12-05T14:21:31.846262"
+      "spot_price": 3098.2,
+      "change_percent": -0.08,
+      "timestamp": "2025-12-06T13:17:10.267233"
     },
     "SIEMENS.NS": {
       "ticker": "SIEMENS.NS",
-      "spot_price": 3312.9,
-      "change_percent": -1.48,
-      "timestamp": "2025-12-05T14:21:32.460149"
+      "spot_price": 3325.9,
+      "change_percent": -1.09,
+      "timestamp": "2025-12-06T13:17:10.460676"
     },
     "SIGNATURE.NS": {
       "ticker": "SIGNATURE.NS",
-      "spot_price": 1124.2,
-      "change_percent": 0.51,
-      "timestamp": "2025-12-05T14:21:32.965919"
+      "spot_price": 1123.8,
+      "change_percent": 0.47,
+      "timestamp": "2025-12-06T13:17:10.592906"
     },
     "SOBHA.NS": {
       "ticker": "SOBHA.NS",
-      "spot_price": 1532.8,
-      "change_percent": -0.4,
-      "timestamp": "2025-12-05T14:21:33.747871"
+      "spot_price": 1537.8,
+      "change_percent": -0.07,
+      "timestamp": "2025-12-06T13:17:10.728560"
     },
     "SOLARINDS.NS": {
       "ticker": "SOLARINDS.NS",
-      "spot_price": 12832.0,
-      "change_percent": -0.84,
-      "timestamp": "2025-12-05T14:21:34.391455"
+      "spot_price": 12819.0,
+      "change_percent": -0.94,
+      "timestamp": "2025-12-06T13:17:10.852199"
     },
     "SONACOMS.NS": {
       "ticker": "SONACOMS.NS",
-      "spot_price": 494.0,
-      "change_percent": -1.13,
-      "timestamp": "2025-12-05T14:21:35.016965"
+      "spot_price": 492.85,
+      "change_percent": -1.36,
+      "timestamp": "2025-12-06T13:17:10.982294"
     },
     "SONATSOFTW.NS": {
       "ticker": "SONATSOFTW.NS",
-      "spot_price": 362.25,
-      "change_percent": -0.9,
-      "timestamp": "2025-12-05T14:21:35.658135"
+      "spot_price": 361.2,
+      "change_percent": -1.19,
+      "timestamp": "2025-12-06T13:17:11.113161"
     },
     "STARHEALTH.NS": {
       "ticker": "STARHEALTH.NS",
-      "spot_price": 459.4,
-      "change_percent": -1.2,
-      "timestamp": "2025-12-05T14:21:36.165348"
+      "spot_price": 457.85,
+      "change_percent": -1.54,
+      "timestamp": "2025-12-06T13:17:11.241128"
     },
     "SBIN.NS": {
       "ticker": "SBIN.NS",
-      "spot_price": 970.4,
-      "change_percent": 2.35,
-      "timestamp": "2025-12-05T14:21:36.686185"
+      "spot_price": 971.5,
+      "change_percent": 2.47,
+      "timestamp": "2025-12-06T13:17:11.364527"
     },
     "SAIL.NS": {
       "ticker": "SAIL.NS",
-      "spot_price": 132.89,
-      "change_percent": 0.57,
-      "timestamp": "2025-12-05T14:21:37.215976"
+      "spot_price": 132.54,
+      "change_percent": 0.3,
+      "timestamp": "2025-12-06T13:17:11.495778"
     },
     "SUMICHEM.NS": {
       "ticker": "SUMICHEM.NS",
-      "spot_price": 464.65,
-      "change_percent": -0.15,
-      "timestamp": "2025-12-05T14:21:37.764675"
+      "spot_price": 465.25,
+      "change_percent": -0.02,
+      "timestamp": "2025-12-06T13:17:11.622012"
     },
     "SUNPHARMA.NS": {
       "ticker": "SUNPHARMA.NS",
-      "spot_price": 1807.9,
-      "change_percent": -0.57,
-      "timestamp": "2025-12-05T14:21:38.276090"
+      "spot_price": 1805.3,
+      "change_percent": -0.71,
+      "timestamp": "2025-12-06T13:17:11.746352"
     },
     "SUNTV.NS": {
       "ticker": "SUNTV.NS",
-      "spot_price": 548.85,
-      "change_percent": -0.88,
-      "timestamp": "2025-12-05T14:21:38.814600"
+      "spot_price": 548.6,
+      "change_percent": -0.93,
+      "timestamp": "2025-12-06T13:17:11.874048"
     },
     "SUNDARMFIN.NS": {
       "ticker": "SUNDARMFIN.NS",
-      "spot_price": 4800.0,
-      "change_percent": 2.83,
-      "timestamp": "2025-12-05T14:21:39.719481"
+      "spot_price": 4848.3,
+      "change_percent": 3.87,
+      "timestamp": "2025-12-06T13:17:12.005450"
     },
     "SUNDRMFAST.NS": {
       "ticker": "SUNDRMFAST.NS",
-      "spot_price": 939.75,
-      "change_percent": 0.21,
-      "timestamp": "2025-12-05T14:21:42.227159"
+      "spot_price": 942.45,
+      "change_percent": 0.5,
+      "timestamp": "2025-12-06T13:17:12.138546"
     },
     "SUPREMEIND.NS": {
       "ticker": "SUPREMEIND.NS",
-      "spot_price": 3380.0,
-      "change_percent": 1.16,
-      "timestamp": "2025-12-05T14:21:45.394653"
+      "spot_price": 3371.1,
+      "change_percent": 0.9,
+      "timestamp": "2025-12-06T13:17:12.267758"
     },
     "SUZLON.NS": {
       "ticker": "SUZLON.NS",
-      "spot_price": 51.38,
-      "change_percent": 1.04,
-      "timestamp": "2025-12-05T14:21:46.817470"
+      "spot_price": 51.74,
+      "change_percent": 1.75,
+      "timestamp": "2025-12-06T13:17:12.399895"
     },
     "SWANCORP.NS": {
       "ticker": "SWANCORP.NS",
-      "spot_price": 447.6,
-      "change_percent": -1.36,
-      "timestamp": "2025-12-05T14:21:47.504348"
+      "spot_price": 446.9,
+      "change_percent": -1.51,
+      "timestamp": "2025-12-06T13:17:12.527232"
     },
     "SWIGGY.NS": {
       "ticker": "SWIGGY.NS",
-      "spot_price": 398.05,
-      "change_percent": -0.87,
-      "timestamp": "2025-12-05T14:21:48.220271"
+      "spot_price": 394.4,
+      "change_percent": -1.78,
+      "timestamp": "2025-12-06T13:17:12.655917"
     },
     "SYNGENE.NS": {
       "ticker": "SYNGENE.NS",
-      "spot_price": 641.7,
-      "change_percent": -0.1,
-      "timestamp": "2025-12-05T14:21:48.824651"
+      "spot_price": 639.8,
+      "change_percent": -0.4,
+      "timestamp": "2025-12-06T13:17:12.837149"
     },
     "SYRMA.NS": {
       "ticker": "SYRMA.NS",
-      "spot_price": 751.4,
-      "change_percent": -4.43,
-      "timestamp": "2025-12-05T14:21:49.341134"
+      "spot_price": 743.25,
+      "change_percent": -5.47,
+      "timestamp": "2025-12-06T13:17:12.965056"
     },
     "TBOTEK.NS": {
       "ticker": "TBOTEK.NS",
-      "spot_price": 1625.0,
-      "change_percent": -2.77,
-      "timestamp": "2025-12-05T14:21:49.860072"
+      "spot_price": 1625.3,
+      "change_percent": -2.75,
+      "timestamp": "2025-12-06T13:17:13.095586"
     },
     "TVSMOTOR.NS": {
       "ticker": "TVSMOTOR.NS",
-      "spot_price": 3656.4,
-      "change_percent": 0.27,
-      "timestamp": "2025-12-05T14:21:50.358368"
+      "spot_price": 3665.4,
+      "change_percent": 0.52,
+      "timestamp": "2025-12-06T13:17:13.220120"
     },
     "TATACHEM.NS": {
       "ticker": "TATACHEM.NS",
-      "spot_price": 773.1,
-      "change_percent": -1.15,
-      "timestamp": "2025-12-05T14:21:50.853596"
+      "spot_price": 774.05,
+      "change_percent": -1.03,
+      "timestamp": "2025-12-06T13:17:13.358203"
     },
     "TATACOMM.NS": {
       "ticker": "TATACOMM.NS",
-      "spot_price": 1830.6,
-      "change_percent": -0.88,
-      "timestamp": "2025-12-05T14:21:51.329310"
+      "spot_price": 1837.9,
+      "change_percent": -0.48,
+      "timestamp": "2025-12-06T13:17:13.486826"
     },
     "TCS.NS": {
       "ticker": "TCS.NS",
-      "spot_price": 3231.7,
-      "change_percent": 0.08,
-      "timestamp": "2025-12-05T14:21:51.868657"
+      "spot_price": 3238.2,
+      "change_percent": 0.28,
+      "timestamp": "2025-12-06T13:17:13.612653"
     },
     "TATACONSUM.NS": {
       "ticker": "TATACONSUM.NS",
-      "spot_price": 1162.4,
-      "change_percent": 1.22,
-      "timestamp": "2025-12-05T14:21:52.379534"
+      "spot_price": 1162.9,
+      "change_percent": 1.26,
+      "timestamp": "2025-12-06T13:17:13.739938"
     },
     "TATAELXSI.NS": {
       "ticker": "TATAELXSI.NS",
-      "spot_price": 5247.5,
-      "change_percent": 0.59,
-      "timestamp": "2025-12-05T14:21:52.843304"
+      "spot_price": 5217.5,
+      "change_percent": 0.02,
+      "timestamp": "2025-12-06T13:17:13.868386"
     },
     "TATAINVEST.NS": {
       "ticker": "TATAINVEST.NS",
-      "spot_price": 708.9,
-      "change_percent": -0.92,
-      "timestamp": "2025-12-05T14:21:53.370655"
+      "spot_price": 708.5,
+      "change_percent": -0.98,
+      "timestamp": "2025-12-06T13:17:14.000620"
     },
     "TMPV.NS": {
       "ticker": "TMPV.NS",
-      "spot_price": 354.9,
-      "change_percent": -0.43,
-      "timestamp": "2025-12-05T14:21:53.852012"
+      "spot_price": 353.6,
+      "change_percent": -0.8,
+      "timestamp": "2025-12-06T13:17:14.125463"
     },
     "TATAPOWER.NS": {
       "ticker": "TATAPOWER.NS",
-      "spot_price": 384.75,
-      "change_percent": 0.08,
-      "timestamp": "2025-12-05T14:21:54.426285"
+      "spot_price": 384.5,
+      "change_percent": 0.01,
+      "timestamp": "2025-12-06T13:17:14.250868"
     },
     "TATASTEEL.NS": {
       "ticker": "TATASTEEL.NS",
-      "spot_price": 167.39,
-      "change_percent": 0.37,
-      "timestamp": "2025-12-05T14:21:54.972154"
+      "spot_price": 167.11,
+      "change_percent": 0.2,
+      "timestamp": "2025-12-06T13:17:14.377594"
     },
     "TATATECH.NS": {
       "ticker": "TATATECH.NS",
-      "spot_price": 667.3,
-      "change_percent": -1.06,
-      "timestamp": "2025-12-05T14:21:55.444492"
+      "spot_price": 666.45,
+      "change_percent": -1.19,
+      "timestamp": "2025-12-06T13:17:14.509399"
     },
     "TTML.NS": {
       "ticker": "TTML.NS",
-      "spot_price": 49.58,
-      "change_percent": -1.47,
-      "timestamp": "2025-12-05T14:21:55.976541"
+      "spot_price": 49.14,
+      "change_percent": -2.34,
+      "timestamp": "2025-12-06T13:17:14.646095"
     },
     "TECHM.NS": {
       "ticker": "TECHM.NS",
-      "spot_price": 1571.5,
-      "change_percent": 0.59,
-      "timestamp": "2025-12-05T14:21:56.477929"
+      "spot_price": 1570.8,
+      "change_percent": 0.54,
+      "timestamp": "2025-12-06T13:17:14.772549"
     },
     "TECHNOE.NS": {
       "ticker": "TECHNOE.NS",
-      "spot_price": 1097.0,
-      "change_percent": -0.97,
-      "timestamp": "2025-12-05T14:21:56.964749"
+      "spot_price": 1097.9,
+      "change_percent": -0.88,
+      "timestamp": "2025-12-06T13:17:14.898495"
     },
     "TEJASNET.NS": {
       "ticker": "TEJASNET.NS",
-      "spot_price": 494.0,
-      "change_percent": -1.68,
-      "timestamp": "2025-12-05T14:21:57.498735"
+      "spot_price": 494.15,
+      "change_percent": -1.65,
+      "timestamp": "2025-12-06T13:17:15.028445"
     },
     "NIACL.NS": {
       "ticker": "NIACL.NS",
-      "spot_price": 159.65,
-      "change_percent": -2.26,
-      "timestamp": "2025-12-05T14:21:58.004149"
+      "spot_price": 159.35,
+      "change_percent": -2.44,
+      "timestamp": "2025-12-06T13:17:15.150646"
     },
     "RAMCOCEM.NS": {
       "ticker": "RAMCOCEM.NS",
-      "spot_price": 1012.0,
-      "change_percent": -0.33,
-      "timestamp": "2025-12-05T14:21:58.475143"
+      "spot_price": 1011.0,
+      "change_percent": -0.43,
+      "timestamp": "2025-12-06T13:17:15.280559"
     },
     "THERMAX.NS": {
       "ticker": "THERMAX.NS",
-      "spot_price": 2842.2,
-      "change_percent": -0.94,
-      "timestamp": "2025-12-05T14:21:59.040158"
+      "spot_price": 2845.7,
+      "change_percent": -0.82,
+      "timestamp": "2025-12-06T13:17:15.405846"
     },
     "TIMKEN.NS": {
       "ticker": "TIMKEN.NS",
-      "spot_price": 3100.0,
-      "change_percent": -1.09,
-      "timestamp": "2025-12-05T14:21:59.540105"
+      "spot_price": 3093.7,
+      "change_percent": -1.29,
+      "timestamp": "2025-12-06T13:17:15.535367"
     },
     "TITAGARH.NS": {
       "ticker": "TITAGARH.NS",
-      "spot_price": 794.5,
-      "change_percent": 0.74,
-      "timestamp": "2025-12-05T14:22:00.015920"
+      "spot_price": 789.05,
+      "change_percent": 0.04,
+      "timestamp": "2025-12-06T13:17:15.662983"
     },
     "TITAN.NS": {
       "ticker": "TITAN.NS",
-      "spot_price": 3819.5,
-      "change_percent": 0.5,
-      "timestamp": "2025-12-05T14:22:00.500783"
+      "spot_price": 3813.3,
+      "change_percent": 0.34,
+      "timestamp": "2025-12-06T13:17:15.842206"
     },
     "TORNTPHARM.NS": {
       "ticker": "TORNTPHARM.NS",
-      "spot_price": 3798.7,
-      "change_percent": 0.08,
-      "timestamp": "2025-12-05T14:22:00.968523"
+      "spot_price": 3785.9,
+      "change_percent": -0.26,
+      "timestamp": "2025-12-06T13:17:15.969269"
     },
     "TORNTPOWER.NS": {
       "ticker": "TORNTPOWER.NS",
-      "spot_price": 1289.4,
-      "change_percent": -0.79,
-      "timestamp": "2025-12-05T14:22:01.457931"
+      "spot_price": 1289.9,
+      "change_percent": -0.75,
+      "timestamp": "2025-12-06T13:17:16.099659"
     },
     "TARIL.NS": {
       "ticker": "TARIL.NS",
-      "spot_price": 237.75,
-      "change_percent": -2.72,
-      "timestamp": "2025-12-05T14:22:01.951621"
+      "spot_price": 236.9,
+      "change_percent": -3.07,
+      "timestamp": "2025-12-06T13:17:16.224288"
     },
     "TRENT.NS": {
       "ticker": "TRENT.NS",
-      "spot_price": 4183.7,
-      "change_percent": -0.76,
-      "timestamp": "2025-12-05T14:22:02.442281"
+      "spot_price": 4183.1,
+      "change_percent": -0.78,
+      "timestamp": "2025-12-06T13:17:16.400292"
     },
     "TRIDENT.NS": {
       "ticker": "TRIDENT.NS",
-      "spot_price": 27.86,
-      "change_percent": -0.43,
-      "timestamp": "2025-12-05T14:22:02.931166"
+      "spot_price": 27.83,
+      "change_percent": -0.54,
+      "timestamp": "2025-12-06T13:17:16.525415"
     },
     "TRIVENI.NS": {
       "ticker": "TRIVENI.NS",
-      "spot_price": 355.0,
-      "change_percent": 0.32,
-      "timestamp": "2025-12-05T14:22:03.466231"
+      "spot_price": 350.5,
+      "change_percent": -0.95,
+      "timestamp": "2025-12-06T13:17:16.650900"
     },
     "TRITURBINE.NS": {
       "ticker": "TRITURBINE.NS",
-      "spot_price": 539.65,
-      "change_percent": 0.26,
-      "timestamp": "2025-12-05T14:22:04.114450"
+      "spot_price": 545.4,
+      "change_percent": 1.33,
+      "timestamp": "2025-12-06T13:17:16.777008"
     },
     "TIINDIA.NS": {
       "ticker": "TIINDIA.NS",
-      "spot_price": 2668.6,
-      "change_percent": -1.29,
-      "timestamp": "2025-12-05T14:22:04.619810"
+      "spot_price": 2666.7,
+      "change_percent": -1.36,
+      "timestamp": "2025-12-06T13:17:16.909343"
     },
     "UCOBANK.NS": {
       "ticker": "UCOBANK.NS",
-      "spot_price": 29.52,
-      "change_percent": -0.51,
-      "timestamp": "2025-12-05T14:22:05.177724"
+      "spot_price": 29.46,
+      "change_percent": -0.71,
+      "timestamp": "2025-12-06T13:17:17.033540"
     },
     "UNOMINDA.NS": {
       "ticker": "UNOMINDA.NS",
-      "spot_price": 1273.2,
-      "change_percent": 0.1,
-      "timestamp": "2025-12-05T14:22:05.998436"
+      "spot_price": 1272.4,
+      "change_percent": 0.04,
+      "timestamp": "2025-12-06T13:17:17.211507"
     },
     "UPL.NS": {
       "ticker": "UPL.NS",
-      "spot_price": 756.85,
-      "change_percent": 0.05,
-      "timestamp": "2025-12-05T14:22:06.816719"
+      "spot_price": 759.1,
+      "change_percent": 0.35,
+      "timestamp": "2025-12-06T13:17:17.335650"
     },
     "UTIAMC.NS": {
       "ticker": "UTIAMC.NS",
-      "spot_price": 1119.0,
-      "change_percent": -2.2,
-      "timestamp": "2025-12-05T14:22:07.376500"
+      "spot_price": 1122.2,
+      "change_percent": -1.92,
+      "timestamp": "2025-12-06T13:17:17.460016"
     },
     "ULTRACEMCO.NS": {
       "ticker": "ULTRACEMCO.NS",
-      "spot_price": 11605.0,
-      "change_percent": -0.03,
-      "timestamp": "2025-12-05T14:22:07.916057"
+      "spot_price": 11597.0,
+      "change_percent": -0.09,
+      "timestamp": "2025-12-06T13:17:17.586230"
     },
     "UNIONBANK.NS": {
       "ticker": "UNIONBANK.NS",
-      "spot_price": 153.22,
-      "change_percent": 0.52,
-      "timestamp": "2025-12-05T14:22:08.497620"
+      "spot_price": 153.3,
+      "change_percent": 0.57,
+      "timestamp": "2025-12-06T13:17:17.712701"
     },
     "UBL.NS": {
       "ticker": "UBL.NS",
-      "spot_price": 1681.3,
-      "change_percent": -0.71,
-      "timestamp": "2025-12-05T14:22:09.025080"
+      "spot_price": 1683.3,
+      "change_percent": -0.59,
+      "timestamp": "2025-12-06T13:17:17.835291"
     },
     "UNITDSPR.NS": {
       "ticker": "UNITDSPR.NS",
-      "spot_price": 1453.2,
-      "change_percent": 1.49,
-      "timestamp": "2025-12-05T14:22:09.552891"
+      "spot_price": 1455.6,
+      "change_percent": 1.66,
+      "timestamp": "2025-12-06T13:17:17.962560"
     },
     "USHAMART.NS": {
       "ticker": "USHAMART.NS",
-      "spot_price": 435.5,
-      "change_percent": -0.15,
-      "timestamp": "2025-12-05T14:22:10.138562"
+      "spot_price": 432.0,
+      "change_percent": -0.95,
+      "timestamp": "2025-12-06T13:17:18.092451"
     },
     "VGUARD.NS": {
       "ticker": "VGUARD.NS",
-      "spot_price": 343.35,
-      "change_percent": 1.58,
-      "timestamp": "2025-12-05T14:22:10.667746"
+      "spot_price": 342.55,
+      "change_percent": 1.35,
+      "timestamp": "2025-12-06T13:17:18.265506"
     },
     "DBREALTY.NS": {
       "ticker": "DBREALTY.NS",
-      "spot_price": 120.5,
-      "change_percent": -1.41,
-      "timestamp": "2025-12-05T14:22:11.191978"
+      "spot_price": 120.41,
+      "change_percent": -1.48,
+      "timestamp": "2025-12-06T13:17:18.394541"
     },
     "VTL.NS": {
       "ticker": "VTL.NS",
-      "spot_price": 432.3,
-      "change_percent": 0.05,
-      "timestamp": "2025-12-05T14:22:11.777375"
+      "spot_price": 432.65,
+      "change_percent": 0.13,
+      "timestamp": "2025-12-06T13:17:18.571383"
     },
     "VBL.NS": {
       "ticker": "VBL.NS",
-      "spot_price": 479.25,
-      "change_percent": -0.14,
-      "timestamp": "2025-12-05T14:22:12.291470"
+      "spot_price": 479.95,
+      "change_percent": 0.01,
+      "timestamp": "2025-12-06T13:17:18.694913"
     },
     "MANYAVAR.NS": {
       "ticker": "MANYAVAR.NS",
-      "spot_price": 598.85,
-      "change_percent": -1.02,
-      "timestamp": "2025-12-05T14:22:12.766800"
+      "spot_price": 597.25,
+      "change_percent": -1.26,
+      "timestamp": "2025-12-06T13:17:18.818765"
     },
     "VEDL.NS": {
       "ticker": "VEDL.NS",
-      "spot_price": 525.4,
-      "change_percent": -0.8,
-      "timestamp": "2025-12-05T14:22:13.299557"
+      "spot_price": 524.5,
+      "change_percent": -0.97,
+      "timestamp": "2025-12-06T13:17:18.944813"
     },
     "VENTIVE.NS": {
       "ticker": "VENTIVE.NS",
-      "spot_price": 726.2,
-      "change_percent": 0.78,
-      "timestamp": "2025-12-05T14:22:13.792135"
+      "spot_price": 727.7,
+      "change_percent": 0.99,
+      "timestamp": "2025-12-06T13:17:19.067687"
     },
     "VIJAYA.NS": {
       "ticker": "VIJAYA.NS",
-      "spot_price": 1016.0,
-      "change_percent": -5.92,
-      "timestamp": "2025-12-05T14:22:14.291695"
+      "spot_price": 1017.35,
+      "change_percent": -5.8,
+      "timestamp": "2025-12-06T13:17:19.197594"
     },
     "VMM.NS": {
       "ticker": "VMM.NS",
-      "spot_price": 133.41,
-      "change_percent": -0.3,
-      "timestamp": "2025-12-05T14:22:14.755039"
+      "spot_price": 133.03,
+      "change_percent": -0.58,
+      "timestamp": "2025-12-06T13:17:19.321469"
     },
     "IDEA.NS": {
       "ticker": "IDEA.NS",
-      "spot_price": 10.76,
-      "change_percent": 0.75,
-      "timestamp": "2025-12-05T14:22:15.302135"
+      "spot_price": 10.8,
+      "change_percent": 1.12,
+      "timestamp": "2025-12-06T13:17:19.448339"
     },
     "VOLTAS.NS": {
       "ticker": "VOLTAS.NS",
-      "spot_price": 1327.5,
-      "change_percent": -0.11,
-      "timestamp": "2025-12-05T14:22:15.816705"
+      "spot_price": 1327.0,
+      "change_percent": -0.18,
+      "timestamp": "2025-12-06T13:17:19.573019"
     },
     "WAAREEENER.NS": {
       "ticker": "WAAREEENER.NS",
-      "spot_price": 2894.5,
-      "change_percent": -3.01,
-      "timestamp": "2025-12-05T14:22:16.311675"
+      "spot_price": 2871.4,
+      "change_percent": -3.78,
+      "timestamp": "2025-12-06T13:17:19.699462"
     },
     "WELCORP.NS": {
       "ticker": "WELCORP.NS",
-      "spot_price": 819.1,
-      "change_percent": -1.02,
-      "timestamp": "2025-12-05T14:22:16.795157"
+      "spot_price": 826.6,
+      "change_percent": -0.11,
+      "timestamp": "2025-12-06T13:17:19.823407"
     },
     "WELSPUNLIV.NS": {
       "ticker": "WELSPUNLIV.NS",
-      "spot_price": 135.4,
-      "change_percent": -0.99,
-      "timestamp": "2025-12-05T14:22:17.332077"
+      "spot_price": 134.7,
+      "change_percent": -1.5,
+      "timestamp": "2025-12-06T13:17:19.948373"
     },
     "WHIRLPOOL.NS": {
       "ticker": "WHIRLPOOL.NS",
-      "spot_price": 952.7,
-      "change_percent": -2.7,
-      "timestamp": "2025-12-05T14:22:18.869100"
+      "spot_price": 949.5,
+      "change_percent": -3.02,
+      "timestamp": "2025-12-06T13:17:20.071529"
     },
     "WIPRO.NS": {
       "ticker": "WIPRO.NS",
-      "spot_price": 259.32,
-      "change_percent": 0.93,
-      "timestamp": "2025-12-05T14:22:20.025466"
+      "spot_price": 259.91,
+      "change_percent": 1.16,
+      "timestamp": "2025-12-06T13:17:20.215924"
     },
     "WOCKPHARMA.NS": {
       "ticker": "WOCKPHARMA.NS",
-      "spot_price": 1356.6,
-      "change_percent": 1.85,
-      "timestamp": "2025-12-05T14:22:20.533618"
+      "spot_price": 1360.0,
+      "change_percent": 2.11,
+      "timestamp": "2025-12-06T13:17:20.350655"
     },
     "YESBANK.NS": {
       "ticker": "YESBANK.NS",
-      "spot_price": 22.62,
-      "change_percent": -0.62,
-      "timestamp": "2025-12-05T14:22:21.040304"
+      "spot_price": 22.6,
+      "change_percent": -0.7,
+      "timestamp": "2025-12-06T13:17:20.475054"
     },
     "ZFCVINDIA.NS": {
       "ticker": "ZFCVINDIA.NS",
-      "spot_price": 14796.0,
-      "change_percent": -0.46,
-      "timestamp": "2025-12-05T14:22:21.539930"
+      "spot_price": 14793.0,
+      "change_percent": -0.48,
+      "timestamp": "2025-12-06T13:17:20.600002"
     },
     "ZEEL.NS": {
       "ticker": "ZEEL.NS",
-      "spot_price": 97.69,
-      "change_percent": -0.15,
-      "timestamp": "2025-12-05T14:22:22.173586"
+      "spot_price": 97.5,
+      "change_percent": -0.35,
+      "timestamp": "2025-12-06T13:17:20.779444"
     },
     "ZENTEC.NS": {
       "ticker": "ZENTEC.NS",
-      "spot_price": 1396.4,
-      "change_percent": 1.58,
-      "timestamp": "2025-12-05T14:22:22.676096"
+      "spot_price": 1388.7,
+      "change_percent": 1.02,
+      "timestamp": "2025-12-06T13:17:20.910931"
     },
     "ZENSARTECH.NS": {
       "ticker": "ZENSARTECH.NS",
-      "spot_price": 745.4,
-      "change_percent": -0.71,
-      "timestamp": "2025-12-05T14:22:23.368751"
+      "spot_price": 746.15,
+      "change_percent": -0.61,
+      "timestamp": "2025-12-06T13:17:21.040537"
     },
     "ZYDUSLIFE.NS": {
       "ticker": "ZYDUSLIFE.NS",
-      "spot_price": 933.5,
-      "change_percent": -0.24,
-      "timestamp": "2025-12-05T14:22:23.902049"
+      "spot_price": 931.45,
+      "change_percent": -0.46,
+      "timestamp": "2025-12-06T13:17:21.182063"
     },
     "ECLERX.NS": {
       "ticker": "ECLERX.NS",
-      "spot_price": 4815.0,
-      "change_percent": -1.67,
-      "timestamp": "2025-12-05T14:22:24.420604"
+      "spot_price": 4832.2,
+      "change_percent": -1.32,
+      "timestamp": "2025-12-06T13:17:21.307380"
     }
   }
 }
