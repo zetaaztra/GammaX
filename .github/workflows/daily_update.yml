@@ -1,4 +1,4 @@
-name: Daily Dashboard Update
+name: Daily Incremental Update
 
 on:
   schedule:
@@ -7,13 +7,15 @@ on:
   workflow_dispatch:
 
 jobs:
-  update:
+  daily-update:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    timeout-minutes: 45
     
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout code
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0
     
@@ -26,29 +28,41 @@ jobs:
       run: |
         pip install pandas numpy yfinance scikit-learn joblib scipy tqdm
     
-    - name: Fetch & Process Data
+    # STEP 1: Incremental update - appends new OHLCV to existing CSVs
+    - name: Append daily OHLCV to existing CSVs
       run: |
-        # Run pipeline for NIFTY and BANKNIFTY first (priority)
+        # Run pipeline for NIFTY and BANKNIFTY first (priority indices)
         python scripts/tradyxa_pipeline.py --mode run_all --ticker NIFTY --use-yf
         python scripts/tradyxa_pipeline.py --mode run_all --ticker BANKNIFTY --use-yf
         
-        # Run batch for others (limit workers to avoid rate limits)
+        # Run batch for all other tickers (incremental update)
         python scripts/tradyxa_pipeline.py --mode batch_run --tickers-file scripts/nifty500.txt --max-workers 2 --use-yf
-      timeout-minutes: 60
+      timeout-minutes: 35
     
+    # STEP 2: Apply ML predictions (uses pre-trained models from weekly run)
     - name: Apply ML Predictions
       run: python scripts/apply_models.py
 
+    # STEP 3: Fetch live spot prices
     - name: Fetch Live Spot Prices
       run: python scripts/fetch_spot_prices.py
       
-    - name: Commit Data (triggers Cloudflare Pages deployment)
+    # STEP 4: Single commit and push
+    - name: Commit and push all changes
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
-        # Add ALL generated files to prevent unstaged changes error
+        
+        # Add ALL changes (CSVs, JSONs, live prices)
         git add -A
-        git commit -m "chore: market data update $(date -u '+%Y-%m-%d %H:%M UTC') [deploy]" || echo "No changes"
-        # Pull with merge strategy (safer than rebase)
-        git pull origin main --no-rebase --allow-unrelated-histories || true
-        git push origin main
+        
+        # Check if there are changes to commit
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "chore: daily data update $(date -u '+%Y-%m-%d %H:%M UTC') [deploy]"
+          
+          # Pull latest and push
+          git pull origin main --no-rebase --allow-unrelated-histories || true
+          git push origin main
+        fi

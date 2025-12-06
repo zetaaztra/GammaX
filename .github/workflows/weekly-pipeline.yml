@@ -1,4 +1,4 @@
-name: Weekly Data Pipeline & Cleanup
+name: Weekly Full Pipeline & Training
 
 on:
   schedule:
@@ -57,10 +57,10 @@ jobs:
           BRANCH: ${{ github.ref }}
 
   full-pipeline:
-    name: Generate all stock data
+    name: Generate all stock data & train models
     needs: cleanup-old-data
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 60
     
     steps:
       - name: Checkout code
@@ -83,37 +83,50 @@ jobs:
       - name: Fetch tickers list
         run: python scripts/fetch_tickers.py
       
-      - name: Generate all 503 stocks data
+      # STEP 1: Full fetch of all 503 tickers (generates CSVs)
+      - name: Fetch all 503 stocks data (generates CSVs)
         run: |
           python scripts/tradyxa_pipeline.py \
             --mode batch_run \
             --tickers-file scripts/nifty500.txt \
             --max-workers 4 \
             --use-yf
+        timeout-minutes: 45
       
+      # STEP 2: Train ML models on the fetched data
       - name: Train regime classification model
         run: python scripts/train_regime_classifier.py
       
       - name: Train slippage forecasting models
         run: python scripts/train_slippage_quantile.py
       
+      # STEP 3: Apply predictions to all JSONs
       - name: Apply ML predictions to all stocks
         run: python scripts/apply_models.py
       
+      # STEP 4: Fetch live spot prices
       - name: Fetch live spot prices
         run: python scripts/fetch_spot_prices.py
       
-      - name: Commit and push changes
+      # STEP 5: Single commit and push
+      - name: Commit and push all changes
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
-          # Add ALL generated files to prevent unstaged changes error
+          
+          # Add ALL generated files (CSVs, JSONs, models)
           git add -A
-          git diff --quiet && git diff --staged --quiet || \
-            git commit -m "📊 Weekly data pipeline update [skip ci]"
-          # Pull with merge strategy (safer than rebase for automated workflows)
-          git pull origin main --no-rebase --allow-unrelated-histories || true
-          git push origin main
+          
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "📊 Weekly full pipeline: data + models [skip ci]"
+            
+            # Pull latest (in case of concurrent changes) and push
+            git pull origin main --no-rebase --allow-unrelated-histories || true
+            git push origin main
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
@@ -121,6 +134,7 @@ jobs:
         run: |
           echo "✅ Weekly pipeline completed successfully!"
           echo "📊 Generated data for 503 stocks"
+          echo "💾 CSVs stored in public/data/raw/"
           echo "🤖 Trained and applied ML models"
           echo "💰 Fetched live spot prices"
           echo "🧹 Cleaned up old caches"
