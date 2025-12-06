@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    timeout-minutes: 45
+    timeout-minutes: 60  # Increased from 45 to 60
     
     steps:
     - name: Checkout code
@@ -28,6 +28,16 @@ jobs:
       run: |
         pip install pandas numpy yfinance scikit-learn joblib scipy tqdm
     
+    # Check if CSVs exist (if not, this is effectively a first run)
+    - name: Check CSV status
+      run: |
+        CSV_COUNT=$(ls public/data/raw/*.csv 2>/dev/null | wc -l || echo 0)
+        echo "CSVs in repo: $CSV_COUNT"
+        if [ "$CSV_COUNT" -lt 100 ]; then
+          echo "⚠️ Warning: Few CSVs found. This run may take longer."
+          echo "Consider running 'Initial Setup' workflow first."
+        fi
+    
     # STEP 1: Incremental update - appends new OHLCV to existing CSVs
     - name: Append daily OHLCV to existing CSVs
       run: |
@@ -37,18 +47,22 @@ jobs:
         
         # Run batch for all other tickers (incremental update)
         python scripts/tradyxa_pipeline.py --mode batch_run --tickers-file scripts/nifty500.txt --max-workers 2 --use-yf
-      timeout-minutes: 35
+      timeout-minutes: 50  # Increased from 35 to 50
+      continue-on-error: true  # Don't fail entire workflow if some stocks timeout
     
     # STEP 2: Apply ML predictions (uses pre-trained models from weekly run)
     - name: Apply ML Predictions
       run: python scripts/apply_models.py
+      continue-on-error: true
 
     # STEP 3: Fetch live spot prices
     - name: Fetch Live Spot Prices
       run: python scripts/fetch_spot_prices.py
+      continue-on-error: true
       
-    # STEP 4: Single commit and push
+    # STEP 4: Single commit and push (ALWAYS RUN)
     - name: Commit and push all changes
+      if: always()
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"

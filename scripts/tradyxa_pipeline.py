@@ -138,9 +138,9 @@ def synthetic_ohlcv(ticker: str, minutes: int = 78*30,
     rnd = np.random.RandomState(seed)
 
     interval_minutes = 5
-    end = datetime.utcnow().replace(second=0, microsecond=0)
+    end = datetime.now(timezone.utc).replace(second=0, microsecond=0)
     periods = minutes
-    idx = pd.date_range(end=end, periods=periods, freq=f"{interval_minutes}T")
+    idx = pd.date_range(end=end, periods=periods, freq=f"{interval_minutes}min")
     
     # Drift and volatility
     drift = rnd.normal(loc=0.00001, scale=0.0002, size=periods)
