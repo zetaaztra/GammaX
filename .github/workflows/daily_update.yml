@@ -14,6 +14,8 @@ jobs:
     
     steps:
     - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
     
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -47,5 +49,6 @@ jobs:
         # Commit updated JSONs and CSVs
         git add public/data/ticker/*.json public/data/raw/*.csv
         git commit -m "chore: market data update $(date -u '+%Y-%m-%d %H:%M UTC') [deploy]" || echo "No changes"
-        git pull --rebase origin main
-        git push
+        git fetch origin main
+        git rebase origin/main || git rebase --abort
+        git push origin main
